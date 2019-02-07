@@ -43,16 +43,16 @@
 	</div><!-- /#toggles -->
 
 	<section id="top-bar">
-		<div class="clearfix">
-			<div id="top-left-bar" class="pull-left">
-				<div id="business">
-					<img src="" alt="">
+		<div class="clearfix container">
+			<div id="top-left-bar">
+				<a href="./" id="business" class="pull-left">
+					<img src="./_assets_/images/business.png" alt="">
 					<h4>doing business</h4>
-				</div><!-- /#business -->
-				<div id="contact">
-				<img src="" alt="">
+				</a><!-- /#business -->
+				<a href="./"" id="contact" class="pull-left">
+				<img src="./_assets_/images/contact.png" alt="">
 					<h4>contact us</h4>
-				</div><!-- /#contact -->
+				</a><!-- /#contact -->
 			</div><!-- /#top-left-bar -->
 			<div id="top-right-bar" class="pull-right">
 			<div class="weather">
@@ -69,7 +69,8 @@
 	</section><!-- /#top-bar -->
 
 	<div class="clearfix">
-		<nav class="pull-left">
+		<nav class="container">
+		<div id="search-toggle" class="fa fa-search hidden-sm hidden-xs pull-right"></div>
 				<ul id="nav">
 					<li><a href="./">home</a></li>
 					<li><a href="./">government</a></li>
@@ -77,14 +78,13 @@
 					<li><a href="./">community</a></li>
 					<li><a href="./">visitors</a></li>
 					<li><a href="./">i want to..</a></li>
-				</ul>
-				<div id="search-toggle" class="fa fa-search hidden-sm hidden-xs"></div>
-		</nav>
-	</div>
+				</ul> <!-- /#id -->
+		</nav><!-- /.container -->
+	</div><!-- /.clearfix -->
 </header>
 
 <section id="slider">
-	<div id="search">
+	<div id="search" style="display: none;">
 		<form class="search-form" method="get" action="search.php">
 			<label class="fa fa-search" for="search-input"></label>
 			<input name="q" class="form-control search-input" placeholder="Enter search terms..." type="search" id="search-input">
@@ -95,32 +95,35 @@
 	<ul class="bxslider">
 		<li style="background: url('./_assets_/images/hero.jpg') center no-repeat;background-size: cover;"></li>
 	</ul><!-- /.bxslider -->
+	
 	<div class="container text-center">
 		<img src="./_assets_/images/logo.png" alt="logo">
 	</div><!-- /.container.text-center -->
 </section>
 
 <main id="main">
-	<div class="container">
-		<section id="quick-links" class="owl-carousel">
-			<a href="./" class="quick-link">
-				<img src="./_assets_/images/briefcase.png" alt="Briefcase" class="quick-link-icon">
-				<span class="quick-link-title">employment opportunities</span>
-			</a><!--/.quick-link-->
-			<a href="./" class="quick-link">
-				<img src="./_assets_/images/quill-write.png" alt="Quill Write" class="quick-link-icon">
-				<span class="quick-link-title">meeting agendas + minutes</span>
-			</a><!--/.quick-link-->
-			<a href="./" class="quick-link">
-				<img src="./_assets_/images/nature-sun-rise.png" alt="Sunrise" class="quick-link-icon">
-				<span class="quick-link-title">parks + recreation</span>
-			</a><!--/.quick-link-->
-			<a href="./" class="quick-link">
-				<img src="./_assets_/images/cog-play.png" alt="Cog" class="quick-link-icon">
-				<span class="quick-link-title">current projects</span>
-			</a><!--/.quick-link-->
-		</section><!-- /#quick-links.owl-carousel -->
-	</div><!-- /.container -->
+	<section id="quick-links">
+		<div class="container">
+			<div class="quick-links-carousel">
+				<a href="./" class="quick-link">
+					<img src="./_assets_/images/briefcase.png" alt="Briefcase" class="pull-left">
+					<span class="quick-link-title">employment opportunities</span>
+				</a><!--/.quick-link-->
+				<a href="./" class="quick-link">
+					<img src="./_assets_/images/quill-write.png" alt="Quill Write" class="pull-left">
+					<span class="quick-link-title">meeting agendas + minutes</span>
+				</a><!--/.quick-link-->
+				<a href="./" class="quick-link">
+					<img src="./_assets_/images/nature-sun-rise.png" alt="Sunrise" class="pull-left">
+					<span class="quick-link-title">parks + recreation</span>
+				</a><!--/.quick-link-->
+				<a href="./" class="quick-link">
+					<img src="./_assets_/images/cog-play.png" alt="Cog" class="pull-left">
+					<span class="quick-link-title">current projects</span>
+				</a><!--/.quick-link-->
+			</div>
+		</div><!-- /.container -->
+	</section><!-- /#quick-links.owl-carousel -->
 
 	<section id="news">
 		<div class="container">
@@ -153,6 +156,7 @@
 			</div><!-- /#news-links.owl-carousel -->
 		</div><!-- /.container -->
 	</section>
+
 	<div class="clearfix">
 		<div class="container">
 			<div class="row">

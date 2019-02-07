@@ -270,7 +270,31 @@
 
 	// Owl Slider
 	if(typeof $.fn.owlCarousel !== "undefined"){
-		$("#quick-links").owlCarousel();
+		let quickLinksCount = $('.quick-link').length;
+		const itemCount = function(num) {
+			return (quickLinksCount >= num ? num : quickLinksCount);
+		}
+		$(".quick-links-carousel").owlCarousel({
+			loop: true,
+			responsiveClass: true,
+			nav: true,
+			navText: ['<i class="fa fa-angle-left fa-3x"></i>', '<i class="fa fa-angle-right fa-3x"></i>'],
+			responsive: {
+				0: {
+					items: itemCount(1)
+				},
+				500: {
+					items: itemCount(2)
+				},
+				750: {
+					items: itemCount(3)
+				},
+				1000: {
+					items: itemCount(4)
+				}
+			}
+		});
+
 		$("#news-links").owlCarousel();
 	}
 
