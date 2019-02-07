@@ -270,7 +270,8 @@
 
 	// Owl Slider
 	if(typeof $.fn.owlCarousel !== "undefined"){
-		$("#owl-slider").owlCarousel();
+		$("#quick-links").owlCarousel();
+		$("#news-links").owlCarousel();
 	}
 
 	// Preloader

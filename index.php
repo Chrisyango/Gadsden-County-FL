@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<title>SiteName</title>
+	<title>Gadsden County, FL</title>
 	<meta name="description" content="">
 	<meta name="robots" content="index, follow">
 
@@ -36,162 +36,234 @@
 </head>
 <body id="homepage">
 
-<div id="loader-wrapper"><img src="_assets_/images/ripple.gif" alt="Loading..."></div><!-- /.loader-wrapper -->
+<header class="clearfix">
+	<div id="toggles" class="hidden-lg hidden-md">
+	<label for="search-input" id="search-toggle-mobile" class="fa fa-search"></label>
+		<div id="nav-toggle" class="fa fa-bars"></div>
+	</div><!-- /#toggles -->
 
-<div class="main-wrap">
+	<section id="top-bar">
+		<div class="clearfix">
+			<div id="top-left-bar" class="pull-left">
+				<div id="business">
+					<img src="" alt="">
+					<h4>doing business</h4>
+				</div><!-- /#business -->
+				<div id="contact">
+				<img src="" alt="">
+					<h4>contact us</h4>
+				</div><!-- /#contact -->
+			</div><!-- /#top-left-bar -->
+			<div id="top-right-bar" class="pull-right">
+			<div class="weather">
+				<div id="weather"></div><!-- /#weather -->
+			</div><!-- /.weather -->
+				<div id="google-translate" class="hidden-sm hidden-xs"></div>
+				<div class="social-links" class="hidden-sm hidden-xs">
+					<a href="./" aria-label="facebook" class="fa fa-facebook"></a>
+					<a href="./" aria-label="twitter" class="fa fa-twitter"></a>
+					<a href="./" aria-label="instagram" class="fa fa-instagram"></a>
+				</div><!-- /.social-links -->
+			</div><!-- /#top-right-bar -->
+		</div><!-- /.clearfix -->
+	</section><!-- /#top-bar -->
+
+	<div class="clearfix">
+		<nav class="pull-left">
+				<ul id="nav">
+					<li><a href="./">home</a></li>
+					<li><a href="./">government</a></li>
+					<li><a href="./">departments</a></li>
+					<li><a href="./">community</a></li>
+					<li><a href="./">visitors</a></li>
+					<li><a href="./">i want to..</a></li>
+				</ul>
+				<div id="search-toggle" class="fa fa-search hidden-sm hidden-xs"></div>
+		</nav>
+	</div>
+</header>
+
+<section id="slider">
+	<div id="search">
+		<form class="search-form" method="get" action="search.php">
+			<label class="fa fa-search" for="search-input"></label>
+			<input name="q" class="form-control search-input" placeholder="Enter search terms..." type="search" id="search-input">
+			<button>Go</button>
+		</form>
+	</div><!-- /#search -->
+
+	<ul class="bxslider">
+		<li style="background: url('./_assets_/images/hero.jpg') center no-repeat;background-size: cover;"></li>
+	</ul><!-- /.bxslider -->
+	<div class="container text-center">
+		<img src="./_assets_/images/logo.png" alt="logo">
+	</div><!-- /.container.text-center -->
+</section>
+
+<main id="main">
 	<div class="container">
-
-		<header>
-			<div class="row">
-
-				<div class="col-md-12">
-					<div class="page-header"><h2>Sample Header plus nav</h2></div><!-- /.page-header -->
-				</div><!-- /.col-md-12 -->
-
-				<div id="header" class="col-md-12 clearfix">
-
-					<a href="" class="logo"><h1 class="h4">Logo</h1></a>
-
-					<ul id="nav">
-						<li><a href="">Home</a></li>
-						<li><a href="">Departments</a>
-							<ul>
-								<li><a href="">Management</a>
-									<ul>
-										<li><a href="">Management</a></li>
-										<li><a href="">Finance</a></li>
-										<li><a href="">Planning</a></li>
-										<li><a href="">Public Works</a></li>
-										<li><a href="">Police</a></li>
-										<li><a href="">Fire / EMS</a></li>
-										<li><a href="">Libraries</a></li>
-										<li><a href="">Education</a></li>
-										<li><a href="">Parks &amp; Recreation</a></li>
-										<li><a href="">Information Technology</a></li>
-									</ul>
-								</li>
-								<li><a href="">Finance</a></li>
-								<li><a href="">Planning</a></li>
-								<li><a href="">Public Works</a></li>
-								<li><a href="">Police</a></li>
-								<li><a href="">Fire / EMS</a></li>
-								<li><a href="">Libraries</a></li>
-								<li><a href="">Education</a></li>
-								<li><a href="">Parks &amp; Recreation</a></li>
-								<li><a href="">Information Technology</a></li>
-							</ul>
-						</li>
-						<li><a href="">About</a>
-							<ul>
-								<li><a href="">About The Area</a></li>
-								<li><a href="">Maps</a></li>
-								<li><a href="">Links</a></li>
-								<li><a href="">Photos</a></li>
-							</ul>
-						</li>
-						<li><span>Information</span>
-							<ul>
-								<li><span>How Do I?</span>
-									<ul>
-										<li><a href="">Management</a></li>
-										<li><a href="">Finance</a></li>
-										<li><a href="">Planning</a></li>
-										<li><a href="">Public Works</a></li>
-										<li><a href="">Police</a></li>
-										<li><a href="">Fire / EMS</a></li>
-										<li><a href="">Libraries</a></li>
-										<li><a href="">Education</a></li>
-										<li><a href="">Parks &amp; Recreation</a></li>
-										<li><a href="">Information Technology</a></li>
-									</ul>
-								</li>
-								<li><a href="">Contact Us</a></li>
-								<li><a href="">News</a></li>
-								<li><a href="">Announcements</a></li>
-								<li><a href="">Jobs</a></li>
-								<li><a href="">Minutes</a></li>
-								<li><a href="">RFP's</a></li>
-							</ul>
-						</li>
-					</ul>
-
-					<div id="search">
-						<form class="search-form" method="get" action="search.php">
-							<label class="fa fa-search" for="search-input"></label>
-							<input name="q" class="form-control search-input" placeholder="Enter search terms..." type="search" id="search-input">
-							<button>Go</button>
-						</form>
-					</div><!-- /#search -->
-
-				</div><!-- /#header -->
-			</div><!-- /.row -->
-		</header>
-
-		<div class="weather">
-			<div id="weather"></div><!-- /#weather -->
-		</div><!-- /.weather -->
-
-		<div class="row">
-			<div class="col-md-12">
-
-				<div id="slider">
-					<ul class="bxslider">
-					  <li style="background:url('_assets_/images/slide1.jpg') center no-repeat;background-size:cover"></li>
-					  <li style="background:url('_assets_/images/slide2.jpg') center no-repeat;background-size:cover"></li>
-					</ul>
-				</div><!-- /#slider -->
-
-			</div><!-- /.col-md-12 -->
-		</div><!-- /.row -->
-
-		<div class="row">
-			<div class="col-md-6">
-				<div id="instafeed"></div>
-			</div><!-- /.col-md-12 -->
-			<div class="col-md-6">
-				<div id="twitterfeed"></div>
-			</div><!-- /.col-md-12 -->
-		</div><!-- /.row -->
-
-		<div class="row ">
-			<div class="col-md-6 col1">
-				<h2>City Newsletter</h2>
-                <form class="signup submission" id="newletter-signup"  action="optin.php" enctype="application/x-www-form-urlencoded" method="post">
-					<input type="email" name="femail" placeholder="Enter your email address" required>
-					<button>Sign Up</button>
-				</form>
-			</div><!-- /.col-md-6 -->
-
-			<div class="col-md-6">
-				<h2>Stay Updated</h2>
-				<form action="enotify/index.php" id="enotify-signup" class="signup clearfix">
-					<input type="email" name="email" placeholder="Enter your email address" required>
-					<button>Sign Up</button>
-				</form>
-			</div><!-- /.col-md-6 -->
-		</div><!-- /.row -->
-
+		<section id="quick-links" class="owl-carousel">
+			<a href="./" class="quick-link">
+				<img src="./_assets_/images/briefcase.png" alt="Briefcase" class="quick-link-icon">
+				<span class="quick-link-title">employment opportunities</span>
+			</a><!--/.quick-link-->
+			<a href="./" class="quick-link">
+				<img src="./_assets_/images/quill-write.png" alt="Quill Write" class="quick-link-icon">
+				<span class="quick-link-title">meeting agendas + minutes</span>
+			</a><!--/.quick-link-->
+			<a href="./" class="quick-link">
+				<img src="./_assets_/images/nature-sun-rise.png" alt="Sunrise" class="quick-link-icon">
+				<span class="quick-link-title">parks + recreation</span>
+			</a><!--/.quick-link-->
+			<a href="./" class="quick-link">
+				<img src="./_assets_/images/cog-play.png" alt="Cog" class="quick-link-icon">
+				<span class="quick-link-title">current projects</span>
+			</a><!--/.quick-link-->
+		</section><!-- /#quick-links.owl-carousel -->
 	</div><!-- /.container -->
 
-	<footer id="footer">
+	<section id="news">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<h2><span>find out what's happening</span> news stories + announcements</h2>
+				</div>
+				<div class="col-md-4">
+					<div class="text-center pull-right">
+						<a href="./" class="btn">view archives</a>
+					</div>
+				</div>
+			</div><!-- /.row -->
+			<div id="news-links" class="owl-carousel">
+				<a href="./" class="news-link">
+					<img src="./_assets_/images/news1.jpg" alt="Briefcase" class="news-link-icon">
+					<span class="news-date">September 24, 2018</span>
+					<h3 class="news-link-title">fall is here - be prepared for the 2018 flu season!</h3>
+				</a><!--/.news-link-->
+				<a href="./" class="news-link">
+					<img src="./_assets_/images/news2.jpg" alt="Quill Write" class="news-link-icon">
+					<span class="news-date">September 30, 2018</span>
+					<h3 class="news-link-title">october townhall meeting rescheduled</h3>
+				</a><!--/.news-link-->
+				<a href="./" class="news-link">
+					<img src="./_assets_/images/news3.jpg" alt="news-img" class="news-link-icon">
+					<span class="news-date">October 6, 2018</span>
+					<h3 class="news-link-title">the pumpkin patch now open! see schedule</h3>
+				</a><!--/.news-link-->
+			</div><!-- /#news-links.owl-carousel -->
+		</div><!-- /.container -->
+	</section>
+	<div class="clearfix">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+					<section id="events" class="pull-left">
+						<div class="row">
+							<div class="col-md-7">
+								<h2><span>join the community...</span> upcoming events</h2>
+							</div>
+							<div class="col-md-5 clearfix">
+								<div class="pull-right">
+									<a href="./" class="btn">master calendar</a>
+								</div><!-- /.pull-right -->
+							</div><!-- /.col-md-5.clearfix -->
+						</div><!-- /.row -->
+						<div class="row">
+							<div class="col-md-6">
+								<h3 class="event-date"><span>sep 21</span> september 21, 2018</h3>
+								<div class="scheduled-events">
+									<a href="./" class="event-link">5:30 <span>pm</span> - public hearing</a>
+									<a href="./" class="event-link">6 <span>pm</span> - commission meeting</a>
+								</div><!-- /.scheduled-events -->
+							</div><!-- /.col-md-6 -->
+							<div class="col-md-6">
+								<h3 class="event-date"><span>sep 25</span> september 25, 2018</h3>
+								<div class="scheduled-events">
+									<a href="./" class="event-link">10 <span>am</span> - planning committee</a>
+									<a href="./" class="event-link">6 <span>pm</span> - commission meeting</a>
+									<a href="./" class="event-link">7 <span>pm</span> - <span>bocc</span> regular meeting</a>
+								</div><!-- /.scheduled-events -->
+							</div><!-- /.col-md-6 -->
+							<div class="col-md-6">
+								<h3 class="event-date"><span>oct 1</span> october 1, 2018</h3>
+								<div class="scheduled-events">
+								<a href="./" class="event-link">10 <span>am</span> - planning committee</a>
+									<a href="./" class="event-link">6 <span>pm</span> - commission meeting</a>
+									<a href="./" class="event-link">7 <span>pm</span> - <span>bocc</span> regular meeting</a>
+								</div><!-- /.scheduled-events -->
+							</div><!-- /.col-md-6 -->
+							<div class="col-md-6">
+								<h3 class="event-date"><span>oct 24</span> october 24, 2018</h3>
+								<div class="scheduled-events">
+									<a href="./" class="event-link">6 <span>pm</span> - commission meeting</a>
+									<a href="./" class="event-link">7 <span>pm</span> - <span>bocc</span> regular meeting</a>
+								</div><!-- /.scheduled-events -->
+							</div><!-- /.col-md-6 -->
+						</div><!-- /.row -->
+					</section><!-- /#events -->
+				</div><!-- /.col-md-7 -->
+				<div class="col-md-5">
+					<section id="facebook" class="pull-right">
+						<h2><span>stay updated...</span> connect with us</h2>
+						<h1>NEED TO ASK HOW TO DO THIS</h1>
+					</section><!-- /#facebook -->
+				</div><!-- /.col-md-5 -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</div><!-- /.clearfix -->
 
-		<span id="revize-login">
-			<span class="powered-by-revize">
-				Powered By <a id="powered-by-revize-link" target="_blank" href="http://www.revize.com">Revize</a>
-			</span>
-			<a id="revize-login-link" href="">Login</a>
-		</span>
+	<section id="interests" style="background: url('./_assets_/images/footer.jpg') center no-repeat; background-size: cover;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-1 col-md-10 clearfix">
+					<div class="container">
+						<div class="col-md-4" style="background: url('./_assets_/images/interest.jpg') center no-repeat; background-size: cover;">
+							<h2><span>explore gadsden county</span> areas of interest</h2>
+						</div><!-- /#interest.col-md-4 -->
+						<div class="col-md-8">
+							<div class="row">
+								<a href="./" class="col-md-6">economic development</a>
+								<a href="./" class="col-md-6">gadsden co. public library</a>
+								<a href="./" class="col-md-6">colleges + universities</a>
+								<a href="./" class="col-md-6">gadsden public works</a>
+								<a href="./" class="col-md-6">history of gadsden co.</a>
+								<a href="./" class="col-md-6">mosquito + pest control</a>
+							</div><!-- /.row -->
+						</div><!-- /.col-md-8 -->
+					</div><!-- /.container -->
+				</div><!-- /.col-md-offset-1.col-md-10 -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section>
 
-	</footer><!-- /#footer -->
+	<section id="footer-links">
+		<div class="container">
+			<div class="footer-links-item">9 e jefferson st. quincy, florida 32353-1799</div>
+			<div class="footer-links-item">(850) 875-8650</div>
+			<div class="footer-links-item"><a href="www.gadsdencountyfl.gov">www.gadsdencountyfl.gov</a></div>
+			<div id="google-translate" class="footer-links-item hidden-sm hidden-xs"></div>
+			<div class="footer-links-item social-links" class="hidden-sm hidden-xs">
+				<a href="./" aria-label="facebook" class="fa fa-facebook"></a>
+				<a href="./" aria-label="twitter" class="fa fa-twitter"></a>
+				<a href="./" aria-label="instagram" class="fa fa-instagram"></a>
+				<a href="./" class="fa fa-phone"></a>
+			</div><!-- /.social-links -->
+		</div><!-- /.container -->
+	</section><!-- /#footer-links -->
+</main>
 
-	<div class="alert alert-dismissible floating-alert fade in os-animation" data-os-animation="fadeInUpBig" data-os-animation-delay="2s" role="alert">
-		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		<h1>Alert Title 30 characters Max</h1>
-		<p>Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120</p>
-		<p><a href="#" class="btn">Read More</a></p>
-	</div><!-- /.alert -->
+<footer>
+	<div class="text-center">
+		&copy; 2018 Gadsden County <a href="./">login</a> Powered by <a href="https://www.revize.com/">revize.</a>, The Government Website Experts
+	</div>
+</footer>
 
-</div><!-- /.main-wrap -->
+<div class="alert alert-dismissible floating-alert fade in os-animation" data-os-animation="fadeInUpBig" data-os-animation-delay="2s" role="alert">
+	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	<h1>Alert Title 30 characters Max</h1>
+	<p>Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120</p>
+	<p><a href="#" class="btn">Read More</a></p>
+</div><!-- /.alert -->
 
 
 <!-- Share widget make into an include file -->
