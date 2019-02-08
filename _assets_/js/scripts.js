@@ -54,7 +54,7 @@
 
 	// Search Toggle
 	$('#search-toggle').on('click',function(e){
-		$('#search').stop().slideToggle(200);
+		$('#search').stop().fadeToggle(200);
 		$(this).toggleClass('fa-search fa-close');
 	});
 
@@ -295,7 +295,28 @@
 			}
 		});
 
-		$("#news-links").owlCarousel();
+		let newsLinkCount = $('.news-link').length;
+		const newsItem = function(num) {
+			return (newsLinkCount >= num ? num : newsLinkCount);
+		}
+		$("#news-links").owlCarousel({
+			loop: true,
+			responsiveClass: true,
+			nav: true,
+			navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+			responsive: {
+				0: {
+					items: newsItem(1)
+				},
+				500: {
+					items: newsItem(2)
+				},
+				1000: {
+					items: newsItem(3),
+					margin: 55
+				}
+			}
+		});
 	}
 
 	// Preloader

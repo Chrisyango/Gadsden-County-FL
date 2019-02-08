@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="_assets_/css/animate.min.css">
 	<link rel="stylesheet" href="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="_assets_/css/layout.css">
 
 	<link rel="shortcut icon" href="_assets_/images/favicon.ico">
@@ -49,7 +50,7 @@
 					<img src="./_assets_/images/business.png" alt="">
 					<h4>doing business</h4>
 				</a><!-- /#business -->
-				<a href="./"" id="contact" class="pull-left">
+				<a href="./" id="contact" class="pull-left">
 				<img src="./_assets_/images/contact.png" alt="">
 					<h4>contact us</h4>
 				</a><!-- /#contact -->
@@ -85,11 +86,17 @@
 
 <section id="slider">
 	<div id="search" style="display: none;">
-		<form class="search-form" method="get" action="search.php">
-			<label class="fa fa-search" for="search-input"></label>
-			<input name="q" class="form-control search-input" placeholder="Enter search terms..." type="search" id="search-input">
-			<button>Go</button>
-		</form>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-md-offset-8">
+					<form class="search-form" method="get" action="search.php">
+						<label class="fa fa-search" for="search-input"></label>
+						<input name="q" class="form-control search-input" placeholder="Enter search terms..." type="search" id="search-input">
+						<button>Go</button>
+					</form>
+				</div><!-- /.col-md-4.col-md-offset-8 -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
 	</div><!-- /#search -->
 
 	<ul class="bxslider">
@@ -99,15 +106,15 @@
 	<div class="container text-center">
 		<img src="./_assets_/images/logo.png" alt="logo">
 	</div><!-- /.container.text-center -->
-</section>
-
-<main id="main">
+	
 	<section id="quick-links">
 		<div class="container">
 			<div class="quick-links-carousel">
 				<a href="./" class="quick-link">
+					<span>
 					<img src="./_assets_/images/briefcase.png" alt="Briefcase" class="pull-left">
 					<span class="quick-link-title">employment opportunities</span>
+					</span>
 				</a><!--/.quick-link-->
 				<a href="./" class="quick-link">
 					<img src="./_assets_/images/quill-write.png" alt="Quill Write" class="pull-left">
@@ -121,35 +128,37 @@
 					<img src="./_assets_/images/cog-play.png" alt="Cog" class="pull-left">
 					<span class="quick-link-title">current projects</span>
 				</a><!--/.quick-link-->
-			</div>
+			</div><!-- /.quick-links-carousel -->
 		</div><!-- /.container -->
 	</section><!-- /#quick-links.owl-carousel -->
+</section><!-- /#slider -->
 
+<main id="main">
 	<section id="news">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8">
-					<h2><span>find out what's happening</span> news stories + announcements</h2>
+					<h2><span>find out what's happening...</span><br>news stories + announcements</h2>
 				</div>
 				<div class="col-md-4">
 					<div class="text-center pull-right">
 						<a href="./" class="btn">view archives</a>
 					</div>
 				</div>
-			</div><!-- /.row -->
+			</div><!-- /.row -->			
 			<div id="news-links" class="owl-carousel">
 				<a href="./" class="news-link">
-					<img src="./_assets_/images/news1.jpg" alt="Briefcase" class="news-link-icon">
+					<div style="background: url('./_assets_/images/news1.jpg') center no-repeat; background-size: cover;" class="news-link-icon"></div>
 					<span class="news-date">September 24, 2018</span>
 					<h3 class="news-link-title">fall is here - be prepared for the 2018 flu season!</h3>
 				</a><!--/.news-link-->
 				<a href="./" class="news-link">
-					<img src="./_assets_/images/news2.jpg" alt="Quill Write" class="news-link-icon">
+					<div style="background: url('./_assets_/images/news2.jpg') center no-repeat; background-size: cover;" class="news-link-icon"></div>
 					<span class="news-date">September 30, 2018</span>
 					<h3 class="news-link-title">october townhall meeting rescheduled</h3>
 				</a><!--/.news-link-->
 				<a href="./" class="news-link">
-					<img src="./_assets_/images/news3.jpg" alt="news-img" class="news-link-icon">
+					<div style="background: url('./_assets_/images/news3.jpg') center no-repeat; background-size: cover;" class="news-link-icon"></div>
 					<span class="news-date">October 6, 2018</span>
 					<h3 class="news-link-title">the pumpkin patch now open! see schedule</h3>
 				</a><!--/.news-link-->
@@ -157,7 +166,7 @@
 		</div><!-- /.container -->
 	</section>
 
-	<div class="clearfix">
+	<div class="clearfix blue-background">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-7">
@@ -174,34 +183,46 @@
 						</div><!-- /.row -->
 						<div class="row">
 							<div class="col-md-6">
-								<h3 class="event-date"><span>sep 21</span> september 21, 2018</h3>
-								<div class="scheduled-events">
-									<a href="./" class="event-link">5:30 <span>pm</span> - public hearing</a>
-									<a href="./" class="event-link">6 <span>pm</span> - commission meeting</a>
-								</div><!-- /.scheduled-events -->
+								<div class="event-date">
+									<div>sep<span>21</span></div>
+									<h3>september 21, 2018</h3>
+								</div>
+								<ul class="scheduled-events">
+									<li><a href="./" class="event-link">5:30 <span>pm</span> - public hearing</a></li>
+									<li><a href="./" class="event-link">6 <span>pm</span> - commission meeting</a></li>
+								</ul><!-- /.scheduled-events -->
 							</div><!-- /.col-md-6 -->
 							<div class="col-md-6">
-								<h3 class="event-date"><span>sep 25</span> september 25, 2018</h3>
-								<div class="scheduled-events">
-									<a href="./" class="event-link">10 <span>am</span> - planning committee</a>
-									<a href="./" class="event-link">6 <span>pm</span> - commission meeting</a>
-									<a href="./" class="event-link">7 <span>pm</span> - <span>bocc</span> regular meeting</a>
-								</div><!-- /.scheduled-events -->
+								<div class="event-date">
+									<div>sep<span>25</span></div>
+									<h3>september 25, 2018</h3>
+								</div>
+								<ul class="scheduled-events">
+									<li><a href="./" class="event-link">10 <span>am</span> - planning committee</a></li>
+									<li><a href="./" class="event-link">6 <span>pm</span> - commission meeting</a></li>
+									<li><a href="./" class="event-link">7 <span>pm</span> - <span>bocc</span> regular meeting</a></li>
+								</ul><!-- /.scheduled-events -->
 							</div><!-- /.col-md-6 -->
 							<div class="col-md-6">
-								<h3 class="event-date"><span>oct 1</span> october 1, 2018</h3>
-								<div class="scheduled-events">
-								<a href="./" class="event-link">10 <span>am</span> - planning committee</a>
-									<a href="./" class="event-link">6 <span>pm</span> - commission meeting</a>
-									<a href="./" class="event-link">7 <span>pm</span> - <span>bocc</span> regular meeting</a>
-								</div><!-- /.scheduled-events -->
+								<div class="event-date">
+									<div>oct<span>1</span></div>
+									<h3>october 1, 2018</h3>
+								</div>
+								<ul class="scheduled-events">
+									<li><a href="./" class="event-link">10 <span>am</span> - planning committee</a></li>
+									<li><a href="./" class="event-link">6 <span>pm</span> - commission meeting</a></li>
+									<li><a href="./" class="event-link">7 <span>pm</span> - <span>bocc</span> regular meeting</a></li>
+								</ul><!-- /.scheduled-events -->
 							</div><!-- /.col-md-6 -->
 							<div class="col-md-6">
-								<h3 class="event-date"><span>oct 24</span> october 24, 2018</h3>
-								<div class="scheduled-events">
-									<a href="./" class="event-link">6 <span>pm</span> - commission meeting</a>
-									<a href="./" class="event-link">7 <span>pm</span> - <span>bocc</span> regular meeting</a>
-								</div><!-- /.scheduled-events -->
+								<div class="event-date">
+									<div>oct<span>24</span></div>
+									<h3>october 24, 2018</h3>
+								</div>
+								<ul class="scheduled-events">
+									<li><a href="./" class="event-link">6 <span>pm</span> - commission meeting</a></li>
+									<li><a href="./" class="event-link">7 <span>pm</span> - <span>bocc</span> regular meeting</a></li>
+								</ul><!-- /.scheduled-events -->
 							</div><!-- /.col-md-6 -->
 						</div><!-- /.row -->
 					</section><!-- /#events -->
@@ -216,34 +237,27 @@
 		</div><!-- /.container -->
 	</div><!-- /.clearfix -->
 
-	<section id="interests" style="background: url('./_assets_/images/footer.jpg') center no-repeat; background-size: cover;">
+	<section id="interests">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-offset-1 col-md-10 clearfix">
-					<div class="container">
-						<div class="col-md-4" style="background: url('./_assets_/images/interest.jpg') center no-repeat; background-size: cover;">
-							<h2><span>explore gadsden county</span> areas of interest</h2>
-						</div><!-- /#interest.col-md-4 -->
-						<div class="col-md-8">
-							<div class="row">
-								<a href="./" class="col-md-6">economic development</a>
-								<a href="./" class="col-md-6">gadsden co. public library</a>
-								<a href="./" class="col-md-6">colleges + universities</a>
-								<a href="./" class="col-md-6">gadsden public works</a>
-								<a href="./" class="col-md-6">history of gadsden co.</a>
-								<a href="./" class="col-md-6">mosquito + pest control</a>
-							</div><!-- /.row -->
-						</div><!-- /.col-md-8 -->
-					</div><!-- /.container -->
-				</div><!-- /.col-md-offset-1.col-md-10 -->
-			</div><!-- /.row -->
+			<div class="interests-banner pull-left" style="background: url('./_assets_/images/interest.jpg') center no-repeat; background-size: cover; z-index: 1">
+				<h2><span>explore gadsden county</span> areas of interest</h2>
+			</div><!-- /.interest-banner.pull-left -->
+			<ul class="interests-links">
+				<li class="interests-link"><a href="./">economic development</a></li>
+				<li class="interests-link"><a href="./">colleges + universities</a></li>
+				<li class="interests-link"><a href="./">history of gadsden co.</a></li>
+				<li class="interests-link"><a href="./">gadsden co. public library</a></li>
+				<li class="interests-link"><a href="./">gadsden public works</a></li>
+				<li class="interests-link"><a href="./">mosquito + pest control</a></li>
+			</ul><!-- /.interests-links -->
+			<div class="interests-overlay"></div>
 		</div><!-- /.container -->
 	</section>
 
 	<section id="footer-links">
 		<div class="container">
 			<div class="footer-links-item">9 e jefferson st. quincy, florida 32353-1799</div>
-			<div class="footer-links-item">(850) 875-8650</div>
+			<div class="footer-links-item"><span>(850) 875-8650</span></div>
 			<div class="footer-links-item"><a href="www.gadsdencountyfl.gov">www.gadsdencountyfl.gov</a></div>
 			<div id="google-translate" class="footer-links-item hidden-sm hidden-xs"></div>
 			<div class="footer-links-item social-links" class="hidden-sm hidden-xs">
@@ -273,6 +287,7 @@
 <!-- Share widget make into an include file -->
 <button type="button" class="share-btn floating-share-btn" data-toggle="modal" data-target="#shareModal">
 	<i class="fa fa-share-alt"></i>
+	Share
 </button>
 
 <div class="modal fade" id="shareModal" tabindex="-1" role="dialog" aria-labelledby="shareModal">
