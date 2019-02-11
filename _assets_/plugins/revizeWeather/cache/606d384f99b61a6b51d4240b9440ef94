@@ -1,0 +1,2 @@
+1549922884
+{"coord":{"lon":-84.58,"lat":30.59},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02d"}],"base":"stations","main":{"temp":77,"pressure":1017,"humidity":61,"temp_min":77,"temp_max":77},"visibility":16093,"wind":{"speed":13.87,"deg":190},"clouds":{"all":20},"dt":1549920900,"sys":{"type":1,"id":2828,"message":0.0043,"country":"US","sunrise":1549887702,"sunset":1549927426},"id":420004842,"name":"Tallahassee","cod":200}
