@@ -48,11 +48,11 @@
 			<div id="top-left-bar">
 				<a href="./" id="business" class="pull-left">
 					<img src="./_assets_/images/business.png" alt="">
-					<h4>doing business</h4>
+					<span>doing business</span>
 				</a><!-- /#business -->
 				<a href="./" id="contact" class="pull-left">
-				<img src="./_assets_/images/contact.png" alt="">
-					<h4>contact us</h4>
+					<img src="./_assets_/images/contact.png" alt="">
+					<span>contact us</span>
 				</a><!-- /#contact -->
 			</div><!-- /#top-left-bar -->
 			<div id="top-right-bar" class="pull-right">
@@ -197,7 +197,7 @@
 
 	<ul class="bxslider">
 		<li style="background: url('./_assets_/images/hero.jpg') center no-repeat;background-size: cover;"></li>
-		<!-- <li style="background: url('./_assets_/images/hero2.jpg') center no-repeat;background-size: cover;"></li> -->
+		<li style="background: url('./_assets_/images/hero2.jpg') center no-repeat;background-size: cover;"></li>
 	</ul><!-- /.bxslider -->
 	
 	<div class="container text-center">
@@ -476,7 +476,7 @@
 <!-- Share widget make into an include file -->
 <button type="button" class="share-btn floating-share-btn" data-toggle="modal" data-target="#shareModal">
 	<i class="fa fa-share-alt"></i>
-	Share
+	<span>Share</span>
 </button>
 
 <div class="modal fade" id="shareModal" tabindex="-1" role="dialog" aria-labelledby="shareModal">
