@@ -334,10 +334,11 @@
 
 	<section id="interests">
 		<div class="container">
-			<div class="interests-banner pull-left" style="background: url('./_assets_/images/interest.jpg') center no-repeat; background-size: cover; z-index: 1">
+			<div class="interests-overlay"></div>
+			<div class="interests-banner col-md-5" style="background: url('./_assets_/images/interest.jpg') center no-repeat; background-size: cover; z-index: 1">
 				<h2><span>explore gadsden county</span> areas of interest</h2>
 			</div><!-- /.interest-banner.pull-left -->
-			<ul class="interests-links">
+			<ul class="interests-links col-md-7">
 				<li class="interests-link"><a href="./">economic development</a></li>
 				<li class="interests-link"><a href="./">colleges + universities</a></li>
 				<li class="interests-link"><a href="./">history of gadsden co.</a></li>
@@ -345,7 +346,6 @@
 				<li class="interests-link"><a href="./">gadsden public works</a></li>
 				<li class="interests-link"><a href="./">mosquito + pest control</a></li>
 			</ul><!-- /.interests-links -->
-			<div class="interests-overlay"></div>
 		</div><!-- /.container -->
 	</section>
 
