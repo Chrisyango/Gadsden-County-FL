@@ -583,6 +583,10 @@ footer span {padding: 0 15px;}
 	.interests-links {padding: 35px 20px 0;}
 
 	.footer-links-item {font-size: 14px;}
+
+	footer {font-size: 14px;}
+	footer a {border-right: none;}
+	footer span:last-of-type {display: block;}
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
