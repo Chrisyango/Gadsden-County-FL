@@ -351,12 +351,12 @@
 
 	<section id="footer-links">
 		<div class="container">
-			<div class="col-md-8">
+			<div class="left-bar">
 				<div class="footer-links-item">9 e jefferson st. quincy, florida 32353-1799</div>
 				<div class="footer-links-item"><span>(850) 875-8650</span></div>
 				<div class="footer-links-item"><a href="www.gadsdencountyfl.gov">www.gadsdencountyfl.gov</a></div>
 			</div>
-			<div class="col-md-4">
+			<div class="right-bar">
 			<div class="footer-links-item">
 				<ul id="translation-links" class="hidden-sm hidden-xs">
 					<li><span tabindex="0" aria-label="translate website">Translate <i class="fa fa-angle-down"></i></span>
@@ -446,7 +446,7 @@
 					</li>
 				</ul><!--/#translation-links-->
 			</div>
-			<div class="footer-links-item hidden-sm hidden-xs pull-right">
+			<div class="footer-links-item hidden-sm hidden-xs">
 				<div class="social-links">
 					<a href="./" aria-label="facebook" class="fa fa-facebook"></a>
 					<a href="./" aria-label="twitter" class="fa fa-twitter"></a>
