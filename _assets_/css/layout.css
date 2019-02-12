@@ -580,6 +580,8 @@ footer span {padding: 0 15px;}
 	.share-btns a{height:auto;padding:10px;width:100%;font-size:12px;white-space:nowrap;overflow:hidden}
 	.share-btns i{display:block;line-height:50px!important;font-size:20px}
 
+	#slider {position: relative;height:600px;}
+
 	.interests-links {padding: 35px 20px 0;}
 
 	.footer-links-item {font-size: 14px;}
