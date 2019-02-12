@@ -207,20 +207,20 @@
 	<section id="quick-links">
 		<div class="container">
 			<div class="quick-links-carousel">
-				<a href="./" class="quick-link">
-					<img src="./_assets_/images/briefcase.png" alt="Briefcase" class="pull-left">
+				<a href="./" class="quick-link equal">
+					<img src="./_assets_/images/briefcase.png" alt="Briefcase">
 					<span class="quick-link-title">employment opportunities</span>
 				</a><!--/.quick-link-->
-				<a href="./" class="quick-link">
-						<img src="./_assets_/images/quill-write.png" alt="Quill Write" class="pull-left">
+				<a href="./" class="quick-link equal">
+						<img src="./_assets_/images/quill-write.png" alt="Quill Write">
 						<span class="quick-link-title">meeting agendas + minutes</span>
 				</a><!--/.quick-link-->
-				<a href="./" class="quick-link">
-						<img src="./_assets_/images/nature-sun-rise.png" alt="Sunrise" class="pull-left">
+				<a href="./" class="quick-link equal">
+						<img src="./_assets_/images/nature-sun-rise.png" alt="Sunrise">
 						<span class="quick-link-title">parks + recreation</span>
 				</a><!--/.quick-link-->
-				<a href="./" class="quick-link">
-						<img src="./_assets_/images/cog-play.png" alt="Cog" class="pull-left">
+				<a href="./" class="quick-link equal">
+						<img src="./_assets_/images/cog-play.png" alt="Cog">
 						<span class="quick-link-title">current projects</span>
 				</a><!--/.quick-link-->
 			</div><!-- /.quick-links-carousel -->

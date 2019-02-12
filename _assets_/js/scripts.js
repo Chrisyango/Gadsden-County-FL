@@ -288,13 +288,13 @@
 				0: {
 					items: itemCount(1)
 				},
-				500: {
+				767: {
 					items: itemCount(2)
 				},
-				750: {
+				991: {
 					items: itemCount(3)
 				},
-				1000: {
+				1200: {
 					items: itemCount(4)
 				}
 			}
