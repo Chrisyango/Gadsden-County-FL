@@ -395,7 +395,7 @@ body{overflow-x:hidden}
 /* ---------------- #footer-links ---------------- */
 footer {font-size: 16px; color: #fff; background-color: #052c46; padding: 20.5px 0;}
 footer a {text-transform: uppercase; color: #fdb537!important; border-left: 2px solid #fff; border-right: 2px solid #fff; padding: 0px 15px;}
-footer span a {font-family:'Roboto', sans-serif; font-size: 18px; text-transform: lowercase; text-decoration: none; color: #fff!important; border: none; padding: 0;}
+footer span a {font-family:'Roboto', sans-serif; font-size: 18px; font-weight: 700; text-transform: lowercase; text-decoration: none; color: #fff!important; border: none; padding: 0;}
 footer span {padding: 0 15px;}
 
 
