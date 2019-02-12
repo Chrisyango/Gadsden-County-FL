@@ -52,6 +52,12 @@
 	 }
 	}
 
+	// Inner Menu
+	$('.inner-menu').on('click', function(e){
+		$('ul', this).stop().slideToggle(300);
+		$('.subheader', this).hasClass('cross') ? $('.subheader', this).removeClass('cross') : $('.subheader', this).addClass('cross');
+	})
+
 	// Search Toggle
 	$('#search-toggle').on('click',function(e){
 		$('#search').stop().fadeToggle(200);
@@ -338,13 +344,13 @@
 
 	$window.ready(function(){
 
-		$('#translation-links span').on('keydown click', function(e){
+		$('.translation-links span').on('keydown click', function(e){
 			if (e.keyCode === 13 || e.type === 'click') {
-				$('#translation-links ul').stop().fadeToggle();
+				$('.translation-links ul').stop().fadeToggle();
 			}
 		});
 
-		$('#translation-links ul').on('mouseleave',function(){
+		$('.translation-links ul').on('mouseleave',function(){
 			$(this).fadeOut();
 		});
 
@@ -353,7 +359,7 @@
 		 // Translate Script
 		$.getScript(translateURL);
 		console.log(translateURL);
-		$('#translation-links a').click(function() {
+		$('.translation-links a').click(function() {
 			var lang = $(this).data('lang');
 			console.log(lang);
 			var $frame = $('.goog-te-menu-frame:first');

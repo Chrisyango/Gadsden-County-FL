@@ -1,2 +1,2 @@
-1549993586
-{"coord":{"lon":-84.58,"lat":30.59},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04d"}],"base":"stations","main":{"temp":72.21,"pressure":1016,"humidity":83,"temp_min":69.8,"temp_max":73.4},"visibility":16093,"wind":{"speed":9.17,"deg":200,"gust":8.7},"clouds":{"all":90},"dt":1549991700,"sys":{"type":1,"id":2828,"message":0.0046,"country":"US","sunrise":1549974060,"sunset":1550013866},"id":420004842,"name":"Tallahassee","cod":200}
+1550006692
+{"coord":{"lon":-84.58,"lat":30.59},"weather":[{"id":502,"main":"Rain","description":"heavy intensity rain","icon":"10d"}],"base":"stations","main":{"temp":67.93,"pressure":1015,"humidity":69,"temp_min":62.6,"temp_max":75.2},"visibility":16093,"wind":{"speed":20.8,"deg":310,"gust":12.9},"rain":{"1h":6.73},"clouds":{"all":40},"dt":1550006100,"sys":{"type":1,"id":2828,"message":0.0038,"country":"US","sunrise":1549974053,"sunset":1550013873},"id":420004842,"name":"Tallahassee","cod":200}

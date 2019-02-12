@@ -69,7 +69,7 @@
 					</script>
 					<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 				</div><!--/#google-translate.control.hidden-sm.hidden-xs-->
-				<ul id="translation-links" class="hidden-sm hidden-xs">
+				<ul class="translation-links hidden-sm hidden-xs">
 					<li><span tabindex="0" aria-label="translate website">Translate <i class="fa fa-angle-down"></i></span>
 						<ul class="clearfix">
 							<li><a href="#" class="Afrikaans" data-lang="Afrikaans">Afrikaans</a></li>
@@ -196,8 +196,8 @@
 	</div><!-- /#search -->
 
 	<ul class="bxslider">
-		<li style="background: url('./_assets_/images/hero.jpg') center no-repeat;background-size: cover;"></li>
-		<li style="background: url('./_assets_/images/hero2.jpg') center no-repeat;background-size: cover;"></li>
+		<li style="background: url('./_assets_/images/hero.jpg') center no-repeat;background-size: cover; opacity: 0.9;"></li>
+		<li style="background: url('./_assets_/images/hero2.jpg') center no-repeat;background-size: cover; opacity: 0.9;"></li>
 	</ul><!-- /.bxslider -->
 	
 	<div class="container text-center">
@@ -358,7 +358,7 @@
 			</div>
 			<div class="right-bar">
 			<div class="footer-links-item">
-				<ul id="translation-links" class="hidden-sm hidden-xs">
+				<ul class="translation-links hidden-sm hidden-xs">
 					<li><span tabindex="0" aria-label="translate website">Translate <i class="fa fa-angle-down"></i></span>
 						<ul>
 							<li><a href="#" class="Afrikaans" data-lang="Afrikaans">Afrikaans</a></li>
