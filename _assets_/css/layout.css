@@ -1,9 +1,10 @@
 /*-----------------------------------------------------------------------------------
 
-	Theme Name: SiteName
+	Theme Name: Gadsden County, FL
+	Front-End Developer: Chris Yang
 	Author Design: Samir Alley @samiralley | Tom Gooden @good3n
 	Author URI: http://www.revize.com/
-	Date: MONTH DAY, 2015
+	Date: February 11, 2019
 
 -----------------------------------------------------------------------------------*/
 
@@ -579,7 +580,7 @@ footer span {padding: 0 15px;}
 			z-index: 1000; margin: 0;
 		}
 		#nav>li>ul>li>a,#nav>li>ul>li>span{color: #01426b;font-size:16px;margin-bottom:10px}
-		#nav>li>ul>li{margin-bottom:11px}
+		#nav>li>ul>li{margin-bottom:11px;}
 		#nav ul ul {margin: 0; padding: 0;}
 		#nav ul ul a,#nav ul ul span{text-transform:none;font-size:14px;font-weight:500;margin-bottom:4px; color: #094469;}
 		#nav ul a,#nav ul span{padding:0}

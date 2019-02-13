@@ -1,9 +1,10 @@
 /*-----------------------------------------------------------------------------------
 
-	Theme Name: SiteName
+	Theme Name: Gadsden County, FL
+	Front-End Developer: Chris Yang
 	Author Design: Samir Alley @samiralley | Tom Gooden @good3n
 	Author URI: http://www.revize.com/
-	Date: MONTH DAY, 2015
+	Date: February 11, 2019
 
 -----------------------------------------------------------------------------------*/
 
