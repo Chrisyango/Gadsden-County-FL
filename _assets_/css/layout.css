@@ -417,6 +417,7 @@ footer span {padding: 0 15px;}
 #freeform .content p {line-height: 32px;}
 #freeform .content img {margin: 38px 0; height: 520px;}
 
+#post {margin-bottom: 50px;}
 #post>.subheader {font-size: 28px; color: #07436b; text-transform: uppercase; display: block; margin: 30px 0;}
 #post>ul {padding: 0 15px; margin: -5px 0 0;}
 #post>ul li {font-family: 'Objectivity-Med'; font-size: 16px; color: #095642; text-decoration: none; padding: 0 0 30px; margin: 0;}
