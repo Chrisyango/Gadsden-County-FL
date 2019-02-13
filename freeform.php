@@ -243,9 +243,10 @@
 									<a href="./">staff directory</a>
 								</div>
 						</div>
-						<div id="flyout-wrap">
-							<span id="flyout-header" class="header">useful links + forms</span>
+						<div id="flyout-wrap" class="fillLeft withPadding">
+							
 							<ul id="flyout">
+							<span id="flyout-header" class="header">useful links + forms</span>
 								<li><a href="./">paramedic</a></li>
 								<li><a href="./">emergency medical technician</a></li>
 								<li><a href="./">personnel rules</a></li>

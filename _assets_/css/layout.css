@@ -392,6 +392,12 @@ footer span {padding: 0 15px;}
 #inner
 
 -----------------------------------------*/
+
+/* ---------------- #freeform .full-width ---------------- */
+.fullwidth #main>.container {padding: 50px 30px;}
+
+/* ---------------- #breadcrumbs ---------------- */
+
 #breadcrumbs{font-size:16px;text-transform:uppercase}
 #breadcrumbs p{margin:0; color: #07436a;}
 #breadcrumbs a{text-decoration:none; color: #07436a;}
@@ -405,14 +411,14 @@ footer span {padding: 0 15px;}
 
 
 /* ---------------- .content ---------------- */
-#freeform .content {padding: 69px 30px 116px 54px; color: #6f7c7c;}
+#freeform .content {padding: 69px 15px 116px; color: #6f7c7c;}
 #freeform .header {display: block; margin: 0; padding: 17px 0 32px;font-size: 36px; font-family: 'Objectivity-Bold'; color: #095642; text-transform: uppercase;}
 #freeform .content p {line-height: 32px;}
 #freeform .content img {margin: 38px 0; height: 520px;}
 
 #post>.subheader {font-size: 28px; color: #07436b; text-transform: uppercase; display: block; margin: 30px 0;}
 #post>ul {padding: 0 15px; margin: -5px 0 0;}
-#post>ul li {font-family: 'Objectivity-Med'; font-size: 16px; color: #095642; text-decoration: none; padding: 0 300px 30px 0; margin: 0;}
+#post>ul li {font-family: 'Objectivity-Med'; font-size: 16px; color: #095642; text-decoration: none; padding: 0 0 30px; margin: 0;}
 
 
 /* ---------------- .inner-menu ---------------- */
@@ -422,19 +428,19 @@ footer span {padding: 0 15px;}
 .inner-menu .subheader:after {font-family: 'FontAwesome'; content: '\f107'; position: absolute; top: 0; right: 19px; font-size: 36px; color: #ffb718;}
 .inner-menu .dashed {display: none; background-color: #d4dfdc; padding: 32px 0 24px; margin: 0; list-style-type: none; column-count: 3; column-gap: 30px;}
 .inner-menu .dashed li:before {content: '-'; padding-right: 7px;}
-.inner-menu .dashed li {padding: 0; margin: 0; display: inline-block;}
+.inner-menu .dashed li {padding: 0; margin: 0; display: block;}
 .inner-menu a {font-size: 16px; text-transform: capitalize; color: #333; text-decoration: none; display: inline-block; padding-bottom: 11px;}
 
 
 /* ---------------- #side-content ---------------- */
-#side-content {background-color: #07436b; padding-right: 100px; height: 100%;}
+#side-content {background-color: #07436b; height: 100%;}
 #side-content span {display: block; margin: 0;}
-#side-content .header {position: relative; color: #ffb718; font-size: 20px; padding: 0px 0 10px; text-transform: capitalize;}
+#side-content .header {position: relative; color: #ffb718; font-size: 20px; padding: 0px 0 10px; margin-bottom: 37px; text-transform: capitalize;}
 #side-content .header:after {content: ''; position: absolute; left: 0; bottom:0; height: 2px; width: 198px; background-color: #fff;}
 
 
 /* ---------------- #contact ---------------- */
-#contact {padding: 74px 0 167px;}
+#contact {padding: 74px 100px 79px 0;}
 #contact-name {font-family: 'Objectivity-Bold'; font-size: 24px; color: #ffb718; text-transform: capitalize; margin-top: 42px;}
 #contact-name span {font-family: 'Objectivity-Reg'; font-size: 20px; color: #fff; margin-top: -2px;}
 #location {color: #6f7c7c; font-size: 20px; text-transform: capitalize; margin-top: 33px;}
@@ -445,7 +451,8 @@ footer span {padding: 0 15px;}
 
 
 /* ---------------- #flyout ---------------- */
-#flyout{margin:0;padding:37px 2px;}
+#flyout-wrap {padding-top: 88px; background: linear-gradient(#063e64, #07436b);}
+#flyout{margin:0;padding:0px 100px 0 2px;}
 #flyout li{margin:0;display:block;position:relative}
 #flyout a,
 #flyout span{font-size: 18px; color: #fff; text-transform: capitalize;padding:0px 0px; margin-bottom: 15px; display:block;}
@@ -453,7 +460,6 @@ footer span {padding: 0 15px;}
 #flyout ul a,
 #flyout ul span{font-size:13px;padding:10px 15px;width:180px}
 #flyout li:hover > ul{display:block}
-#flyout-toggle {display: none;}
 
 
 /* -----------------------------------------
@@ -525,6 +531,9 @@ footer span {padding: 0 15px;}
 -----------------------------------------*/
 @media only screen and (max-width:1367px){
 	.footer-links-item {padding: 0 10px;}
+
+	.inner-menu .dashed {column-count: 2;}
+
 }
 
 @media only screen and (max-width:1200px){
@@ -542,10 +551,12 @@ footer span {padding: 0 15px;}
 	#interests h2 {font-size: 34px;}
 	.interests-link a {font-size: 16px;}
 
-	/* #footer-links .translation-links span, .footer-links-item {font-size: 14px;} */
 	.left-bar .footer-links-item:nth-child(2) {border: none;}
 	.footer-links-item {display: block; padding: 2px 0;}
 	.footer-links-item .translation-links {padding-left: 9px;}
+
+	#contact {padding-right: 15px; }
+	#flyout{padding-right: 15px;}
 
 }
 
@@ -575,6 +586,7 @@ footer span {padding: 0 15px;}
 		#nav li:hover>ul{display:block}
 		#flyout,#nav{display:block!important}
 		#flyout li:hover > ul{display:block}
+		#flyout-toggle {display: none;}
 		#nav-toggle,.toggle,.toggle2{display:none}
 		
 
@@ -583,9 +595,12 @@ footer span {padding: 0 15px;}
 
 		#news .container {padding: 108px 52px 103px;}
 
+		#freeform .content {padding: 69px 30px 116px 54px; color: #6f7c7c;}
 		#freeform .row {position: relative; top: 0; left: 0;}
 		#freeform .col-md-4 {position: absolute; top: 0; left: 0; height: 100%;}
 		#freeform .col-md-8 {position: relative; top: 0; left: 33.33%;}
+
+		#post>ul li {padding: 0 300px 30px 0;}
 
 }
 
@@ -619,10 +634,12 @@ footer span {padding: 0 15px;}
 	#nav .toggle2{position:absolute;right:15px;top:0;background:rgba(0,0,0,.2);height:55px;width:55px;line-height:55px;text-align:center}
 	#nav li li:hover > a{background:none;color:#fff}
 
+	#flyout-wrap {padding-top: 0px;}
+	#flyout-toggle {color: #fff; font-size: 18px; padding: 20px 0;}
 	#flyout{display:none}
 	#flyout li{}
 	#flyout li a,
-	#flyout li span{padding:20px 30px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
+	#flyout li span{padding:20px 0px; margin: 0;line-height:1;border-bottom:1px solid rgba(255,255,255,0.5);background:none; text-decoration: none; font-size: 16px;}
 	#flyout ul{position:static;left:0;padding:0;background:rgba(0,0,0,.2)}
 	#flyout ul a,
 	#flyout ul span{width:100%}
@@ -648,6 +665,20 @@ footer span {padding: 0 15px;}
 
 	.floating-share-btn{top: unset; bottom: 0;}
 
+	#freeform .col-md-4 {padding-right: 0;}
+	#freeform .header {font-size: 32px;}
+	#post>.subheader {font-size: 24px;}
+	.inner-menu .subheader {font-size: 18px;}
+
+	#side-content .header, 
+	#contact-name span,
+	#location,
+	#contact-info {font-size: 18px;}
+
+	#contact-name,
+	#location #building {font-size: 20px;}
+	
+
 }
 
 	/* All Mobile Sizes (devices and browser) */
@@ -671,6 +702,9 @@ footer span {padding: 0 15px;}
 	footer {font-size: 14px;}
 	footer a {border-right: none;}
 	footer span:last-of-type {display: block;}
+
+	.inner-menu .dashed {column-count: 1;}
+
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
