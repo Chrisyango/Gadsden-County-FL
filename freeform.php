@@ -210,7 +210,37 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
-					
+					<aside id="side-content" class="fillLeft withPadding">
+						<div id="contact">
+								<span class="header">contact us</span>
+								<div id="contact-name">
+									lonyell black
+									<span>human resources analyst</span>
+								</div>
+								<div id="location">
+									location:
+									<span id="building">edward j butler governmental complex-managment services</span>
+									<span id="address">9-b east jefferson st. <br> quincy, fl 32353</span>
+								</div>
+								<div id="contact-info">
+									<span>(850) 875-8660</span>
+									<a href="./">email us</a>
+									<a href="./">staff directory</a>
+								</div>
+						</div>
+						<div id="flyout-wrap">
+							<span id="flyout-header" class="header">useful links + forms</span>
+							<ul id="flyout">
+								<li><a href="./">paramedic</a></li>
+								<li><a href="./">emergency medical technician</a></li>
+								<li><a href="./">personnel rules</a></li>
+								<li><a href="./">tallahasseeCC: hot occupations</a></li>
+								<li><a href="./">tcc's commitment to gadsden co.</a></li>
+								<li><a href="./">online applications</a></li>
+								<li><a href="./">downloadable employment application</a></li>
+							</ul>
+						</div>
+					</aside>
 				</div>
 				<div class="content col-md-8">
 					<section id="breadcrumbs">
@@ -224,8 +254,8 @@
 								parks & rec
 							</p>
 					</section><!-- /#breadcrumbs -->
-					<article class="entry">
-						<div class="post">
+					<article id="entry" class="fillRight withPadding">
+						<div id="post">
 							<span class="header">human resources</span>
 							<p>
 								The Human Resources Division is responsible for the overall administrative and technical functions and activities needed to maintain an effective recruitment, selection, and benefits program. Development, implementation and coordination of related policies, procedures and training opportunities are ongoing priorities.
@@ -234,30 +264,6 @@
 								The Human Resources Division plans and directs personnel administration for all departments of the Board of County Commissioners, including labor relations, benefits, salary administration, recruitment, selection and training; as well as ensures competitive classification and pay plan programs and compliance with all applicable federal, state, and local laws on employment issues.
 							</p>
 							<img src="./_assets_/images/inner1.jpg" alt="Group Meeting">
-							<div class="inner-menu">
-								<span class="subheader">department topics</span>
-								<span class="opener"></span>
-								<ul class="dashed">
-									<li><a href="./">2016 approved paid holidays</a></li>
-									<li><a href="./">bids & rfp notices</a></li>
-									<li><a href="./">county probation</a></li>
-									<li><a href="./">employee service awards</a></li>
-									<li><a href="./">job openings</a></li>
-									<li><a href="./">purchasing office</a></li>
-									<li><a href="./">veteran services</a></li>
-									<li><a href="./">hours of operation</a></li>
-								</ul>
-							</div>
-							<div class="inner-menu">
-								<span class="subheader">more information</span>
-								<ul class="dashed">
-									<li><a href="./">informational stuff</a></li>
-									<li><a href="./">informational stuff</a></li>
-									<li><a href="./">informational stuff</a></li>
-									<li><a href="./">informational stuff</a></li>
-									<li><a href="./">informational stuff</a></li>
-								</ul>
-							</div>
 							<span class="subheader">subheadline</span>
 							<p>
 								Cras eu diam ipsum. Phasellus imperdiet imperdiet urna in pharetra. Aliquam ac arcu ac dui ullamcorper hendrerit. Mauris tincidunt, libero in sollicitudin viverra, dolor nulla pretium est, sed aliquet risus lorem quis nibh. Cras a nibh sed mi consectetur bibendum sed eu mauris. Integer ac vehicula mi. Curabitur malesuada venenatis enim, id faucibus ante consequat id. In a nisi at justo semper condimentum sit amet non leo.
@@ -265,6 +271,30 @@
 							<ul>
 								<li><a href="./">Maecenas eleifend, purus at tincidunt faucibus, nulla neque pretium erat, euismod ullamcorper orci lacus vel arcu.</a></li>
 								<li><a href="./">Mauris eu dapibus velit.</a></li>
+							</ul>
+						</div>
+						<div id="topics" class="inner-menu">
+							<span class="subheader">department topics</span>
+							<span class="opener"></span>
+							<ul class="dashed">
+								<li><a href="./">2016 approved paid holidays</a></li>
+								<li><a href="./">bids & rfp notices</a></li>
+								<li><a href="./">county probation</a></li>
+								<li><a href="./">employee service awards</a></li>
+								<li><a href="./">job openings</a></li>
+								<li><a href="./">purchasing office</a></li>
+								<li><a href="./">veteran services</a></li>
+								<li><a href="./">hours of operation</a></li>
+							</ul>
+						</div>
+						<div id="more-info" class="inner-menu">
+							<span class="subheader">more information</span>
+							<ul class="dashed">
+								<li><a href="./">informational stuff</a></li>
+								<li><a href="./">informational stuff</a></li>
+								<li><a href="./">informational stuff</a></li>
+								<li><a href="./">informational stuff</a></li>
+								<li><a href="./">informational stuff</a></li>
 							</ul>
 						</div>
 					</article>

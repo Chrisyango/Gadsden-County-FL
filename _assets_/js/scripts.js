@@ -344,6 +344,32 @@
 
 	$window.ready(function(){
 
+		// Fill sides script
+		function fillSide(){
+			var windowWidth = $('body').outerWidth();
+			var pixelValue = (windowWidth - $('.container').width()) / 2;
+			$('.fillLeft').css({
+					'margin-left': -pixelValue
+			});
+			
+			$('.fillRight').css({
+					'margin-right': -pixelValue
+			});
+			$('.fillLeft.withPadding').css({
+					'margin-left': -pixelValue,
+					'padding-left': pixelValue
+			});
+			
+			$('.fillRight.withPadding').css({
+					'margin-right': -pixelValue,
+					'padding-right': pixelValue
+			});
+			
+			$('#flyout-background').width($('#flyout-wrap').outerWidth());
+		}
+		fillSide();
+		$window.resize(fillSide);
+
 		$('.translation-links span').on('keydown click', function(e){
 			if (e.keyCode === 13 || e.type === 'click') {
 				$('.translation-links ul').stop().fadeToggle();

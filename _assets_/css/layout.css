@@ -398,15 +398,6 @@ footer span {padding: 0 15px;}
 #inner
 
 -----------------------------------------*/
-#flyout{margin:0;padding:0}
-#flyout li{margin:0;display:block;position:relative}
-#flyout a,
-#flyout span{text-decoration:none;padding:15px 20px;display:block;border-bottom:1px solid #000}
-#flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#aaa}
-#flyout ul a,
-#flyout ul span{font-size:13px;padding:10px 15px;width:180px}
-#flyout li:hover > ul{display:block}
-
 #breadcrumbs{font-size:16px;text-transform:uppercase}
 #breadcrumbs p{margin:0; color: #07436a;}
 #breadcrumbs a{text-decoration:none; color: #07436a;}
@@ -421,9 +412,14 @@ footer span {padding: 0 15px;}
 
 /* ---------------- .content ---------------- */
 #freeform .content {padding: 69px 30px 116px 54px; color: #6f7c7c;}
-#freeform .header {display: block; margin: 17px 0 32px;font-size: 36px; font-family: 'Objectivity-Bold'; color: #095642; text-transform: uppercase;}
+#freeform .header {display: block; margin: 0; padding: 17px 0 32px;font-size: 36px; font-family: 'Objectivity-Bold'; color: #095642; text-transform: uppercase;}
 #freeform .content p {line-height: 32px;}
-#freeform .content img {margin: 38px 0 80px; height: 520px;}
+#freeform .content img {margin: 38px 0; height: 520px;}
+
+#post>.subheader {font-size: 28px; color: #07436b; text-transform: uppercase; display: block; margin: 30px 0;}
+#post>ul {padding: 0 15px; margin: -5px 0 0;}
+#post>ul li {padding: 0 300px 30px 0; margin: 0;}
+#post>ul li a {font-family: 'Objectivity-Med'; font-size: 16px; color: #095642;}
 
 
 /* ---------------- .inner-menu ---------------- */
@@ -435,11 +431,36 @@ footer span {padding: 0 15px;}
 .inner-menu .dashed li:before {content: '-'; padding-right: 7px;}
 .inner-menu .dashed li {padding: 0; margin: 0; display: inline-block;}
 .inner-menu a {font-size: 16px; text-transform: capitalize; color: #333; text-decoration: none; display: inline-block; padding-bottom: 11px;}
-.post>.subheader {font-size: 28px; color: #07436b; text-transform: uppercase; display: block; margin: 71px 0 17px;}
-.post>ul {padding: 0 15px; margin: -5px 0 0;}
-.post>ul li {padding: 0 300px 30px 0; margin: 0;}
-.post>ul li a {font-family: 'Objectivity-Med'; font-size: 16px; color: #095642;}
 
+
+/* ---------------- #side-content ---------------- */
+#side-content {background-color: #07436b; padding-right: 100px; height: 100%;}
+#side-content span {display: block; margin: 0;}
+#side-content .header {position: relative; color: #ffb718; font-size: 20px; padding: 0px 0 10px; text-transform: capitalize;}
+#side-content .header:after {content: ''; position: absolute; left: 0; bottom:0; height: 2px; width: 198px; background-color: #fff;}
+
+
+/* ---------------- #contact ---------------- */
+#contact {padding: 74px 0 167px;}
+#contact-name {font-family: 'Objectivity-Bold'; font-size: 24px; color: #ffb718; text-transform: capitalize; margin-top: 42px;}
+#contact-name span {font-family: 'Objectivity-Reg'; font-size: 20px; color: #fff; margin-top: -2px;}
+#location {color: #6f7c7c; font-size: 20px; text-transform: capitalize; margin-top: 33px;}
+#location #building {font-family: 'Objectivity-Med'; font-size: 22px; color: #ffb718; text-decoration: underline; text-decoration-color: #837d41; line-height: 1.5;}
+#location #address {color: #fff;}
+#contact-info {color: #ffb718; font-family: 'Objectivity-Med'; font-size: 20px; text-decoration: underline; text-decoration-color: #837d41; text-transform: capitalize; margin-top: 39px;}
+#contact-info a {color: #ffb718; display: block; text-decoration-color: #837d41;}
+
+
+/* ---------------- #flyout ---------------- */
+#flyout{margin:0;padding:37px 2px;}
+#flyout li{margin:0;display:block;position:relative}
+#flyout a,
+#flyout span{font-size: 18px; color: #fff; text-transform: capitalize;padding:0px 0px; margin-bottom: 15px; display:block;}
+#flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#aaa}
+#flyout ul a,
+#flyout ul span{font-size:13px;padding:10px 15px;width:180px}
+#flyout li:hover > ul{display:block}
+#flyout-toggle {display: none;}
 
 
 /* -----------------------------------------
@@ -543,6 +564,10 @@ footer span {padding: 0 15px;}
 		#nav li:first-of-type a {padding-left: 0;}
 
 		#news .container {padding: 108px 52px 103px;}
+
+		#freeform .row {position: relative; top: 0; left: 0;}
+		#freeform .col-md-4 {position: absolute; top: 0; left: 0; height: 100%;}
+		#freeform .col-md-8 {position: relative; top: 0; left: 33.33%;}
 
 }
 
