@@ -277,48 +277,7 @@
 							</div><!-- /.col-md-5.clearfix -->
 						</div><!-- /.row -->
 						<div class="row">
-							<div class="col-md-6 event equal">
-								<div class="event-date">
-									<div>sep<span>21</span></div>
-									<h3>september 21, 2018</h3>
-								</div>
-								<ul class="scheduled-events">
-									<li><a href="./" class="event-link">5:30 <span>pm</span> - public hearing</a></li>
-									<li><a href="./" class="event-link">6 <span>pm</span> - commission meeting</a></li>
-								</ul><!-- /.scheduled-events -->
-							</div><!-- /.col-md-6 -->
-							<div class="col-md-6 event equal">
-								<div class="event-date">
-									<div>sep<span>25</span></div>
-									<h3>september 25, 2018</h3>
-								</div>
-								<ul class="scheduled-events">
-									<li><a href="./" class="event-link">10 <span>am</span> - planning committee</a></li>
-									<li><a href="./" class="event-link">6 <span>pm</span> - commission meeting</a></li>
-									<li><a href="./" class="event-link">7 <span>pm</span> - <span>bocc</span> regular meeting</a></li>
-								</ul><!-- /.scheduled-events -->
-							</div><!-- /.col-md-6 -->
-							<div class="col-md-6 event equal">
-								<div class="event-date">
-									<div>oct<span>1</span></div>
-									<h3>october 1, 2018</h3>
-								</div>
-								<ul class="scheduled-events">
-									<li><a href="./" class="event-link">10 <span>am</span> - planning committee</a></li>
-									<li><a href="./" class="event-link">6 <span>pm</span> - commission meeting</a></li>
-									<li><a href="./" class="event-link">7 <span>pm</span> - <span>bocc</span> regular meeting</a></li>
-								</ul><!-- /.scheduled-events -->
-							</div><!-- /.col-md-6 -->
-							<div class="col-md-6 event equal">
-								<div class="event-date">
-									<div>oct<span>24</span></div>
-									<h3>october 24, 2018</h3>
-								</div>
-								<ul class="scheduled-events">
-									<li><a href="./" class="event-link">6 <span>pm</span> - commission meeting</a></li>
-									<li><a href="./" class="event-link">7 <span>pm</span> - <span>bocc</span> regular meeting</a></li>
-								</ul><!-- /.scheduled-events -->
-							</div><!-- /.col-md-6 -->
+							<img src="./_assets_/images/events.jpg" alt="Events">
 						</div><!-- /.row -->
 					</section><!-- /#events -->
 				</div><!-- /.col-md-7 -->
