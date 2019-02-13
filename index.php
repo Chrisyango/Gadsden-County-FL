@@ -286,7 +286,7 @@
 								<h2><span>join the community...</span> upcoming events</h2>
 							</div>
 							<div class="col-md-5 clearfix">
-								<div class="pull-right">
+								<div class="calendar-btn">
 									<a href="./" class="btn">master calendar</a>
 								</div><!-- /.pull-right -->
 							</div><!-- /.col-md-5.clearfix -->
