@@ -235,17 +235,11 @@ body{overflow-x:hidden}
 
 /* Don't forget to accout for span being used in space of a tag for nav items that are not links */
 /*for mega menu addjust as needed*/
-.nav>li>ul {
-    -moz-column-count: 4;
-    -moz-column-gap: 40px;
-    -webkit-column-count: 4;
-    -webkit-column-gap: 40px;
-    column-count: 4;
-    column-gap: 40px;
-    padding:40px
+#nav>li>ul {
+		display: none;
 }
-.nav>li>ul li{display:inline-block;width:100%}
-.nav>li>ul li a{display:block}
+#nav>li>ul li{display:inline-block;width:100%;}
+#nav>li>ul li a{display:block}
 /*for mega menu addjust as needed*/
 
 #calendarEvent{left:0px;max-height:500px;overflow-y:auto;margin:0 auto}
@@ -418,8 +412,7 @@ footer span {padding: 0 15px;}
 
 #post>.subheader {font-size: 28px; color: #07436b; text-transform: uppercase; display: block; margin: 30px 0;}
 #post>ul {padding: 0 15px; margin: -5px 0 0;}
-#post>ul li {padding: 0 300px 30px 0; margin: 0;}
-#post>ul li a {font-family: 'Objectivity-Med'; font-size: 16px; color: #095642;}
+#post>ul li {font-family: 'Objectivity-Med'; font-size: 16px; color: #095642; text-decoration: none; padding: 0 300px 30px 0; margin: 0;}
 
 
 /* ---------------- .inner-menu ---------------- */
@@ -558,9 +551,34 @@ footer span {padding: 0 15px;}
 
 @media only screen and (min-width:992px) {
 
+		nav.container {position: relative; top: 0; left: 0;}
+		#nav>li>ul{
+			-moz-column-count: 4;
+			-moz-column-gap: 40px;
+			-webkit-column-count: 4;
+			-webkit-column-gap: 40px;
+			column-count: 4;
+			column-gap: 40px;
+			padding:40px;
+			background:#fff; 
+			position:absolute;
+			top:100%;
+			left: 15px;
+			max-width:calc(100% - 30px);
+			z-index: 1000; margin: 0;
+		}
+		#nav>li>ul>li>a,#nav>li>ul>li>span{color: #01426b;font-size:16px;margin-bottom:10px}
+		#nav>li>ul>li{margin-bottom:11px}
+		#nav ul ul {margin: 0; padding: 0;}
+		#nav ul ul a,#nav ul ul span{text-transform:none;font-size:14px;font-weight:500;margin-bottom:4px; color: #094469;}
+		#nav ul a,#nav ul span{padding:0}
+		#nav li:hover>ul{display:block}
 		#flyout,#nav{display:block!important}
+		#flyout li:hover > ul{display:block}
+		#nav-toggle,.toggle,.toggle2{display:none}
+		
 
-		#nav li:not(:last-child) {border-right: 2px solid #5e737a;}
+		#nav>li:not(:last-child) {border-right: 2px solid #5e737a;}
 		#nav li:first-of-type a {padding-left: 0;}
 
 		#news .container {padding: 108px 52px 103px;}
@@ -584,21 +602,21 @@ footer span {padding: 0 15px;}
 
 	#toggles {position: absolute; top: 0; right: 0; color: #fff; z-index: 100}
 	#toggles #search-toggle-mobile, #nav-toggle {cursor: pointer; font-size: 20px; border: 1px solid #fff; padding: 10px; margin-top: 13px; margin-right: 15px; border-radius: 4px;}
+	nav.container {padding: 0;}
 	.toggle,
 	.toggle2,
 	#nav-toggle{display:inline-block;cursor:pointer}
 	.down-arrow{display:none} /* if not hidden above */
-	#nav{display:none;}
+	#nav, #nav ul{display:none;}
 	#nav li{float:none;display:block;}
 	#nav li a,
-	#nav li span{padding:20px 30px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2); width: 100%; font-size:14px}
-	#nav ul{position:static;top:0;padding:0;background:rgba(0,0,0,.2)}
-	#nav li:hover > ul{display:none}
+	#nav li span{padding:20px 15px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2); width: 100%; font-size:14px; position: relative;}
+	#nav ul{position:static;top:0;padding:0; margin: 0; background:rgba(0,0,0,.2)}
 	#nav ul a,
-	#nav ul span{width:100%}
-	#nav ul ul{left:0}
+	#nav ul span{width:100%;}
+	#nav ul ul{left:0;}
 	#nav .toggle,
-	#nav .toggle2{position:absolute;right:0;top:0;background:rgba(0,0,0,.2);height:55px;width:55px;line-height:55px;text-align:center}
+	#nav .toggle2{position:absolute;right:15px;top:0;background:rgba(0,0,0,.2);height:55px;width:55px;line-height:55px;text-align:center}
 	#nav li li:hover > a{background:none;color:#fff}
 
 	#flyout{display:none}

@@ -167,17 +167,32 @@
 		</section><!-- /#top-bar -->
 
 		<div class="clearfix">
-			<nav class="container">
-			<div id="search-toggle" class="fa fa-search hidden-sm hidden-xs pull-right"></div>
-					<ul id="nav">
-						<li><a href="./">home</a></li>
-						<li><a href="./">government</a></li>
-						<li><a href="./">departments</a></li>
-						<li><a href="./">community</a></li>
-						<li><a href="./">visitors</a></li>
-						<li><a href="./">i want to..</a></li>
-					</ul> <!-- /#id -->
-			</nav><!-- /.container -->
+		<nav class="container">
+		<div id="search-toggle" class="fa fa-search hidden-sm hidden-xs pull-right"></div>
+				<ul id="nav">
+					<li><a href="./">home</a></li>
+					<li>
+						<a href="./">government</a>
+						<ul class="first-level">
+							<li><a href="./">first level</a></li>
+							<li>
+								<a href="./">first level</a>
+								<ul class="second-level">
+									<li><a href="./">second level</a></li>
+									<li><a href="./">second level</a></li>
+									<li><a href="./">second level</a></li>
+								</ul>
+							</li>
+							<li><a href="./">first level</a></li>
+							<li><a href="./">first level</a></li>
+						</ul>
+					</li>
+					<li><a href="./">departments</a></li>
+					<li><a href="./">community</a></li>
+					<li><a href="./">visitors</a></li>
+					<li><a href="./">i want to..</a></li>
+				</ul> <!-- /#id -->
+		</nav><!-- /.container -->
 		</div><!-- /.clearfix -->
 	</header>
 
@@ -269,8 +284,8 @@
 								Cras eu diam ipsum. Phasellus imperdiet imperdiet urna in pharetra. Aliquam ac arcu ac dui ullamcorper hendrerit. Mauris tincidunt, libero in sollicitudin viverra, dolor nulla pretium est, sed aliquet risus lorem quis nibh. Cras a nibh sed mi consectetur bibendum sed eu mauris. Integer ac vehicula mi. Curabitur malesuada venenatis enim, id faucibus ante consequat id. In a nisi at justo semper condimentum sit amet non leo.
 							</p>
 							<ul>
-								<li><a href="./">Maecenas eleifend, purus at tincidunt faucibus, nulla neque pretium erat, euismod ullamcorper orci lacus vel arcu.</a></li>
-								<li><a href="./">Mauris eu dapibus velit.</a></li>
+								<li>Maecenas eleifend, purus at tincidunt faucibus, nulla neque pretium erat, euismod ullamcorper orci lacus vel arcu.</li>
+								<li>Mauris eu dapibus velit.</li>
 							</ul>
 						</div>
 						<div id="topics" class="inner-menu">
