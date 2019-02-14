@@ -280,7 +280,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-7">
-					<section id="events" class="pull-left">
+					<section id="events">
 						<div class="row">
 							<div class="col-md-7">
 								<h2><span>join the community...</span> upcoming events</h2>
@@ -297,7 +297,7 @@
 					</section><!-- /#events -->
 				</div><!-- /.col-md-7 -->
 				<div class="col-md-5">
-					<section id="facebook" class="pull-right fillRight withPadding">
+					<section id="facebook" class="fillRight withPadding">
 						<h2><span>stay updated...</span> connect with us</h2>
 						<h1>NEED TO ASK HOW TO DO THIS</h1>
 					</section><!-- /#facebook -->

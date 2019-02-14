@@ -337,7 +337,7 @@ body{overflow-x:hidden}
 
 /* ---------------- #facebook ---------------- */
 .blue-background {position: relative;}
-#facebook {padding: 60px 0 65px 102px; background-color: #07436a; height: 819px;}
+#facebook {padding: 60px 0 65px 102px; background-color: #07436a;}
 #facebook h2 {font-family: 'Objectivity-Bold'; font-size: 32px; text-transform: uppercase; color: #fff;}
 #facebook h2 span {font-family: 'Objectivity-Reg'; font-size: 22px; display: block; text-transform: lowercase; margin-bottom: 18px; color: #fdb537;}
 #facebook h2 span::first-letter {text-transform: capitalize;}
@@ -597,6 +597,8 @@ footer span {padding: 0 15px;}
 		#nav>li:not(:last-child) {border-right: 2px solid #5e737a;}
 		#nav li:first-of-type a {padding-left: 0;}
 
+		#facebook {height: 819px;}
+
 		#news .container {padding: 108px 52px 103px;}
 
 		#freeform .content {padding: 69px 30px 116px 54px; color: #6f7c7c;}
@@ -637,6 +639,10 @@ footer span {padding: 0 15px;}
 	#nav .toggle,
 	#nav .toggle2{position:absolute;right:15px;top:0;background:rgba(0,0,0,.2);height:55px;width:55px;line-height:55px;text-align:center}
 	#nav li li:hover > a{background:none;color:#fff}
+
+	#events {padding: 60px 0px 54px 0;}
+	#facebook {height: auto; padding: 60px 15px 65px 15px; margin-left: -15px;}
+
 
 	#flyout-wrap {padding-top: 0px;}
 	#flyout-toggle {color: #fff; font-size: 18px; padding: 20px 0;}
