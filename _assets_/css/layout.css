@@ -660,7 +660,7 @@ footer span {padding: 0 15px;}
 	#slider {position: relative;height:700px;}
 
 	#news .btn {position: static;}
-	#news-links .owl-controls {right: unset; left: 240px; top: -83px;}
+	#news-links .owl-controls {right: 91px; top: -83px;}
 
 	#interests h2 {font-size: 42px;}
 	#interests h2 span {font-size: 26px;}
@@ -727,7 +727,7 @@ footer span {padding: 0 15px;}
 	#toggles #search-toggle-mobile, #nav-toggle {margin-top: 35px;}
 
 	#news .btn {font-size: 16px; padding: 12px 40px;}
-	#news-links .owl-controls {left: 190px;}
+	/* #news-links .owl-controls {right: 190px;} */
 
 	#interests h2 {font-size: 38px;}
 	#interests h2 span {font-size: 20px;}
