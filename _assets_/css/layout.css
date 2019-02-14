@@ -261,6 +261,7 @@ body{overflow-x:hidden}
 #top-left-bar a {padding: 13px 0;text-decoration: none;margin-right: 45px;}
 #top-left-bar a span {color: #fff;display: inline;font-family: 'Objectivity-Med', 'sans-serif'; font-size: 15px; text-transform: capitalize;margin-left: 14px;}
 #top-left-bar img {width: 25px;}
+#top-right-bar {margin-top: 10px;}
 .weather {display: inline-block; font-family: 'Objectivity-Bold'; font-size: 14px;}
 .weather span {margin: 0 10px;}
 .weather i {font-size: 30px;}
