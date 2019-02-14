@@ -375,7 +375,7 @@ body{overflow-x:hidden}
 .footer-links-item:first-of-type {padding-left: 0;}
 .footer-links-item:last-of-type {padding-right: 0;}
 .left-bar .footer-links-item:nth-child(2) {border-left: 2px solid #416a60;border-right: 2px solid #416a60;}
-.footer-links-item span {color: #fdb537; font-family: 'Objectivity-Bold';}
+.left-bar .footer-links-item span {color: #fdb537; font-family: 'Objectivity-Bold';}
 .footer-links-item a {color: #fff; text-transform: lowercase; text-decoration: none;}
 .footer-links-item.social-links a {color: #0d563f; background-color: #86ab9f;}
 .footer-links-item .translation-links {padding-right: 24px;}
