@@ -249,7 +249,14 @@
 							<span id="flyout-header" class="header">useful links + forms</span>
 								<li><a href="./">paramedic</a></li>
 								<li><a href="./">emergency medical technician</a></li>
-								<li><a href="./">personnel rules</a></li>
+								<li>
+									<a href="./">personnel rules</a>
+									<ul>
+										<li><a href="./">flyout link</a></li>
+										<li><a href="./">flyout link</a></li>
+										<li><a href="./">flyout link</a></li>
+									</ul>
+								</li>
 								<li><a href="./">tallahasseeCC: hot occupations</a></li>
 								<li><a href="./">tcc's commitment to gadsden co.</a></li>
 								<li><a href="./">online applications</a></li>

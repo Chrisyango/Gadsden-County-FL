@@ -274,7 +274,8 @@ body{overflow-x:hidden}
 .clearfix>.clearfix {background-color:#134b70;}
 #nav {margin: 0; padding: 0;}
 #nav li {display: inline-block; margin: 0;}
-#nav li a {text-decoration: none; font-family: 'Objectivity-Med';font-size:15px;text-transform: uppercase; color:#fff;display: inline-block; padding: 23px 35px 18px;}
+#nav li a {text-decoration: none; font-family: 'Objectivity-Med'; font-size:15px;text-transform: uppercase; color:#fff;display: inline-block; padding: 23px 35px 18px;}
+#nav li a i {margin-left: 5px}
 #search-toggle {font-size: 22px;width: 60px;padding:19px;cursor:pointer;background-color:#fdb537;}
 #search {position: absolute; top: 15px; left: 0; right: 0; z-index: 100;}
 #search form {position: relative; margin: 0; padding: 0}
@@ -458,10 +459,11 @@ footer span {padding: 0 15px;}
 #flyout li{margin:0;display:block;position:relative}
 #flyout a,
 #flyout span{font-size: 18px; color: #fff; text-transform: capitalize;padding:0px 0px; margin-bottom: 15px; display:block;}
-#flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#aaa}
+#flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#0c476c}
 #flyout ul a,
-#flyout ul span{font-size:13px;padding:10px 15px;width:180px}
-#flyout li:hover > ul{display:block}
+#flyout ul span{font-size:14px;padding:10px 15px;width: 200px;text-decoration: none;}
+#flyout li:hover > ul{display:block; z-index: 100;}
+#flyout li a i {margin-left: 5px;}
 
 
 /* -----------------------------------------
@@ -644,8 +646,9 @@ footer span {padding: 0 15px;}
 	#flyout li span{padding:20px 0px; margin: 0;line-height:1;border-bottom:1px solid rgba(255,255,255,0.5);background:none; text-decoration: none; font-size: 16px;}
 	#flyout ul{position:static;left:0;padding:0;background:rgba(0,0,0,.2)}
 	#flyout ul a,
-	#flyout ul span{width:100%}
+	#flyout ul span{width:100%; padding: 20px 10px;}
 	#flyout li:hover > ul{display:none}
+	#flyout li a i {position: absolute; top: 0; right: 0;border: 1px solid #fff; width: 55px; line-height: 55px; text-align: center; background-color: rgba(0,0,0,0.2);}
 
 	.equal {height: auto!important;}
 
