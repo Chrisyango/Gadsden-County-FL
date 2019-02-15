@@ -240,10 +240,10 @@
 							<span class="subheader fillLeft fillRight withPadding">department topics</span>
 							<ul class="dashed clearfix">
 								<li><a href="./">chattahoochee area parks</a></li>
-								<li><a href="./">havana area parks</a></li>
 								<li><a href="./">midway area parks</a></li>
-								<li><a href="./">quincy area parks</a></li>
 								<li><a href="./">map of county parks & recreations areas</a></li>
+								<li><a href="./">havana area parks</a></li>
+								<li><a href="./">quincy area parks</a></li>
 							</ul>
 						</div>
 						<div id="more-info" class="inner-menu fillLeft fillRight withPadding">
@@ -264,7 +264,6 @@
 				</section><!-- /#slider2 -->
 			</div>
 		</div>
-		a
 
 		<section id="footer-links">
 			<div class="container">

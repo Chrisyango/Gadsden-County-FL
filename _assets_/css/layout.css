@@ -261,6 +261,7 @@ body{overflow-x:hidden}
 #top-left-bar a {padding: 13px 0;text-decoration: none;margin-right: 45px;}
 #top-left-bar a span {color: #fff;display: inline;font-family: 'Objectivity-Med', 'sans-serif'; font-size: 15px; text-transform: capitalize;margin-left: 14px;}
 #top-left-bar img {width: 25px;}
+#top-right-bar {margin-top: 10px;}
 .weather {display: inline-block; font-family: 'Objectivity-Bold'; font-size: 14px;}
 .weather span {margin: 0 10px;}
 .weather i {font-size: 30px;}
@@ -336,7 +337,7 @@ body{overflow-x:hidden}
 
 /* ---------------- #facebook ---------------- */
 .blue-background {position: relative;}
-#facebook {padding: 60px 0 65px 102px; background-color: #07436a; height: 819px;}
+#facebook {padding: 60px 0 65px 102px; background-color: #07436a;}
 #facebook h2 {font-family: 'Objectivity-Bold'; font-size: 32px; text-transform: uppercase; color: #fff;}
 #facebook h2 span {font-family: 'Objectivity-Reg'; font-size: 22px; display: block; text-transform: lowercase; margin-bottom: 18px; color: #fdb537;}
 #facebook h2 span::first-letter {text-transform: capitalize;}
@@ -373,7 +374,7 @@ body{overflow-x:hidden}
 .footer-links-item:first-of-type {padding-left: 0;}
 .footer-links-item:last-of-type {padding-right: 0;}
 .left-bar .footer-links-item:nth-child(2) {border-left: 2px solid #416a60;border-right: 2px solid #416a60;}
-.footer-links-item span {color: #fdb537; font-family: 'Objectivity-Bold';}
+.left-bar .footer-links-item span {color: #fdb537; font-family: 'Objectivity-Bold';}
 .footer-links-item a {color: #fff; text-transform: lowercase; text-decoration: none;}
 .footer-links-item.social-links a {color: #0d563f; background-color: #86ab9f;}
 .footer-links-item .translation-links {padding-right: 24px;}
@@ -601,6 +602,8 @@ footer span {padding: 0 15px;}
 		#nav>li:not(:last-child) {border-right: 2px solid #5e737a;}
 		#nav li:first-of-type a {padding-left: 0;}
 
+		#facebook {height: 819px;}
+
 		#news .container {padding: 108px 52px 103px;}
 
 		#post>ul li {padding: 0 300px 30px 0;}
@@ -651,8 +654,6 @@ footer span {padding: 0 15px;}
 	#flyout ul span{width:100%; padding: 20px 10px;}
 	#flyout li:hover > ul{display:none}
 	#flyout li a i {position: absolute; top: 0; right: 0;border: 1px solid #fff; width: 55px; line-height: 55px; text-align: center; background-color: rgba(0,0,0,0.2);}
-
-	.equal {height: auto!important;}
 
 	#slider {position: relative;height:700px;}
 
