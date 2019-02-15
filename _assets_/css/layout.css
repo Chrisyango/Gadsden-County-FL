@@ -349,18 +349,10 @@ body{overflow-x:hidden}
 .interests-banner {position: relative; height: 300px; border-radius: 4px 0 0 4px;}
 #interests h2 {position: absolute; left: 37px; bottom: -3px; font-family: 'Objectivity-Bold'; font-size: 38px; color: #fdb537; text-transform: capitalize; text-shadow: 3px 3px 10px rgba(0,0,0,1);}
 #interests h2 span {display: block; font-family: 'Objectivity-Med'; font-size: 20px; color: #fff; margin-bottom: 8px;}
-.interests-links {
-	-moz-column-count: 2;
-  -moz-column-gap: 40px;
-  -webkit-column-count: 2;
-  -webkit-column-gap: 40px;
-  column-count: 2;
-	column-gap: 40px;
-}
 .interests-overlay {content: ''; position: absolute; top: 0; left: 15px; bottom: 0; width: calc(100% - 30px); height: 100%; background-color: #07436a; border-radius: 4px; opacity: 0.85; z-index: 0;}
 .interests-links {position: relative; list-style-type: none;padding: 62px 68px 0; z-index: 1; margin: 0;}
-.interests-link {display: inline-block; border-bottom: 1px solid #fdb537; margin-bottom: 38px;}
-.interests-link a {display: inline-block; font-family: 'Objectivity-Med'; font-size: 18px; color: #fff; text-transform: capitalize; text-decoration: none; padding-bottom: 8px;}
+.interests-link {display: inline-block; margin-bottom: 38px; float:left; width: 50%;}
+.interests-link a {display: inline-block; font-family: 'Objectivity-Med'; font-size: 18px; color: #fff; text-transform: capitalize; text-decoration: none; padding-bottom: 8px; border-bottom: 1px solid #fdb537;}
 
 
 /* ---------------- #footer-links ---------------- */
@@ -658,6 +650,8 @@ footer span {padding: 0 15px;}
 
 	#news .btn {position: static;}
 	#news-links .owl-controls {right: 90px; top: -83px;}
+
+	#events .btn {margin-top: unset; margin-bottom: 40px;}
 
 	#interests h2 {font-size: 42px;}
 	#interests h2 span {font-size: 26px;}
