@@ -289,7 +289,7 @@
 							</ul>
 						</div>
 						<div id="topics" class="inner-menu fillRight withPadding">
-							<span class="subheader fillRight">department topics</span>
+							<span class="subheader fillRight withPadding">department topics</span>
 							<ul class="dashed clearfix">
 								<li><a href="./">2016 approved paid holidays</a></li>
 								<li><a href="./">bids & rfp notices</a></li>
@@ -302,7 +302,7 @@
 							</ul>
 						</div>
 						<div id="more-info" class="inner-menu fillRight withPadding">
-							<span class="subheader fillRight">more information</span>
+							<span class="subheader fillRight withPadding">more information</span>
 							<ul class="dashed clearfix">
 								<li><a href="./">informational stuff</a></li>
 								<li><a href="./">informational stuff</a></li>

@@ -205,7 +205,7 @@
 		</div><!-- /#search -->
 
 		<ul class="bxslider">
-			<li style="background: url('./_assets_/images/inner-hero.jpg') center no-repeat;background-size: cover; opacity: 0.9;"></li>
+			<li style="background: url('./_assets_/images/inner-herov2.jpg') center no-repeat;background-size: cover; opacity: 0.9;"></li>
 		</ul><!-- /.bxslider -->
 		
 		<div class="container text-center">
@@ -260,7 +260,7 @@
 							</p>
 						</div>
 						<div id="topics" class="inner-menu fillRight withPadding">
-							<span class="subheader fillRight">department topics</span>
+							<span class="subheader fillRight withPadding">department topics</span>
 							<ul class="dashed clearfix">
 								<li><a href="./">chattahoochee area parks</a></li>
 								<li><a href="./">midway area parks</a></li>
@@ -270,7 +270,7 @@
 							</ul>
 						</div>
 						<div id="more-info" class="inner-menu fillRight withPadding">
-							<span class="subheader fillRight">more information</span>
+							<span class="subheader fillRight withPadding">more information</span>
 							<ul class="dashed clearfix">
 								<li><a href="./">informational stuff</a></li>
 								<li><a href="./">informational stuff</a></li>

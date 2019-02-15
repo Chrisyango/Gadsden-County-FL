@@ -420,10 +420,10 @@ footer span {padding: 0 15px;}
 	box-shadow: 0px 2px 20px 2px rgba(0,0,0,0.2); z-index: 100;}
  .inner-menu .subheader.cross:after {content: '\f00d'; font-size: 30px;}
 .inner-menu .subheader:after {font-family: 'FontAwesome'; content: '\f107'; float: right; font-size: 36px; color: #ffb718; margin-top: -13px;}
-.inner-menu .dashed {display: none; background-color: #d4dfdc; padding: 0px 0 24px; margin: 32px 0 0; list-style-type: none; column-gap: 30px;}
+.inner-menu .dashed {display: none; background-color: #d4dfdc; padding: 0px 0 24px; margin: 32px 0 0; list-style-type: none;}
 .inner-menu .dashed li:before {content: '-';position:absolute;left:0;top:0}
-.inner-menu .dashed li {padding:0 15px; margin: 0; float:left;width:33.3%;position:relative}
-.inner-menu a {font-size: 16px; text-transform: capitalize; color: #333; text-decoration: none; display: inline-block; padding-bottom: 11px;}
+.inner-menu .dashed li {padding:0 15px; margin: 0; float:left;width:33.3%;position:relative;}
+.inner-menu a {font-size: 16px; text-transform: capitalize; color: #333; display: inline-block; padding-bottom: 11px;}
 
 
 /* ---------------- #inner-slider ---------------- */
@@ -639,14 +639,15 @@ footer span {padding: 0 15px;}
 	#flyout{display:none}
 	#flyout li{}
 	#flyout li a,
-	#flyout li span{padding:20px 0px; margin: 0;line-height:1;border-bottom:1px solid rgba(255,255,255,0.5);background:none; text-decoration: none; font-size: 16px;}
+	#flyout li span{padding:15px 0px; margin: 0;line-height:1;border-bottom:1px solid rgba(255,255,255,0.5);background:none; text-decoration: none; font-size: 14px;}
 	#flyout ul{position:static;left:0;padding:0;background:rgba(0,0,0,.2)}
 	#flyout ul a,
 	#flyout ul span{width:100%; padding: 20px 10px;}
 	#flyout li:hover > ul{display:none}
-	#flyout li a i {position: absolute; top: 0; right: 0;border: 1px solid #fff; width: 55px; line-height: 55px; text-align: center; background-color: rgba(0,0,0,0.2);}
+	#flyout li a i {position: absolute; top: 0; right: 0;border: 1px solid #fff; width: 42px; line-height: 42px; text-align: center; background-color: rgba(0,0,0,0.2);}
 
 	#slider {position: relative;height:700px;}
+	#freeform #slider {height:550px;}
 
 	#news .btn {position: static;}
 	#news-links .owl-controls {right: 90px; top: -83px;}
@@ -668,17 +669,20 @@ footer span {padding: 0 15px;}
 
 	#freeform .header {font-size: 32px;}
 	
-	#freeform #entry {padding: 69px 0px 116px; color: #6f7c7c;}
+	#freeform #entry {padding: 30px 0px 80px; color: #6f7c7c;}
 	#post>.subheader {font-size: 24px;}
 	.fullwidth .inner-menu .subheader {padding-left: 15px;}
 	.inner-menu .subheader {font-size: 18px;}
 
 	#side-content {margin-right: -15px;}
+	#side-content .header {margin-bottom: 10px;}
 	#side-content .header, 
 	#contact-name span,
 	#location,
 	#contact-info {font-size: 18px;}
 
+	#contact {padding: 20px 15px;}
+	#contact-name {margin-top: 15px;}
 	#contact-name,
 	#location #building {font-size: 20px;}
 	
@@ -707,6 +711,10 @@ footer span {padding: 0 15px;}
 	footer a {border-right: none;}
 	footer span:last-of-type {display: block;}
 
+	#breadcrumbs {font-size: 14px;}
+	.inner-menu .dashed li {width: 50%;}
+	#flyout-toggle {font-size: 16px;}
+
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -722,14 +730,22 @@ footer span {padding: 0 15px;}
 
 	#interests h2 {font-size: 38px;}
 	#interests h2 span {font-size: 20px;}
-	.interests-links {
-		-moz-column-count: 2;
-		-moz-column-gap: 20px;
-		-webkit-column-count: 2;
-		-webkit-column-gap: 20px;
-		column-count: 2;
-		column-gap: 20px;
-	}
+	.interests-link {width: 100%;}
+
+	#freeform .header {font-size: 28px;}
+	
+	#post>.subheader {font-size: 20px;}
+	#post>ul li,
+	.inner-menu a {font-size: 14px;}
+
+	.inner-menu .subheader,
+	#side-content .header, 
+	#contact-name span,
+	#location,
+	#contact-info {font-size: 16px;}
+
+	#contact-name,
+	#location #building {font-size: 18px;}
 
 }
 
