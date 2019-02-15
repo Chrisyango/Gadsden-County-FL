@@ -323,7 +323,7 @@ body{overflow-x:hidden}
 #facebook h2 {font-family: 'Objectivity-Bold'; font-size: 32px; text-transform: uppercase; color: #fff;}
 #facebook h2 span {font-family: 'Objectivity-Reg'; font-size: 22px; display: block; text-transform: lowercase; margin-bottom: 18px; color: #fdb537;}
 #facebook h2 span::first-letter {text-transform: capitalize;}
-#facebook a {font-size: 18px; text-transform: uppercase; color: rgba(255,255,255,0.4); text-decoration: none; display: block;}
+#facebook>a {font-size: 18px; text-transform: uppercase; color: rgba(255,255,255,0.4); text-decoration: none; display: block;}
 
 #social-feed {height: 519px; width: 600px; max-width: 100%; overflow: scroll; margin: 48px auto 34px;}
 #social-feed .social-feed-element {margin-bottom: 38px; border-radius: 4px; background-color: #fff; padding: 20px 15px;}
@@ -332,9 +332,8 @@ body{overflow-x:hidden}
 #social-feed .content a {margin-top: 15px;}
 #social-feed .content .media-body {padding-left: 15px;}
 #social-feed .content .author-title {font-size: 22px; font-family: 'Objectivity-Bold';}
-#social-feed .content i,
-#social-feed .content .muted {display: none;}
-#social-feed .content .social-feed-text {margin-top: 15px; font-size: 16px;}
+#social-feed .content .author-link {display: block; word-spacing: -4px; margin: 0;}
+#social-feed .content .social-feed-text {margin: 15px 0; font-size: 16px;}
 #social-feed .content p {margin: 0;}
 
 
@@ -527,6 +526,7 @@ footer span {padding: 0 15px;}
 @media only screen and (max-width:1367px){
 	.footer-links-item {padding: 0 10px;}
 
+	#facebook {padding-left: 15px;}
 
 }
 
@@ -633,6 +633,10 @@ footer span {padding: 0 15px;}
 
 	#events {padding: 60ox 0px 54px;}
 	#facebook {margin-left: -15px; padding: 60px 15px 65px;}
+
+	#social-feed .content .author-title {font-size: 20px; font-family: 'Objectivity-Bold';}
+	#social-feed .content .social-feed-text {font-size: 14px;}
+
 
 	#flyout-wrap {padding-top: 0px;}
 	#flyout-toggle {color: #fff; font-size: 18px; padding: 20px 0; position: relative; z-index: 100;}
