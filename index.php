@@ -299,6 +299,7 @@
 					<section id="facebook" class="fillRight withPadding">
 						<h2><span>stay updated...</span> connect with us</h2>
 						<h1>NEED TO ASK HOW TO DO THIS</h1>
+						<div id="social-feed"></div>
 					</section><!-- /#facebook -->
 				</div><!-- /.col-md-5 -->
 			</div><!-- /.row -->
@@ -502,6 +503,11 @@
 
 
 <script src="_assets_/js/jquery.min.js"></script>
+<script src="_assets_/plugins/social-feed/bower_components/codebird-js/codebird.js"></script>
+<script src="_assets_/plugins/social-feed/bower_components/doT/doT.min.js"></script>
+<script src="_assets_/plugins/social-feed/bower_components/moment/min/moment.min.js"></script>
+<script src="_assets_/plugins/social-feed/bower_components/moment/locale/en-au.js"></script>
+<script src="_assets_/plugins/social-feed/js/jquery.socialfeed.js"></script>
 <script src="_assets_/plugins/modernizr/modernizr.custom.js"></script>
 <script src="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
 <script src="_assets_/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>

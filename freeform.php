@@ -270,8 +270,8 @@
 									parks & rec
 								</p>
 						</section><!-- /#breadcrumbs -->
+						<h1 id="page-title">human resources</h1>
 						<div id="post">
-							<span class="header">human resources</span>
 							<p>
 								The Human Resources Division is responsible for the overall administrative and technical functions and activities needed to maintain an effective recruitment, selection, and benefits program. Development, implementation and coordination of related policies, procedures and training opportunities are ongoing priorities.
 							</p>

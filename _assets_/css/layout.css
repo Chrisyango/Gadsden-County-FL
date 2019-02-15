@@ -279,8 +279,8 @@ body{overflow-x:hidden}
 #search {position: absolute; top: 75px; left: 0; right: 0; z-index: 100;}
 #search form {position: relative; margin: 0; padding: 0}
 #search label {position: absolute; top: 50%; transform: translateY(-50%); left: 10px;}
-#search input {padding: 0px 65px 0px 30px; height: 37px; border-radius: 4px;}
-#search button {position: absolute; top: 0; right: 0; padding: 10px 20px; border-radius: 0 4px 4px 0;}
+#search input {padding: 0px 65px 0px 30px; height: 40px; border-radius: 4px;}
+#search button {position: absolute; top: 0; right: 0; padding: 0 15px; border-radius: 0 4px 4px 0;line-height:40px}
 
 
 /* ---------------- #slider ---------------- */
@@ -619,7 +619,7 @@ footer span {padding: 0 15px;}
 	.toggle2,
 	#nav-toggle{display:inline-block;cursor:pointer}
 	.down-arrow{display:none} /* if not hidden above */
-	#nav, #nav ul{display:none;}
+	#nav, #nav ul{display:none;position:static}
 	#nav li{float:none;display:block;}
 	#nav li a,
 	#nav li span{padding:20px 15px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2); width: 100%; font-size:14px; position: relative;}
