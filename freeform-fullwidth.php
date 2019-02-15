@@ -214,62 +214,61 @@
 	<main id="main">
 
 		<div class="container">
-					<article id="entry">
-						<section id="breadcrumbs">
-								<p>
-									<a href="./">
-										home
-									</a>
-									<a href="./">
-										departments
-									</a>
-									parks & rec
-								</p>
-						</section><!-- /#breadcrumbs -->
-						<h1 id="page-title">human resources</h1>
-						<div id="post">
-							<p>
-								The Human Resources Division is responsible for the overall administrative and technical functions and activities needed to maintain an effective recruitment, selection, and benefits program. Development, implementation and coordination of related policies, procedures and training opportunities are ongoing priorities.
-							</p>
-							<p>
-								The Human Resources Division plans and directs personnel administration for all departments of the Board of County Commissioners, including labor relations, benefits, salary administration, recruitment, selection and training; as well as ensures competitive classification and pay plan programs and compliance with all applicable federal, state, and local laws on employment issues.
-							</p>
-							<img src="./_assets_/images/inner1.jpg" alt="Group Meeting">
-							<span class="subheader">subheadline</span>
-							<p>
-								Cras eu diam ipsum. Phasellus imperdiet imperdiet urna in pharetra. Aliquam ac arcu ac dui ullamcorper hendrerit. Mauris tincidunt, libero in sollicitudin viverra, dolor nulla pretium est, sed aliquet risus lorem quis nibh. Cras a nibh sed mi consectetur bibendum sed eu mauris. Integer ac vehicula mi. Curabitur malesuada venenatis enim, id faucibus ante consequat id. In a nisi at justo semper condimentum sit amet non leo.
-							</p>
-							<ul>
-								<li>Maecenas eleifend, purus at tincidunt faucibus, nulla neque pretium erat, euismod ullamcorper orci lacus vel arcu.</li>
-								<li>Mauris eu dapibus velit.</li>
-							</ul>
-						</div>
-						<div id="topics" class="inner-menu fillLeft fillRight withPadding">
-							<span class="subheader fillLeft fillRight withPadding">department topics</span>
-							<ul class="dashed clearfix">
-								<li><a href="./">2016 approved paid holidays</a></li>
-								<li><a href="./">bids & rfp notices</a></li>
-								<li><a href="./">county probation</a></li>
-								<li><a href="./">employee service awards</a></li>
-								<li><a href="./">job openings</a></li>
-								<li><a href="./">purchasing office</a></li>
-								<li><a href="./">veteran services</a></li>
-								<li><a href="./">hours of operation</a></li>
-							</ul>
-						</div>
-						<div id="more-info" class="inner-menu fillLeft fillRight withPadding">
-							<span class="subheader fillLeft fillRight withPadding">more information</span>
-							<ul class="dashed clearfix">
-								<li><a href="./">informational stuff</a></li>
-								<li><a href="./">informational stuff</a></li>
-								<li><a href="./">informational stuff</a></li>
-								<li><a href="./">informational stuff</a></li>
-								<li><a href="./">informational stuff</a></li>
-							</ul>
-						</div>
-					</article>
-			</div>
-		</div>
+			<article id="entry">
+				<section id="breadcrumbs">
+						<p>
+							<a href="./">
+								home
+							</a>
+							<a href="./">
+								departments
+							</a>
+							parks & rec
+						</p>
+				</section><!-- /#breadcrumbs -->
+				<h1 id="page-title">human resources</h1>
+				<div id="post">
+					<p>
+						The Human Resources Division is responsible for the overall administrative and technical functions and activities needed to maintain an effective recruitment, selection, and benefits program. Development, implementation and coordination of related policies, procedures and training opportunities are ongoing priorities.
+					</p>
+					<p>
+						The Human Resources Division plans and directs personnel administration for all departments of the Board of County Commissioners, including labor relations, benefits, salary administration, recruitment, selection and training; as well as ensures competitive classification and pay plan programs and compliance with all applicable federal, state, and local laws on employment issues.
+					</p>
+					<img src="./_assets_/images/inner1.jpg" alt="Group Meeting">
+					<span class="subheader">subheadline</span>
+					<p>
+						Cras eu diam ipsum. Phasellus imperdiet imperdiet urna in pharetra. Aliquam ac arcu ac dui ullamcorper hendrerit. Mauris tincidunt, libero in sollicitudin viverra, dolor nulla pretium est, sed aliquet risus lorem quis nibh. Cras a nibh sed mi consectetur bibendum sed eu mauris. Integer ac vehicula mi. Curabitur malesuada venenatis enim, id faucibus ante consequat id. In a nisi at justo semper condimentum sit amet non leo.
+					</p>
+					<ul>
+						<li>Maecenas eleifend, purus at tincidunt faucibus, nulla neque pretium erat, euismod ullamcorper orci lacus vel arcu.</li>
+						<li>Mauris eu dapibus velit.</li>
+					</ul>
+				</div>
+				<div id="topics" class="inner-menu fillLeft fillRight withPadding">
+					<span class="subheader fillLeft fillRight withPadding">department topics</span>
+					<ul class="dashed clearfix">
+						<li><a href="./">2016 approved paid holidays</a></li>
+						<li><a href="./">bids & rfp notices</a></li>
+						<li><a href="./">county probation</a></li>
+						<li><a href="./">employee service awards</a></li>
+						<li><a href="./">job openings</a></li>
+						<li><a href="./">purchasing office</a></li>
+						<li><a href="./">veteran services</a></li>
+						<li><a href="./">hours of operation</a></li>
+					</ul>
+				</div>
+				<div id="more-info" class="inner-menu fillLeft fillRight withPadding">
+					<span class="subheader fillLeft fillRight withPadding">more information</span>
+					<ul class="dashed clearfix">
+						<li><a href="./">informational stuff</a></li>
+						<li><a href="./">informational stuff</a></li>
+						<li><a href="./">informational stuff</a></li>
+						<li><a href="./">informational stuff</a></li>
+						<li><a href="./">informational stuff</a></li>
+					</ul>
+				</div>
+			</article>
+	</div>
 
 
 		<section id="footer-links">
