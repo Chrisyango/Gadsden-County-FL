@@ -279,7 +279,7 @@ body{overflow-x:hidden}
 #search {position: absolute; top: 75px; left: 0; right: 0; z-index: 100;}
 #search form {position: relative; margin: 0; padding: 0}
 #search label {position: absolute; top: 50%; transform: translateY(-50%); left: 10px;}
-#search input {padding: 18px 65px 18px 30px; border-radius: 4px;}
+#search input {padding: 0px 65px 0px 30px; height: 37px; border-radius: 4px;}
 #search button {position: absolute; top: 0; right: 0; padding: 10px 20px; border-radius: 0 4px 4px 0;}
 
 
