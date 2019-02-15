@@ -13,7 +13,6 @@
 			<link rel="stylesheet" href="_assets_/plugins/bootstrap/css/bootstrap.min.css">	
 			<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
 			<link rel="stylesheet" href="_assets_/fonts/Icon-font/pe-icon-7-stroke/css/pe-icon-7-stroke.css">	
-			<link rel="stylesheet" href="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.css">			
 			<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 			<link rel="stylesheet" href="_assets_/css/layout.css">
 
@@ -489,7 +488,6 @@
 
 <script src="_assets_/js/jquery.min.js"></script>
 <script src="_assets_/plugins/modernizr/modernizr.custom.js"></script>
-<script src="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
 <script src="_assets_/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
 <script src="_assets_/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="_assets_/plugins/revizeWeather/js/revizeWeather.min.js"></script>

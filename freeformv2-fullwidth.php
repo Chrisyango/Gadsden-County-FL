@@ -13,7 +13,6 @@
 			<link rel="stylesheet" href="_assets_/plugins/bootstrap/css/bootstrap.min.css">	
 			<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
 			<link rel="stylesheet" href="_assets_/fonts/Icon-font/pe-icon-7-stroke/css/pe-icon-7-stroke.css">	
-			<link rel="stylesheet" href="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.css">			
 			<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 			<link rel="stylesheet" href="_assets_/css/layout.css">
 
@@ -227,8 +226,8 @@
 									parks & rec
 								</p>
 						</section><!-- /#breadcrumbs -->
+						<h1 id="page-title">parks and recreation</h1>
 						<div id="post">
-							<span class="header">parks and recreation</span>
 							<p>
 								If you're looking for a place to unwind, look no further. Gadsden County is home to some of the area's best and most beautiful parks, lakes and trails. Whether you are fishing on Lake Talquin or camping at Pat Thomas Park, there is something for everyone to enjoy. The Parks and Recreation Division provides exceptional leisure space to all residents and visitors in unincorporated areas of Gadsden County.  The parks are equipped with various components to meet the essential needs of visitors. Take time to explore campgrounds, playgrounds, picnic areas and boating lodges all throughout our beautiful county!
 							</p>
@@ -437,7 +436,6 @@
 
 <script src="_assets_/js/jquery.min.js"></script>
 <script src="_assets_/plugins/modernizr/modernizr.custom.js"></script>
-<script src="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
 <script src="_assets_/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
 <script src="_assets_/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="_assets_/plugins/revizeWeather/js/revizeWeather.min.js"></script>

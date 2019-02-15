@@ -58,7 +58,7 @@ hr{border:solid #ccc;border-width:1px 0 0;clear:both;margin:10px 0 30px;height:0
   font-weight:normal;
   font-style:normal;
 }
-.weather i{font-family:'weather'}
+.weather i{font-family:'weather'; font-style: normal;}
 .weather .icon-0:before{content:":"}.weather .icon-1:before{content:"p"}.weather .icon-2:before{content:"S"}.weather .icon-3:before{content:"Q"}.weather .icon-4:before{content:"S"}.weather .icon-5:before{content:"W"}.weather .icon-6:before{content:"W"}.weather .icon-7:before{content:"W"}.weather .icon-8:before{content:"W"}.weather .icon-9:before{content:"I"}.weather .icon-10:before{content:"W"}.weather .icon-11:before{content:"I"}.weather .icon-12:before{content:"I"}.weather .icon-13:before{content:"I"}.weather .icon-14:before{content:"I"}.weather .icon-15:before{content:"W"}.weather .icon-16:before{content:"I"}.weather .icon-17:before{content:"W"}.weather .icon-18:before{content:"U"}.weather .icon-19:before{content:"Z"}.weather .icon-20:before{content:"Z"}.weather .icon-21:before{content:"Z"}.weather .icon-22:before{content:"Z"}.weather .icon-23:before{content:"Z"}.weather .icon-24:before{content:"E"}.weather .icon-25:before{content:"E"}.weather .icon-26:before{content:"3"}.weather .icon-27:before{content:"a"}.weather .icon-28:before{content:"A"}.weather .icon-29:before{content:"a"}.weather .icon-30:before{content:"A"}.weather .icon-31:before{content:"6"}.weather .icon-32:before{content:"1"}.weather .icon-33:before{content:"6"}.weather .icon-34:before{content:"1"}.weather .icon-35:before{content:"W"}.weather .icon-36:before{content:"1"}.weather .icon-37:before{content:"S"}.weather .icon-38:before{content:"S"}.weather .icon-39:before{content:"S"}.weather .icon-40:before{content:"M"}.weather .icon-41:before{content:"W"}.weather .icon-42:before{content:"I"}.weather .icon-43:before{content:"W"}.weather .icon-44:before{content:"a"}.weather .icon-45:before{content:"S"}.weather .icon-46:before{content:"U"}.weather .icon-47:before{content:"S"}
 
 /* -----------------------------------------
@@ -206,24 +206,6 @@ form.loginform label input{display:block;margin-bottom:10px;width:100%;box-sizin
 
 /* -----------------------------------------
 
-#loader
-
------------------------------------------*/
-#loader-wrapper{position:fixed;top:0;right:0;bottom:0;left:0;background:#233447;z-index:99999;display:none!important}
-#loader-wrapper img{width:60px;position:absolute;top:50%;left:50%;margin:-30px 0 0 -30px;animation:2s cubic-bezier(0.63, 0.045, 0.34, 1) 0s normal none infinite spinning_animation;-webkit-animation:2s cubic-bezier(0.63, 0.045, 0.34, 1) 0s normal none infinite spinning_animation}
-@keyframes spinning_animation {
-	0%{transform:scale(1) rotate(0deg);-o-transform:scale(1) rotate(0deg)}
-	50%{transform:scale(0.8) rotate(360deg);-o-transform:scale(0.8) rotate(360deg)}
-	100%{transform:scale(1) rotate(720deg);-o-transform:scale(1) rotate(720deg)}
-}
-@-webkit-keyframes spinning_animation {
-	0%{-webkit-transform:scale(1) rotate(0deg)}
-	50%{-webkit-transform:scale(0.8) rotate(360deg)}
-	100%{-webkit-transform:scale(1) rotate(720deg)}
-}
-
-/* -----------------------------------------
-
 #main
 
 -----------------------------------------*/
@@ -271,7 +253,7 @@ body{overflow-x:hidden}
 
 
 /* ---------------- #nav ---------------- */
-.clearfix>.clearfix {background-color: rgba(12,71,108,0.9); position: absolute; width: 100%; z-index: 100;}
+.clearfix>.clearfix {background-color: rgba(12,71,108,0.9); position: relative; width: 100%; z-index: 100;}
 #nav {margin: 0; padding: 0;}
 #nav li {display: inline-block; margin: 0;}
 #nav li a {text-decoration: none; font-family: 'Objectivity-Med'; font-size:15px;text-transform: uppercase; color:#fff;display: inline-block; padding:23px 33px 18px}
@@ -285,6 +267,7 @@ body{overflow-x:hidden}
 
 /* ---------------- #slider ---------------- */
 #slider {position: relative;height:922px;}
+#slider h1 {display: none;}
 #slider>.container.text-center {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -71%); z-index: 51;}
 #slider>.container.text-center img {width: 675px;}
 
@@ -340,6 +323,19 @@ body{overflow-x:hidden}
 #facebook h2 {font-family: 'Objectivity-Bold'; font-size: 32px; text-transform: uppercase; color: #fff;}
 #facebook h2 span {font-family: 'Objectivity-Reg'; font-size: 22px; display: block; text-transform: lowercase; margin-bottom: 18px; color: #fdb537;}
 #facebook h2 span::first-letter {text-transform: capitalize;}
+#facebook a {font-size: 18px; text-transform: uppercase; color: rgba(255,255,255,0.4); text-decoration: none; display: block;}
+
+#social-feed {height: 519px; width: 600px; max-width: 100%; overflow: scroll; margin: 48px auto 34px;}
+#social-feed .social-feed-element {margin-bottom: 38px; border-radius: 4px; background-color: #fff; padding: 20px 15px;}
+#social-feed .content {background-color: #fff; border-radius: 4px 4px 0 0;}
+#social-feed .attachment {display: block; margin: 0 auto;}
+#social-feed .content a {margin-top: 15px;}
+#social-feed .content .media-body {padding-left: 15px;}
+#social-feed .content .author-title {font-size: 22px; font-family: 'Objectivity-Bold';}
+#social-feed .content i,
+#social-feed .content .muted {display: none;}
+#social-feed .content .social-feed-text {margin-top: 15px; font-size: 16px;}
+#social-feed .content p {margin: 0;}
 
 
 /* ---------------- #interests ---------------- */
@@ -401,12 +397,12 @@ footer span {padding: 0 15px;}
 
 
 /* ---------------- .content ---------------- */
+#page-title,
 #freeform .header {display: block; margin: 0; padding: 17px 0 32px;font-size: 36px; font-family: 'Objectivity-Bold'; color: #095642; text-transform: uppercase;}
 
 #entry{padding: 69px 0px 116px 38px; color: #6f7c7c;}
 .fullwidth #entry {padding: 69px 0 116px;}
 #entry p {line-height: 32px;}
-#entry img {margin: 38px 0; height: 520px;}
 #post {margin-bottom: 50px;}
 #post>.subheader {font-size: 28px; color: #07436b; text-transform: uppercase; display: block; margin: 30px 0;}
 #post>ul {padding: 0 15px; margin: -5px 0 0;}
@@ -593,6 +589,8 @@ footer span {padding: 0 15px;}
 		#nav>li:not(:last-child) {border-right: 2px solid #5e737a;}
 		#nav li:first-of-type a {padding-left: 0;}
 
+		#slider {margin-top: -60px;}
+
 		#facebook {height: 819px;}
 
 		#news .container {padding: 108px 52px 103px;}
@@ -631,6 +629,8 @@ footer span {padding: 0 15px;}
 	#nav .toggle2{position:absolute;right:15px;top:0;background:rgba(0,0,0,.2);height:55px;width:55px;line-height:55px;text-align:center}
 	#nav li li:hover > a{background:none;color:#fff}
 
+	#search {top: 15px;}
+
 	#events {padding: 60ox 0px 54px;}
 	#facebook {margin-left: -15px; padding: 60px 15px 65px;}
 
@@ -639,12 +639,12 @@ footer span {padding: 0 15px;}
 	#flyout{display:none}
 	#flyout li{}
 	#flyout li a,
-	#flyout li span{padding:15px 0px; margin: 0;line-height:1;border-bottom:1px solid rgba(255,255,255,0.5);background:none; text-decoration: none; font-size: 14px;}
+	#flyout li span{padding:15px 0px; margin: 0;line-height:1;border-bottom:1px solid rgba(0,0,0,0.25);background:none; text-decoration: none; font-size: 14px;}
 	#flyout ul{position:static;left:0;padding:0;background:rgba(0,0,0,.2)}
 	#flyout ul a,
 	#flyout ul span{width:100%; padding: 20px 10px;}
 	#flyout li:hover > ul{display:none}
-	#flyout li a i {position: absolute; top: 0; right: 0;border: 1px solid #fff; width: 42px; line-height: 42px; text-align: center; background-color: rgba(0,0,0,0.2);}
+	#flyout li a i {position: absolute; top: 0; right: 0;width: 44px; line-height: 44px; text-align: center; background-color: rgba(0,0,0,0.2);}
 
 	#slider {position: relative;height:700px;}
 	#freeform #slider {height:550px;}

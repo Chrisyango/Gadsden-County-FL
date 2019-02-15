@@ -216,6 +216,7 @@
 	
 	<div class="container text-center">
 		<img src="./_assets_/images/logo.png" alt="logo">
+		<h1>gadsden county</h1>
 	</div><!-- /.container.text-center -->
 	
 	<section id="quick-links">
@@ -298,8 +299,8 @@
 				<div class="col-md-5">
 					<section id="facebook" class="fillRight withPadding">
 						<h2><span>stay updated...</span> connect with us</h2>
-						<h1>NEED TO ASK HOW TO DO THIS</h1>
 						<div id="social-feed"></div>
+						<a href="./">go to gadsden co. facebook</a>
 					</section><!-- /#facebook -->
 				</div><!-- /.col-md-5 -->
 			</div><!-- /.row -->
