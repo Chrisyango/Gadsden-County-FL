@@ -54,9 +54,9 @@
 	}
 
 	// Inner Menu
-	$('.inner-menu').on('click', function(e){
-		$('ul', this).stop().slideToggle(300);
-		$('.subheader', this).hasClass('cross') ? $('.subheader', this).removeClass('cross') : $('.subheader', this).addClass('cross');
+	$('.subheader').on('click', function(e){
+		$('ul', $(this).parent()).stop().slideToggle(300);
+		$(this).hasClass('cross') ? $(this).removeClass('cross') : $(this).addClass('cross');
 	})
 
 	// Search Toggle
