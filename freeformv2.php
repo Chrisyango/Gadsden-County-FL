@@ -12,7 +12,6 @@
 
 			<link rel="stylesheet" href="_assets_/plugins/bootstrap/css/bootstrap.min.css">	
 			<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
-			<link rel="stylesheet" href="_assets_/fonts/Icon-font/pe-icon-7-stroke/css/pe-icon-7-stroke.css">	
 			<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 			<link rel="stylesheet" href="_assets_/css/layout.css">
 
