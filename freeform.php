@@ -13,7 +13,6 @@
 			<link rel="stylesheet" href="_assets_/plugins/bootstrap/css/bootstrap.min.css">	
 			<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
 			<link rel="stylesheet" href="_assets_/fonts/Icon-font/pe-icon-7-stroke/css/pe-icon-7-stroke.css">	
-			<link rel="stylesheet" href="_assets_/css/animate.min.css">
 			<link rel="stylesheet" href="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.css">			
 			<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 			<link rel="stylesheet" href="_assets_/css/layout.css">
@@ -23,12 +22,6 @@
 			<link rel="apple-touch-icon" sizes="72x72" href="_assets_/images/touch-icon-ipad.png">
 			<link rel="apple-touch-icon" sizes="114x114" href="_assets_/images/touch-icon-iphone4.png">
 			<link rel="apple-touch-icon" sizes="144x144" href="_assets_/images/touch-icon-ipad2.png">
-
-			<!--[if !IE]><!-->
-		 	<link rel="stylesheet" href="_assets_/plugins/add-to-homescreen/style/addtohomescreen.css">
-			<script src="_assets_/plugins/add-to-homescreen/src/addtohomescreen.min.js"></script>	
-			<script>addToHomescreen();</script>
-			<!--<![endif]-->
 
 			<!-- Respond.js for IE8 support of HTML5 elements and media queries -->
 			<!--[if lt IE 9]>
@@ -167,32 +160,32 @@
 		</section><!-- /#top-bar -->
 
 		<div class="clearfix">
-		<nav class="container">
-		<div id="search-toggle" class="fa fa-search hidden-sm hidden-xs pull-right"></div>
-				<ul id="nav">
-					<li><a href="./">home</a></li>
-					<li>
-						<a href="./">government</a>
-						<ul class="first-level">
-							<li><a href="./">first level</a></li>
-							<li>
-								<a href="./">first level</a>
-								<ul class="second-level">
-									<li><a href="./">second level</a></li>
-									<li><a href="./">second level</a></li>
-									<li><a href="./">second level</a></li>
-								</ul>
-							</li>
-							<li><a href="./">first level</a></li>
-							<li><a href="./">first level</a></li>
-						</ul>
-					</li>
-					<li><a href="./">departments</a></li>
-					<li><a href="./">community</a></li>
-					<li><a href="./">visitors</a></li>
-					<li><a href="./">i want to..</a></li>
-				</ul> <!-- /#id -->
-		</nav><!-- /.container -->
+			<nav class="container">
+			<div id="search-toggle" class="fa fa-search hidden-sm hidden-xs pull-right"></div>
+					<ul id="nav">
+						<li><a href="./">home</a></li>
+						<li>
+							<a href="./">government</a>
+							<ul class="first-level">
+								<li><a href="./">first level</a></li>
+								<li>
+									<a href="./">first level</a>
+									<ul class="second-level">
+										<li><a href="./">second level</a></li>
+										<li><a href="./">second level</a></li>
+										<li><a href="./">second level</a></li>
+									</ul>
+								</li>
+								<li><a href="./">first level</a></li>
+								<li><a href="./">first level</a></li>
+							</ul>
+						</li>
+						<li><a href="./">departments</a></li>
+						<li><a href="./">community</a></li>
+						<li><a href="./">visitors</a></li>
+						<li><a href="./">i want to..</a></li>
+					</ul> <!-- /#id -->
+			</nav><!-- /.container -->
 		</div><!-- /.clearfix -->
 	</header>
 
@@ -226,7 +219,7 @@
 			<div class="row">
 				<div class="col-md-4">
 					<aside id="side-content" class="fillLeft withPadding">
-						<div id="contact">
+						<div id="contact" class="fillLeft withPadding">
 								<span class="header">contact us</span>
 								<div id="contact-name">
 									lonyell black
@@ -244,7 +237,6 @@
 								</div>
 						</div>
 						<div id="flyout-wrap" class="fillLeft withPadding">
-							
 							<ul id="flyout">
 							<span id="flyout-header" class="header">useful links + forms</span>
 								<li><a href="./">paramedic</a></li>
@@ -265,19 +257,19 @@
 						</div>
 					</aside>
 				</div>
-				<div class="content col-md-8">
-					<section id="breadcrumbs">
-							<p>
-								<a href="./">
-									home
-								</a>
-								<a href="./">
-									departments
-								</a>
-								parks & rec
-							</p>
-					</section><!-- /#breadcrumbs -->
-					<article id="entry" class="fillRight withPadding">
+				<div class="col-md-8">
+					<article id="entry">
+						<section id="breadcrumbs">
+								<p>
+									<a href="./">
+										home
+									</a>
+									<a href="./">
+										departments
+									</a>
+									parks & rec
+								</p>
+						</section><!-- /#breadcrumbs -->
 						<div id="post">
 							<span class="header">human resources</span>
 							<p>
@@ -296,10 +288,9 @@
 								<li>Mauris eu dapibus velit.</li>
 							</ul>
 						</div>
-						<div id="topics" class="inner-menu">
-							<span class="subheader">department topics</span>
-							<span class="opener"></span>
-							<ul class="dashed">
+						<div id="topics" class="inner-menu fillRight withPadding">
+							<span class="subheader fillRight">department topics</span>
+							<ul class="dashed clearfix">
 								<li><a href="./">2016 approved paid holidays</a></li>
 								<li><a href="./">bids & rfp notices</a></li>
 								<li><a href="./">county probation</a></li>
@@ -310,9 +301,9 @@
 								<li><a href="./">hours of operation</a></li>
 							</ul>
 						</div>
-						<div id="more-info" class="inner-menu">
-							<span class="subheader">more information</span>
-							<ul class="dashed">
+						<div id="more-info" class="inner-menu fillRight withPadding">
+							<span class="subheader fillRight">more information</span>
+							<ul class="dashed clearfix">
 								<li><a href="./">informational stuff</a></li>
 								<li><a href="./">informational stuff</a></li>
 								<li><a href="./">informational stuff</a></li>
@@ -501,22 +492,7 @@
 <script src="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
 <script src="_assets_/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
 <script src="_assets_/plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="_assets_/plugins/twitter/js/jquery.tweet.min.js"></script>
-<script src="_assets_/plugins/instafeed/instafeed.min.js"></script>
-<script src="_assets_/plugins/sticky/jquery.sticky.js"></script>
-<script src="_assets_/plugins/matchHeight/dist/jquery.matchHeight-min.js"></script>
 <script src="_assets_/plugins/revizeWeather/js/revizeWeather.min.js"></script>
-<script src="_assets_/plugins/waypoints/waypoints.min.js"></script>
 <script src="_assets_/js/scripts.js"></script>
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5113ea471e44f9dd"></script>
-<script type="text/javascript">
-  addthis.layers({
-    'theme' : 'transparent',
-    'share' : {
-      'position' : 'right',
-      'numPreferredServices' : 6
-    } 
-  });
-</script>
 </body>
 </html>

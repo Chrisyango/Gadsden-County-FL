@@ -12,7 +12,6 @@
 
 	<link rel="stylesheet" href="_assets_/plugins/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="_assets_/css/animate.min.css">
 	<link rel="stylesheet" href="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="_assets_/css/layout.css">
@@ -280,7 +279,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-7">
-					<section id="events" class="pull-left">
+					<section id="events">
 						<div class="row">
 							<div class="col-md-7">
 								<h2><span>join the community...</span> upcoming events</h2>
@@ -297,7 +296,7 @@
 					</section><!-- /#events -->
 				</div><!-- /.col-md-7 -->
 				<div class="col-md-5">
-					<section id="facebook" class="pull-right fillRight withPadding">
+					<section id="facebook" class="fillRight withPadding">
 						<h2><span>stay updated...</span> connect with us</h2>
 						<h1>NEED TO ASK HOW TO DO THIS</h1>
 					</section><!-- /#facebook -->
@@ -507,13 +506,7 @@
 <script src="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
 <script src="_assets_/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
 <script src="_assets_/plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="_assets_/plugins/twitter/js/jquery.tweet.min.js"></script>
-<script src="_assets_/plugins/instafeed/instafeed.min.js"></script>
-<script src="_assets_/plugins/sticky/jquery.sticky.js"></script>
-<script src="_assets_/plugins/matchHeight/dist/jquery.matchHeight-min.js"></script>
 <script src="_assets_/plugins/revizeWeather/js/revizeWeather.min.js"></script>
-<script src="_assets_/plugins/waypoints/waypoints.min.js"></script>
 <script src="_assets_/js/scripts.js"></script>
-
 </body>
 </html>

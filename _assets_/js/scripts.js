@@ -210,72 +210,11 @@
 		});
 	}
 
-	// Mega Footer Toggle
-	$('.header-toggle').on('click keydown', function(e) {
-		if (e.keyCode === 13 || e.type === 'click') {
-			var inner = $(this).next('.inner-toggle');
-			if (inner.is(':hidden')) {
-				inner.slideDown('200');
-			} else {
-				inner.slideUp('200');
-			}
-		}
-	});
-
-	// Tabs
-	$('#tabs li a').on('click keypress', function(e) {
-		$('#tabs li, #tabs-content .current').removeClass('current').removeClass('fadeInLeft');
-		$(this).parent().addClass('current');
-
-		var currentTab = $(this).attr('href');
-		
-		e.preventDefault();
-		$(currentTab).addClass('current animated fadeInLeft');
-		$(currentTab).find('h2').focus();
-	})
-
-	// Twitter Feed
-	if(typeof $.fn.tweet !== "undefined"){
-		$("#twitterfeed").tweet({
-			modpath: '_assets_/plugins/twitter/',
-			username: "RevizeSoftware",
-			join_text: "auto",
-			avatar_size: 0,
-			count: 1,
-			auto_join_text_default: "",
-			auto_join_text_ed: "",
-			auto_join_text_ing: "",
-			auto_join_text_reply: "",
-			auto_join_text_url: "",
-			loading_text: "Loading Tweet..."
-		});
-	}
-
-	// Instafeed Feed
-	if(typeof $.fn.Instafeed !== "undefined"){
-		var userFeed = new Instafeed({
-			get: 'user',
-			resolution:'standard_resolution',
-			limit:9,
-			userId: 223202806,
-			accessToken: '303202123.f7e9b72.27c687fbd9c24ecbb29dc92951cdf724'
-		});
-		userFeed.run();
-	}
-
-	// Sticky
-	if(typeof $.fn.sticky !== "undefined"){
-		$("#sticky").sticky({
-			topSpacing:0
-		});
-	}
-
-
 	// bxSlider
 	if(typeof $.fn.bxSlider !== "undefined"){
-		$('.bxslider').bxSlider({
+		$('#slider > .bxslider').bxSlider({
 			mode:'fade',
-			auto:($('.bxslider').children().length < 2) ? false : true,
+			auto:($('#slider > .bxslider').children().length < 2) ? false : true,
 			pager: false
 		});
 	}
@@ -345,6 +284,31 @@
 
 	$window.ready(function(){
 
+		if ( typeof $.fn.socialfeed !== "undefined"){
+			$('.social-feed-container').socialfeed({
+					// Facebook
+					facebook:{
+							accounts: ['@spanishforklibrary'],
+							limit: 10,
+							access_token: 'EAAMkcCLFBs8BAEnpzLa3fg98gku0FhSwmvKZAujQ5m6RLRlHnIUnPaAexISWwIMA4VEoHuFUEWufVXIsasnQFRaDys2613NJUqt5sE5FqAr1sYrgnLZBPgeDmP8cZAkv7sFZBQOxUdrz2B7udHItF8tNMWiZC5iJfqkmWWK06BQZDZD'
+					},
+					template: "_assets_/templates/template.html",
+					length: 70,
+					show_media: true
+			});
+		}
+		
+		if ($('#side-content').length){
+			$('main').css('position','relative');
+			$('<div id="side-background" class="hidden-sm hidden-xs"></div>').prependTo('main');
+		}
+		
+		function sideBackground(){
+			$('#side-background').width($('#side-content').outerWidth());
+		}
+		sideBackground();
+		$window.resize(sideBackground);
+
 		// Fill sides script
 		function fillSide(){
 			var windowWidth = $('body').outerWidth();
@@ -366,10 +330,27 @@
 					'padding-right': pixelValue
 			});
 			
-			$('#flyout-background').width($('#flyout-wrap').outerWidth());
+			$('#side-background').width($('#side-content').outerWidth());
 		}
 		fillSide();
 		$window.resize(fillSide);
+
+		function sliderWidth(){
+			var windowWidth = $('body').outerWidth();
+			var pixelValue = (windowWidth - $('.container').width()) / 2;
+			$('#slider2').css('margin-right', -pixelValue);
+			if ($('.fullwidth').length){
+				$('#slider2').css('margin-left', -pixelValue);
+			}
+		}
+		sliderWidth();
+		$window.resize(sliderWidth);
+
+		$('#slider2 > .bxslider').bxSlider({
+			mode:'fade',
+			auto:($('#slider2 > .bxslider').children().length < 2) ? false : true,
+			pager: false
+		});
 
 		$('.translation-links span').on('keydown click', function(e){
 			if (e.keyCode === 13 || e.type === 'click') {

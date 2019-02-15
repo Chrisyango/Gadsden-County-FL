@@ -271,22 +271,21 @@ body{overflow-x:hidden}
 
 
 /* ---------------- #nav ---------------- */
-.clearfix>.clearfix {background-color:#134b70;}
+.clearfix>.clearfix {background-color: rgba(12,71,108,0.9); position: absolute; width: 100%; z-index: 100;}
 #nav {margin: 0; padding: 0;}
 #nav li {display: inline-block; margin: 0;}
-#nav li a {text-decoration: none; font-family: 'Objectivity-Med'; font-size:15px;text-transform: uppercase; color:#fff;display: inline-block; padding: 23px 35px 18px;}
-#nav li a i {margin-left: 5px}
+#nav li a {text-decoration: none; font-family: 'Objectivity-Med'; font-size:15px;text-transform: uppercase; color:#fff;display: inline-block; padding:23px 33px 18px}
 #search-toggle {font-size: 22px;width: 60px;padding:19px;cursor:pointer;background-color:#fdb537;}
-#search {position: absolute; top: 15px; left: 0; right: 0; z-index: 100;}
+#search {position: absolute; top: 75px; left: 0; right: 0; z-index: 100;}
 #search form {position: relative; margin: 0; padding: 0}
 #search label {position: absolute; top: 50%; transform: translateY(-50%); left: 10px;}
-#search input {padding-left: 30px; padding-right: 65px; border-radius: 4px;}
-#search button {position: absolute; top: 0; right: 0; padding: 8.5px 20px; border-radius: 0 4px 4px 0;}
+#search input {padding: 18px 65px 18px 30px; border-radius: 4px;}
+#search button {position: absolute; top: 0; right: 0; padding: 10px 20px; border-radius: 0 4px 4px 0;}
 
 
 /* ---------------- #slider ---------------- */
-#slider {position: relative;height:862px;}
-#slider>.container.text-center {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -80%); z-index: 51;}
+#slider {position: relative;height:922px;}
+#slider>.container.text-center {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -71%); z-index: 51;}
 #slider>.container.text-center img {width: 675px;}
 
 
@@ -365,7 +364,7 @@ body{overflow-x:hidden}
 
 
 /* ---------------- #footer-links ---------------- */
-#footer-links {background-color: #0d563f; padding: 30px 0 24px;}
+#footer-links {background-color: #0d563f; padding: 30px 0 24px;position:relative;z-index:1}
 #footer-links .container {position: relative;}
 #footer-links .translation-links span {padding: 0;}
 #footer-links .left-bar {float: left;}
@@ -395,9 +394,6 @@ footer span {padding: 0 15px;}
 
 -----------------------------------------*/
 
-/* ---------------- #freeform .full-width ---------------- */
-.fullwidth #main>.container {padding: 50px 30px;}
-
 /* ---------------- #breadcrumbs ---------------- */
 
 #breadcrumbs{font-size:16px;text-transform:uppercase}
@@ -408,16 +404,17 @@ footer span {padding: 0 15px;}
 
 
 /* ---------------- #freeform slider ---------------- */
-#freeform #slider {height: 545px;}
-#freeform #slider>.container.text-center {transform: translate(-50%, -45%);}
+#freeform #slider {height: 605px;}
+#freeform #slider>.container.text-center {transform: translate(-50%, -37%);}
 
 
 /* ---------------- .content ---------------- */
-#freeform .content {padding: 69px 15px 116px; color: #6f7c7c;}
 #freeform .header {display: block; margin: 0; padding: 17px 0 32px;font-size: 36px; font-family: 'Objectivity-Bold'; color: #095642; text-transform: uppercase;}
-#freeform .content p {line-height: 32px;}
-#freeform .content img {margin: 38px 0; height: 520px;}
 
+#entry{padding: 69px 0px 116px 38px; color: #6f7c7c;}
+.fullwidth #entry {padding: 69px 0 116px;}
+#entry p {line-height: 32px;}
+#entry img {margin: 38px 0; height: 520px;}
 #post {margin-bottom: 50px;}
 #post>.subheader {font-size: 28px; color: #07436b; text-transform: uppercase; display: block; margin: 30px 0;}
 #post>ul {padding: 0 15px; margin: -5px 0 0;}
@@ -425,25 +422,30 @@ footer span {padding: 0 15px;}
 
 
 /* ---------------- .inner-menu ---------------- */
-.inner-menu {position: relative; background-color: #095642; padding: 0;}
-.inner-menu .subheader {font-family: 'Objectivity-Bold'; font-size: 20px; color: #fff; text-transform: capitalize; display: inline-block; padding: 15px 0 13px; margin:0; cursor: pointer; width: 100%;}
-.inner-menu .subheader.cross:after {content: '\f00d'; font-size: 30px; top: 6px;}
-.inner-menu .subheader:after {font-family: 'FontAwesome'; content: '\f107'; position: absolute; top: 0; right: 19px; font-size: 36px; color: #ffb718;}
-.inner-menu .dashed {display: none; background-color: #d4dfdc; padding: 32px 0 24px; margin: 0; list-style-type: none; column-count: 3; column-gap: 30px;}
-.inner-menu .dashed li:before {content: '-'; padding-right: 7px;}
-.inner-menu .dashed li {padding: 0; margin: 0; display: block;}
+.inner-menu {position: relative; background-color:#d4dfdc;padding-left:68px;margin-left:-68px}
+.inner-menu .subheader {font-family: 'Objectivity-Bold'; font-size: 20px; color: #fff; text-transform: capitalize; display:block; padding: 15px 0 13px; margin:0; cursor: pointer;background: #0d563f;padding-left:68px;margin-left:-68px; -webkit-box-shadow: 0px 2px 20px 2px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 2px 20px 2px rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 20px 2px rgba(0,0,0,0.2); z-index: 100;}
+ .inner-menu .subheader.cross:after {content: '\f00d'; font-size: 30px;}
+.inner-menu .subheader:after {font-family: 'FontAwesome'; content: '\f107'; float: right; font-size: 36px; color: #ffb718; margin-top: -13px;}
+.inner-menu .dashed {display: none; background-color: #d4dfdc; padding: 0px 0 24px; margin: 32px 0 0; list-style-type: none; column-gap: 30px;}
+.inner-menu .dashed li:before {content: '-';position:absolute;left:0;top:0}
+.inner-menu .dashed li {padding:0 15px; margin: 0; float:left;width:33.3%;position:relative}
 .inner-menu a {font-size: 16px; text-transform: capitalize; color: #333; text-decoration: none; display: inline-block; padding-bottom: 11px;}
 
 
+/* ---------------- #inner-slider ---------------- */
+#slider2 {position: relative; height:520px; margin-left: -30px; z-index: 0;}
+
+
 /* ---------------- #side-content ---------------- */
-#side-content {background-color: #07436b; height: 100%;}
 #side-content span {display: block; margin: 0;}
 #side-content .header {position: relative; color: #ffb718; font-size: 20px; padding: 0px 0 10px; margin-bottom: 37px; text-transform: capitalize;}
 #side-content .header:after {content: ''; position: absolute; left: 0; bottom:0; height: 2px; width: 198px; background-color: #fff;}
 
 
 /* ---------------- #contact ---------------- */
-#contact {padding: 74px 100px 79px 0;}
+#contact {padding: 74px 100px 79px 0;background:#07436b;}
 #contact-name {font-family: 'Objectivity-Bold'; font-size: 24px; color: #ffb718; text-transform: capitalize; margin-top: 42px;}
 #contact-name span {font-family: 'Objectivity-Reg'; font-size: 20px; color: #fff; margin-top: -2px;}
 #location {color: #6f7c7c; font-size: 20px; text-transform: capitalize; margin-top: 33px;}
@@ -454,8 +456,10 @@ footer span {padding: 0 15px;}
 
 
 /* ---------------- #flyout ---------------- */
-#flyout-wrap {padding-top: 88px; background: linear-gradient(#063e64, #07436b);}
-#flyout{margin:0;padding:0px 100px 0 2px;}
+#side-background{position:absolute;left:0;top:0;bottom:0;background:#07436b;}
+#flyout-wrap {padding-top: 88px;position:relative; background-color: #07436b;}
+#flyout-wrap:after{content:'';position:absolute;left:0;right:0;top:0;height:153px;background:url(../images/flyout-shadow.png) top left repeat-x;background-size:contain;}
+#flyout{margin:0;padding:0}
 #flyout li{margin:0;display:block;position:relative}
 #flyout a,
 #flyout span{font-size: 18px; color: #fff; text-transform: capitalize;padding:0px 0px; margin-bottom: 15px; display:block;}
@@ -463,7 +467,6 @@ footer span {padding: 0 15px;}
 #flyout ul a,
 #flyout ul span{font-size:14px;padding:10px 15px;width: 200px;text-decoration: none;}
 #flyout li:hover > ul{display:block; z-index: 100;}
-#flyout li a i {margin-left: 5px;}
 
 
 /* -----------------------------------------
@@ -536,7 +539,6 @@ footer span {padding: 0 15px;}
 @media only screen and (max-width:1367px){
 	.footer-links-item {padding: 0 10px;}
 
-	.inner-menu .dashed {column-count: 2;}
 
 }
 
@@ -592,17 +594,14 @@ footer span {padding: 0 15px;}
 		#flyout li:hover > ul{display:block}
 		#flyout-toggle {display: none;}
 		#nav-toggle,.toggle,.toggle2{display:none}
+
+		#nav li a i , #flyout li a i {display: none;}
 		
 
 		#nav>li:not(:last-child) {border-right: 2px solid #5e737a;}
 		#nav li:first-of-type a {padding-left: 0;}
 
 		#news .container {padding: 108px 52px 103px;}
-
-		#freeform .content {padding: 69px 30px 116px 54px; color: #6f7c7c;}
-		#freeform .row {position: relative; top: 0; left: 0;}
-		#freeform .col-md-4 {position: absolute; top: 0; left: 0; height: 100%;}
-		#freeform .col-md-8 {position: relative; top: 0; left: 33.33%;}
 
 		#post>ul li {padding: 0 300px 30px 0;}
 
@@ -638,8 +637,11 @@ footer span {padding: 0 15px;}
 	#nav .toggle2{position:absolute;right:15px;top:0;background:rgba(0,0,0,.2);height:55px;width:55px;line-height:55px;text-align:center}
 	#nav li li:hover > a{background:none;color:#fff}
 
+	#events {padding: 60ox 0px 54px;}
+	#facebook {margin-left: -15px; padding: 60px 15px 65px;}
+
 	#flyout-wrap {padding-top: 0px;}
-	#flyout-toggle {color: #fff; font-size: 18px; padding: 20px 0;}
+	#flyout-toggle {color: #fff; font-size: 18px; padding: 20px 0; position: relative; z-index: 100;}
 	#flyout{display:none}
 	#flyout li{}
 	#flyout li a,
@@ -655,7 +657,7 @@ footer span {padding: 0 15px;}
 	#slider {position: relative;height:700px;}
 
 	#news .btn {position: static;}
-	#news-links .owl-controls {right: unset; left: 240px; top: -83px;}
+	#news-links .owl-controls {right: 90px; top: -83px;}
 
 	#interests h2 {font-size: 42px;}
 	#interests h2 span {font-size: 26px;}
@@ -670,11 +672,14 @@ footer span {padding: 0 15px;}
 
 	.floating-share-btn{top: unset; bottom: 0;}
 
-	#freeform .col-md-4 {padding-right: 0;}
 	#freeform .header {font-size: 32px;}
+	
+	#freeform #entry {padding: 69px 0px 116px; color: #6f7c7c;}
 	#post>.subheader {font-size: 24px;}
+	.fullwidth .inner-menu .subheader {padding-left: 15px;}
 	.inner-menu .subheader {font-size: 18px;}
 
+	#side-content {margin-right: -15px;}
 	#side-content .header, 
 	#contact-name span,
 	#location,
@@ -708,8 +713,6 @@ footer span {padding: 0 15px;}
 	footer a {border-right: none;}
 	footer span:last-of-type {display: block;}
 
-	.inner-menu .dashed {column-count: 1;}
-
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -722,7 +725,6 @@ footer span {padding: 0 15px;}
 	#toggles #search-toggle-mobile, #nav-toggle {margin-top: 35px;}
 
 	#news .btn {font-size: 16px; padding: 12px 40px;}
-	#news-links .owl-controls {left: 190px;}
 
 	#interests h2 {font-size: 38px;}
 	#interests h2 span {font-size: 20px;}

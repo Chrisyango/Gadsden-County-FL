@@ -13,7 +13,6 @@
 			<link rel="stylesheet" href="_assets_/plugins/bootstrap/css/bootstrap.min.css">	
 			<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
 			<link rel="stylesheet" href="_assets_/fonts/Icon-font/pe-icon-7-stroke/css/pe-icon-7-stroke.css">	
-			<link rel="stylesheet" href="_assets_/css/animate.min.css">
 			<link rel="stylesheet" href="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.css">			
 			<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 			<link rel="stylesheet" href="_assets_/css/layout.css">
@@ -24,17 +23,11 @@
 			<link rel="apple-touch-icon" sizes="114x114" href="_assets_/images/touch-icon-iphone4.png">
 			<link rel="apple-touch-icon" sizes="144x144" href="_assets_/images/touch-icon-ipad2.png">
 
-			<!--[if !IE]><!-->
-		 	<link rel="stylesheet" href="_assets_/plugins/add-to-homescreen/style/addtohomescreen.css">
-			<script src="_assets_/plugins/add-to-homescreen/src/addtohomescreen.min.js"></script>	
-			<script>addToHomescreen();</script>
-			<!--<![endif]-->
-
 			<!-- Respond.js for IE8 support of HTML5 elements and media queries -->
 			<!--[if lt IE 9]>
 			  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 			<![endif]-->
-
+			
 		</head>
 		<body id="freeform">
 		
@@ -167,32 +160,32 @@
 		</section><!-- /#top-bar -->
 
 		<div class="clearfix">
-		<nav class="container">
-		<div id="search-toggle" class="fa fa-search hidden-sm hidden-xs pull-right"></div>
-				<ul id="nav">
-					<li><a href="./">home</a></li>
-					<li>
-						<a href="./">government</a>
-						<ul class="first-level">
-							<li><a href="./">first level</a></li>
-							<li>
-								<a href="./">first level</a>
-								<ul class="second-level">
-									<li><a href="./">second level</a></li>
-									<li><a href="./">second level</a></li>
-									<li><a href="./">second level</a></li>
-								</ul>
-							</li>
-							<li><a href="./">first level</a></li>
-							<li><a href="./">first level</a></li>
-						</ul>
-					</li>
-					<li><a href="./">departments</a></li>
-					<li><a href="./">community</a></li>
-					<li><a href="./">visitors</a></li>
-					<li><a href="./">i want to..</a></li>
-				</ul> <!-- /#id -->
-		</nav><!-- /.container -->
+			<nav class="container">
+			<div id="search-toggle" class="fa fa-search hidden-sm hidden-xs pull-right"></div>
+					<ul id="nav">
+						<li><a href="./">home</a></li>
+						<li>
+							<a href="./">government</a>
+							<ul class="first-level">
+								<li><a href="./">first level</a></li>
+								<li>
+									<a href="./">first level</a>
+									<ul class="second-level">
+										<li><a href="./">second level</a></li>
+										<li><a href="./">second level</a></li>
+										<li><a href="./">second level</a></li>
+									</ul>
+								</li>
+								<li><a href="./">first level</a></li>
+								<li><a href="./">first level</a></li>
+							</ul>
+						</li>
+						<li><a href="./">departments</a></li>
+						<li><a href="./">community</a></li>
+						<li><a href="./">visitors</a></li>
+						<li><a href="./">i want to..</a></li>
+					</ul> <!-- /#id -->
+			</nav><!-- /.container -->
 		</div><!-- /.clearfix -->
 	</header>
 
@@ -212,7 +205,7 @@
 		</div><!-- /#search -->
 
 		<ul class="bxslider">
-			<li style="background: url('./_assets_/images/inner-herov2.jpg') center no-repeat;background-size: cover; opacity: 0.85;"></li>
+			<li style="background: url('./_assets_/images/inner-hero.jpg') center no-repeat;background-size: cover; opacity: 0.9;"></li>
 		</ul><!-- /.bxslider -->
 		
 		<div class="container text-center">
@@ -221,12 +214,11 @@
 	</section><!-- /#slider -->
 
 	<main id="main">
-
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
 					<aside id="side-content" class="fillLeft withPadding">
-						<div id="contact">
+						<div id="contact" class="fillLeft withPadding">
 								<span class="header">contact us</span>
 								<div id="contact-name">
 									herbert chancey
@@ -235,7 +227,7 @@
 								<div id="location">
 									location:
 									<span id="building">edward j butler governmental complex-managment services</span>
-									<span id="address">9-b east jefferson st. <br> po box 1799 <br> quincy, fl 32353</span>
+									<span id="address">9-b east jefferson st. <br> quincy, fl 32353</span>
 								</div>
 								<div id="contact-info">
 									<span>(850) 875-8660</span>
@@ -245,43 +237,41 @@
 						</div>
 					</aside>
 				</div>
-				<div class="content col-md-8">
-					<section id="breadcrumbs">
-							<p>
-								<a href="./">
-									home
-								</a>
-								<a href="./">
-									departments
-								</a>
-								parks & rec
-							</p>
-					</section><!-- /#breadcrumbs -->
-					<article id="entry" class="fillRight withPadding">
+				<div class="col-md-8">
+					<article id="entry">
+						<section id="breadcrumbs">
+								<p>
+									<a href="./">
+										home
+									</a>
+									<a href="./">
+										departments
+									</a>
+									parks & rec
+								</p>
+						</section><!-- /#breadcrumbs -->
 						<div id="post">
-							<span class="header">parks & recreations</span>
+							<span class="header">parks and recreation</span>
 							<p>
-                If you're looking for a place to unwind, look no further. Gadsden County is home to some of the area's best and most beautiful parks, lakes and trails. Whether you are fishing on Lake Talquin or camping at Pat Thomas Park, there is something for everyone to enjoy. The Parks and Recreation Division provides exceptional leisure space to all residents and visitors in unincorporated areas of Gadsden County.  The parks are equipped with various components to meet the essential needs of visitors. Take time to explore campgrounds, playgrounds, picnic areas and boating lodges all throughout our beautiful county!
+								If you're looking for a place to unwind, look no further. Gadsden County is home to some of the area's best and most beautiful parks, lakes and trails. Whether you are fishing on Lake Talquin or camping at Pat Thomas Park, there is something for everyone to enjoy. The Parks and Recreation Division provides exceptional leisure space to all residents and visitors in unincorporated areas of Gadsden County.  The parks are equipped with various components to meet the essential needs of visitors. Take time to explore campgrounds, playgrounds, picnic areas and boating lodges all throughout our beautiful county!
 							</p>
 							<p>
-                For information on how to make reservations at Pat Thomas Park at Hopkins Landing, call (850) 875- 4544 or click here.
+								For information on how to make reservations at Pat Thomas Park at Hopkins Landing, call (850) 875- 4544 or click here.
 							</p>
-							<img src="./_assets_/images/inner2.jpg" alt="Group Meeting">
 						</div>
-						<div id="topics" class="inner-menu">
-							<span class="subheader">department topics</span>
-							<span class="opener"></span>
-							<ul class="dashed">
+						<div id="topics" class="inner-menu fillRight withPadding">
+							<span class="subheader fillRight">department topics</span>
+							<ul class="dashed clearfix">
 								<li><a href="./">chattahoochee area parks</a></li>
+								<li><a href="./">midway area parks</a></li>
+								<li><a href="./">map of county parks & recreations areas</a></li>
 								<li><a href="./">havana area parks</a></li>
-								<li><a href="./">midaway area parks</a></li>
 								<li><a href="./">quincy area parks</a></li>
-								<li><a href="./">map of county parks & recreation areas</a></li>
 							</ul>
 						</div>
-						<div id="more-info" class="inner-menu">
-							<span class="subheader">more information</span>
-							<ul class="dashed">
+						<div id="more-info" class="inner-menu fillRight withPadding">
+							<span class="subheader fillRight">more information</span>
+							<ul class="dashed clearfix">
 								<li><a href="./">informational stuff</a></li>
 								<li><a href="./">informational stuff</a></li>
 								<li><a href="./">informational stuff</a></li>
@@ -290,6 +280,11 @@
 							</ul>
 						</div>
 					</article>
+					<section id="slider2">
+					<ul class="bxslider">
+						<li style="background: url('./_assets_/images/inner2.jpg') center no-repeat;background-size: cover;"></li>
+					</ul><!-- /.bxslider -->
+				</section><!-- /#slider2 -->
 				</div>
 			</div>
 		</div>
@@ -469,22 +464,7 @@
 <script src="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
 <script src="_assets_/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
 <script src="_assets_/plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="_assets_/plugins/twitter/js/jquery.tweet.min.js"></script>
-<script src="_assets_/plugins/instafeed/instafeed.min.js"></script>
-<script src="_assets_/plugins/sticky/jquery.sticky.js"></script>
-<script src="_assets_/plugins/matchHeight/dist/jquery.matchHeight-min.js"></script>
 <script src="_assets_/plugins/revizeWeather/js/revizeWeather.min.js"></script>
-<script src="_assets_/plugins/waypoints/waypoints.min.js"></script>
 <script src="_assets_/js/scripts.js"></script>
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5113ea471e44f9dd"></script>
-<script type="text/javascript">
-  addthis.layers({
-    'theme' : 'transparent',
-    'share' : {
-      'position' : 'right',
-      'numPreferredServices' : 6
-    } 
-  });
-</script>
 </body>
 </html>
