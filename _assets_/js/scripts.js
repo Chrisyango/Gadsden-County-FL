@@ -2,7 +2,7 @@
 
 	Theme Name: Gadsden County, FL
 	Front-End Developer: Chris Yang
-	Author Design: Samir Alley @samiralley | Tom Gooden @good3n
+	Author Design: Kat Wiard
 	Author URI: http://www.revize.com/
 	Date: February 11, 2019
 
