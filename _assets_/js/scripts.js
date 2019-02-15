@@ -191,7 +191,7 @@
 	// revizeWeather
 	if( typeof $.fn.revizeWeather !== "undefined" ){
 		$.fn.revizeWeather({
-			zip: '32351',
+			zip: '32353',
 			city_name: '',
 			unit: 'f',
 			success: function(weather) {
