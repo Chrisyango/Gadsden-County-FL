@@ -411,7 +411,7 @@ footer{font-size:16px;color:#fff;background-color:#052c46;padding:20.5px 0}
 .footer-nav-item {width: 20%; float: left; font-size: 0; margin-right: 6.667%;}
 .footer-nav-item:last-of-type {margin-right: 0;}
 .footer-nav-item h2 {font-size: 28px; text-transform: uppercase; margin: 0 0 15px; color: #fdb537;}
-.footer-nav-item a {display: block; font-size: 16px; text-transform: capitalize; margin-bottom: 7px; color: #fff; text-decoration: none;}
+.footer-nav-item a {display: block; font-size: 16px; text-transform: capitalize; margin-bottom: 5px; color: #fff; text-decoration: none;}
 footer .text-center a{text-transform:uppercase;color:#fdb537!important;border-left:2px solid #fff;border-right:2px solid #fff;padding:0px 15px}
 footer .text-center span a{font-family:'Roboto',sans-serif;font-size:18px;font-weight:700;text-transform:lowercase;text-decoration:none;color:#fff!important;border:none;padding:0}
 footer span{padding:0 15px}
@@ -764,6 +764,11 @@ footer span{padding:0 15px}
 	#divisions h2 {font-size: 30px;}
 	.divisions-item h3 a {font-size: 22px;}
 
+	/* ---------------- footer ---------------- */
+	.footer-nav-item {width: 45%; margin-right: 10%; margin-bottom: 30px;}
+	.footer-nav-item:nth-child(2n) {margin-right: 0;}
+	.footer-nav-item h2 {font-size: 22px;}
+	.footer-nav-item a {font-size: 14px;}
 
 }
 
@@ -797,6 +802,9 @@ footer span{padding:0 15px}
 	#divisions h2 {font-size: 28px;}
 	.divisions-item h3 a {font-size: 20px;}
 	.divisions-img {height: 300px;}
+
+	/* ---------------- footer ---------------- */
+	.footer-nav-item {width: 100%;}
 
 }
 
