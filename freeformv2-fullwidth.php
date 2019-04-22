@@ -213,54 +213,54 @@
 
 	<main id="main">
 		<div class="container">
-			<article id="entry">
-				<section id="breadcrumbs">
-						<p>
-							<a href="./">
-								home
-							</a>
-							<a href="./">
-								departments
-							</a>
-							parks & rec
-						</p>
-				</section><!-- /#breadcrumbs -->
-				<h1 id="page-title">parks and recreation</h1>
-				<div id="post">
-					<p>
-						If you're looking for a place to unwind, look no further. Gadsden County is home to some of the area's best and most beautiful parks, lakes and trails. Whether you are fishing on Lake Talquin or camping at Pat Thomas Park, there is something for everyone to enjoy. The Parks and Recreation Division provides exceptional leisure space to all residents and visitors in unincorporated areas of Gadsden County.  The parks are equipped with various components to meet the essential needs of visitors. Take time to explore campgrounds, playgrounds, picnic areas and boating lodges all throughout our beautiful county!
-					</p>
-					<p>
-						For information on how to make reservations at Pat Thomas Park at Hopkins Landing, call (850) 875- 4544 or click here.
-					</p>
-				</div>
-				<div id="topics" class="inner-menu fillLeft fillRight withPadding">
-					<span class="subheader fillLeft fillRight withPadding">department topics</span>
-					<ul class="dashed clearfix">
-						<li><a href="./">chattahoochee area parks</a></li>
-						<li><a href="./">midway area parks</a></li>
-						<li><a href="./">map of county parks & recreations areas</a></li>
-						<li><a href="./">havana area parks</a></li>
-						<li><a href="./">quincy area parks</a></li>
-					</ul>
-				</div>
-				<div id="more-info" class="inner-menu fillLeft fillRight withPadding">
-					<span class="subheader fillLeft fillRight withPadding">more information</span>
-					<ul class="dashed clearfix">
-						<li><a href="./">informational stuff</a></li>
-						<li><a href="./">informational stuff</a></li>
-						<li><a href="./">informational stuff</a></li>
-						<li><a href="./">informational stuff</a></li>
-						<li><a href="./">informational stuff</a></li>
-					</ul>
-				</div>
-			</article>
-			<section id="slider2">
-			<ul class="bxslider">
-				<li style="background: url('./_assets_/images/inner2.jpg') center no-repeat;background-size: cover;"></li>
-			</ul><!-- /.bxslider -->
-		</section><!-- /#slider2 -->
-	</div>
+					<article id="entry">
+						<section id="breadcrumbs">
+								<p>
+									<a href="./">
+										home
+									</a>
+									<a href="./">
+										departments
+									</a>
+									parks & rec
+								</p>
+						</section><!-- /#breadcrumbs -->
+						<h1 id="page-title">parks and recreation</h1>
+						<div id="post">
+							<p>
+								If you're looking for a place to unwind, look no further. Gadsden County is home to some of the area's best and most beautiful parks, lakes and trails. Whether you are fishing on Lake Talquin or camping at Pat Thomas Park, there is something for everyone to enjoy. The Parks and Recreation Division provides exceptional leisure space to all residents and visitors in unincorporated areas of Gadsden County.  The parks are equipped with various components to meet the essential needs of visitors. Take time to explore campgrounds, playgrounds, picnic areas and boating lodges all throughout our beautiful county!
+							</p>
+							<p>
+								For information on how to make reservations at Pat Thomas Park at Hopkins Landing, call (850) 875- 4544 or click here.
+							</p>
+						</div>
+						<div id="topics" class="inner-menu fillLeft fillRight withPadding">
+							<span class="subheader fillLeft fillRight withPadding">department topics</span>
+							<ul class="dashed clearfix">
+								<li><a href="./">chattahoochee area parks</a></li>
+								<li><a href="./">midway area parks</a></li>
+								<li><a href="./">map of county parks & recreations areas</a></li>
+								<li><a href="./">havana area parks</a></li>
+								<li><a href="./">quincy area parks</a></li>
+							</ul>
+						</div>
+						<div id="more-info" class="inner-menu fillLeft fillRight withPadding">
+							<span class="subheader fillLeft fillRight withPadding">more information</span>
+							<ul class="dashed clearfix">
+								<li><a href="./">informational stuff</a></li>
+								<li><a href="./">informational stuff</a></li>
+								<li><a href="./">informational stuff</a></li>
+								<li><a href="./">informational stuff</a></li>
+								<li><a href="./">informational stuff</a></li>
+							</ul>
+						</div>
+					</article>
+					<section id="slider2">
+					<ul class="bxslider">
+						<li style="background: url('./_assets_/images/inner2.jpg') center no-repeat;background-size: cover;"></li>
+					</ul><!-- /.bxslider -->
+				</section><!-- /#slider2 -->
+			</div>
 
 		<section id="footer-links">
 			<div class="container">

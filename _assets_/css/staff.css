@@ -1,0 +1,23 @@
+.row-fluid:after{content:"";display:block;clear:both}
+.span6{width:50%!important;float:left}
+.span6 select{width:140px}
+.span6 input{width:140px}
+table .header{cursor:pointer;font-size:16px}
+table .header:after{content:"";float:right;margin-top:7px;border-width:0 4px 4px;border-style:solid;border-color:#34485D transparent;visibility:hidden}
+table .headerSortUp, table .headerSortDown{background-color:#EFF1F2}
+table .header:hover:after{visibility:visible}
+table .headerSortDown:after, table .headerSortDown:hover:after{visibility:visible;filter:alpha(opacity=60);-khtml-opacity:0.6;-moz-opacity:0.6;opacity:0.6}
+table .headerSortUp:after{border-bottom:none;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #34485D;visibility:visible;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;filter:alpha(opacity=60);-khtml-opacity:0.6;-moz-opacity:0.6;opacity:0.6}
+div.dataTables_length label{ text-align:left}
+div.dataTables_filter label{float:right}
+div.dataTables_info{padding-top:8px}
+div.dataTables_paginate{float:right;margin:0}
+table.dataTable{ clear:both; background:#fff; max-width:100%; width:100%!important}
+table.dataTable th:active{outline:none}
+table .dataTables_empty{ background:#ffdde6!important; border:2px solid #ff6391; color:#c33662; text-align:center!important}
+.pagination li{display:inline-block;*display:inline;*zoom:1;position:relative}
+.pagination li a{display:block;padding:8px 10px;font-size:12px;border:0;margin-left:-1px;text-decoration:none;color:#000}
+.dataTables_info{font-size:12px}
+.pagination li a:hover,.pagination li.active a{background:#eee}
+.pagination .disabled a{background:#ccc}
+.calendar-date{display:none}

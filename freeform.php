@@ -235,8 +235,8 @@
 								</div>
 						</div>
 						<div id="flyout-wrap" class="fillLeft withPadding">
-							<ul id="flyout">
 							<span id="flyout-header" class="header">useful links + forms</span>
+							<ul id="flyout">
 								<li><a href="./">paramedic</a></li>
 								<li><a href="./">emergency medical technician</a></li>
 								<li>

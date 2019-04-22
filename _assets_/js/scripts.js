@@ -54,9 +54,9 @@
 	}
 
 	// Inner Menu
-	$('.subheader').on('click', function(e){
-		$('ul', $(this).parent()).stop().slideToggle(300);
-		$(this).hasClass('cross') ? $(this).removeClass('cross') : $(this).addClass('cross');
+	$('.inner-menu').on('click', function(e){
+		$('ul', this).stop().slideToggle(300);
+		$('.subheader', this).hasClass('cross') ? $('.subheader', this).removeClass('cross') : $('.subheader', this).addClass('cross');
 	})
 
 	// Search Toggle
@@ -133,7 +133,7 @@
 		flyoutwrap = $('#flyout-wrap');
 
 	if (flyout.text().length){
-		flyoutwrap.prepend('<div id="flyout-toggle"><i class="fa fa-bars"></i> Sub Menu</div>');
+		flyoutwrap.prepend('<div id="flyout-toggle"><i class="fa fa-bars"></i> Useful Links + Forms</div>');
 	}
 
 	$("#flyout-toggle").on("click", function(){
@@ -251,7 +251,7 @@
 			return (newsLinkCount >= num ? num : newsLinkCount);
 		}
 		$("#news-links").owlCarousel({
-			loop: true,
+			loop: newsLinkCount > 1 ? true : false,
 			responsiveClass: true,
 			nav: true,
 			navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
@@ -271,30 +271,29 @@
 			}
 		});
 	}
-
-	// Preloader
-	$window.load(function() {
-
-		setTimeout(function(){
-			$body.addClass('loaded');
-			 $('#loader-wrapper').fadeOut();
-		}, 600);
-
-	});
-
+	
 	$window.ready(function(){
 
+	if ($('#counter').length) {
+		$('.timer').countTo();
+		$('.timer-2').countTo({
+			onComplete: function() {
+				$(this).addClass('fourth');
+			}
+		});
+	}
+		
 		if ( typeof $.fn.socialfeed !== "undefined"){
 			$('#social-feed').socialfeed({
-					// Facebook
-					facebook:{
-							accounts: ['@spanishforklibrary'],
-							limit: 20,
-							access_token: 'EAAMkcCLFBs8BAEnpzLa3fg98gku0FhSwmvKZAujQ5m6RLRlHnIUnPaAexISWwIMA4VEoHuFUEWufVXIsasnQFRaDys2613NJUqt5sE5FqAr1sYrgnLZBPgeDmP8cZAkv7sFZBQOxUdrz2B7udHItF8tNMWiZC5iJfqkmWWK06BQZDZD'
-					},
-					template: "_assets_/templates/template.html",
-					length: 70,
-					show_media: true
+				// Facebook
+				facebook:{
+					accounts: ['@GadsdenCountyBOCC'],
+					limit: 10,
+					access_token: 'EAAFsTjd21XMBAE9NQVHsxSxe1SpyV3KTQ2dX38YB3F5ZCHXp3ZBWamxKbdLA5W0Q41TmqKGBZApgeyRSEQnnIldb1mpjdjlT1tV2ujleHSBqKyCtp8FmvuBQCVG0jBkoluV8IMWoC5MQVZCZCVYfRojLVnBeNX96udhZCswPyXtQZDZD'
+				},
+				template: "_assets_/templates/template.html",
+				length: 70,
+				show_media: true
 			});
 		}
 		
@@ -484,21 +483,6 @@
 
 		};
 		$('.v-align').flexVerticalCenter();
-
-
-		// Remove matchHeight on document center pages
-		if($('#RZdocument_center').length){
-			$('.aside,.entry').matchHeight({remove:true});
-
-			if(window.matchMedia("(min-width: 992px)").matches){
-				setInterval(function(){
-					if($('.post').outerHeight() + 300 > $('.entry').outerHeight()){
-						$('.aside').css('height',$('.entry').outerHeight() + 'px');
-					}
-				}, 200);
-			}
-		}
-
 
 	}); // Ready
 
