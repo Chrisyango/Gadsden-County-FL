@@ -205,10 +205,6 @@
 		<ul class="bxslider">
 			<li style="background: url('./_assets_/images/inner-herov2.jpg') center no-repeat;background-size: cover; opacity: 0.9;"></li>
 		</ul><!-- /.bxslider -->
-		
-		<div class="container text-center">
-			<img src="./_assets_/images/inner-logo.png" alt="logo">
-		</div><!-- /.container.text-center -->
 	</section><!-- /#slider -->
 
 	<main id="main">

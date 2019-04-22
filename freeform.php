@@ -12,6 +12,7 @@
 
 			<link rel="stylesheet" href="_assets_/plugins/bootstrap/css/bootstrap.min.css">	
 			<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
+			<link rel="stylesheet" href="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.css">
 			<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 			<link rel="stylesheet" href="_assets_/css/layout.css">
 
@@ -205,10 +206,6 @@
 		<ul class="bxslider">
 			<li style="background: url('./_assets_/images/inner-hero.jpg') center no-repeat;background-size: cover; opacity: 0.9;"></li>
 		</ul><!-- /.bxslider -->
-		
-		<div class="container text-center">
-			<img src="./_assets_/images/inner-logo.png" alt="logo">
-		</div><!-- /.container.text-center -->
 	</section><!-- /#slider -->
 
 	<main id="main">
@@ -312,6 +309,37 @@
 								<li>Mauris eu dapibus velit.</li>
 							</ul>
 						</div>
+
+						<section id="inner-quick-links">
+							<div class="container">
+								<div id="inner-quick-links-wrapper" class="owl-carousel">
+									<a href="./" class="inner-quick-link">
+										<div class="inner-quick-link-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
+										resident services
+									</a><!-- /.inner-quick-link -->
+									<a href="./" class="inner-quick-link">
+										<div class="inner-quick-link-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
+										permits & planning
+									</a><!-- /.inner-quick-link -->
+									<a href="./" class="inner-quick-link">
+										<div class="inner-quick-link-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
+										leisure services
+									</a><!-- /.inner-quick-link -->
+									<a href="./" class="inner-quick-link">
+										<div class="inner-quick-link-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
+										redevelopment services
+									</a><!-- /.inner-quick-link -->
+									<a href="./" class="inner-quick-link">
+										<div class="inner-quick-link-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
+										projects & development
+									</a><!-- /.inner-quick-link -->
+									<a href="./" class="inner-quick-link">
+										<div class="inner-quick-link-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
+										annexing into gadsden
+									</a><!-- /.inner-quick-link -->
+								</div><!-- /#inner-quick-links-wrapper -->
+							</div><!-- /.container -->
+						</section><!-- /#inner-quick-links -->
 
 						<section id="divisions">
 							<h2>divisions title</h2>
@@ -577,6 +605,7 @@
 
 <script src="_assets_/js/jquery.min.js"></script>
 <script src="_assets_/plugins/modernizr/modernizr.custom.js"></script>
+<script src="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
 <script src="_assets_/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
 <script src="_assets_/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="_assets_/plugins/revizeWeather/js/revizeWeather.min.js"></script>

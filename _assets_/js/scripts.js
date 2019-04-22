@@ -270,6 +270,28 @@
 				}
 			}
 		});
+
+		let innerQuickLinksCount = $('.inner-quick-link').length;
+		const innerQuickLinkItem = function(num) {
+			return (innerQuickLinksCount >= num ? num : innerQuickLinksCount);
+		}
+		$("#inner-quick-links-wrapper").owlCarousel({
+			loop: false,
+			responsiveClass: true,
+			nav: true,
+			navText: ['<i class="fa fa-angle-left fa-3x"></i>', '<i class="fa fa-angle-right fa-3x"></i>'],
+			responsive: {
+				0: {
+					items: innerQuickLinkItem(1)
+				},
+				767: {
+					items: innerQuickLinkItem(2)
+				},
+				991: {
+					items: innerQuickLinkItem(3)
+				}
+			}
+		});
 	}
 	
 	$window.ready(function(){
