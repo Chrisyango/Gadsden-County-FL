@@ -460,7 +460,7 @@ a.inner-quick-link {display: block; font-size: 18px; color: #07436b; text-decora
 .inner-quick-link-img {width: 150px; height: 150px; margin: 0 auto; border-radius: 5px; margin-bottom: 10px;}
 a.inner-quick-link:hover {}
 
-/* ---------------- .divisions ---------------- */
+/* ---------------- #divisions ---------------- */
 #divisions h2 {font-size:34px; text-transform: capitalize; margin-bottom: 0;}
 .divisions-item {position: relative; transition: all 0.3s; padding: 15px; background-color: #fff;}
 .divisions-item:hover {box-shadow:0px 2px 20px 2px rgba(0,0,0,0.2); transform: scale(1.02); z-index: 1;}
@@ -469,6 +469,12 @@ a.inner-quick-link:hover {}
 .divisions-item h3 a {font-size: 24px; text-transform: capitalize; color: #07436b; text-decoration: none;}
 .divisions-item h3 a:hover {text-decoration: underline;}
 .divisions-item p {color:#6f7c7c}
+
+
+/* ---------------- #inner-quick-links ---------------- */
+#bottom-quick-links {text-align: center; font-size: 0;}
+a.bottom-quick-link {display: inline-block; text-align: center; text-decoration: none; color: #07436b; text-transform: uppercase; font-size: 14px;}
+.bottom-quick-link-icon {display: block; font-size: 60px; margin-bottom: 15px; background-color: #07436b; color: #fff; padding: 50px; border-radius: 50%; border: 20px solid black;}
 
 
 /* ---------------- .inner-menu ---------------- */

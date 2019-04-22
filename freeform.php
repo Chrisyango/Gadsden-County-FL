@@ -374,6 +374,25 @@
 								</div><!-- /.divisions-item -->
 							</div><!-- /.row -->
 						</section><!-- /#divisions -->
+
+						<section id="bottom-quick-links">
+							<a href="./" class="bottom-quick-link">
+								<div class="bottom-quick-link-icon fa fa-file"></div>
+								city history
+							</a><!-- /.bottom-quick-link -->
+							<a href="./" class="bottom-quick-link">
+								<div class="bottom-quick-link-icon fa fa-users"></div>
+								demographics
+							</a><!-- /.bottom-quick-link -->
+							<a href="./" class="bottom-quick-link">
+								<div class="bottom-quick-link-icon fa fa-envelope"></div>
+								sign up for enews
+							</a><!-- /.bottom-quick-link -->
+							<a href="./" class="bottom-quick-link">
+								<div class="bottom-quick-link-icon fa fa-bullhorn"></div>
+								service request
+							</a><!-- /.bottom-quick-link -->
+						</section><!-- /#bottom-quick-links -->
 					</article>
 				</div>
 			</div>
