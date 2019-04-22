@@ -373,10 +373,63 @@
 	</main>
 
 	<footer>
-		<div class="text-center">
-			<span>&copy; 2018 Gadsden County</span> <a href="./">login</a> <span>Powered by <a href="https://www.revize.com/">revize.</a>, The Government Website Experts</span>
-		</div>
-	</footer>
+	<div id="footer-nav" class="clearfix">
+		<div class="container">
+			<div class="footer-nav-item">
+				<h2>this is a nav header</h2>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+			</div><!-- /.footer-nav-item -->
+			<div class="footer-nav-item">
+				<h2>this is a nav header</h2>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+			</div><!-- /.footer-nav-item -->
+			<div class="footer-nav-item">
+				<h2>this is a nav header</h2>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+			</div><!-- /.footer-nav-item -->
+			<div class="footer-nav-item">
+				<h2>this is a nav header</h2>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+			</div><!-- /.footer-nav-item -->
+		</div><!-- /.container -->
+	</div><!-- /#footer-nav -->
+
+	<div class="text-center">
+		<span>&copy; 2018 Gadsden County</span> <a href="./">login</a> <span>Powered by <a href="https://www.revize.com/">revize.</a>, The Government Website Experts</span>
+	</div>
+</footer>
 
 	<!-- Share widget make into an include file -->
 	<button type="button" class="share-btn floating-share-btn" data-toggle="modal" data-target="#shareModal">
