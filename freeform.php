@@ -316,28 +316,28 @@
 						<section id="divisions">
 							<h2>divisions title</h2>
 							<div class="row">
-								<div class="divisions-item col-md-6">
+								<div class="divisions-item col-sm-6">
 									<a href="./" class="divisions-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></a>
 									<h3><a href="./">divisions item title</a></h3>
 									<p>
 										Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor. Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor. Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor. Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor.
 									</p>
 								</div><!-- /.divisions-item -->
-								<div class="divisions-item col-md-6">
+								<div class="divisions-item col-sm-6">
 									<a href="./" class="divisions-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></a>
 									<h3><a href="./">divisions item title</a></h3>
 									<p>
 										Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor. Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor. Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor. Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor.
 									</p>
 								</div><!-- /.divisions-item -->
-								<div class="divisions-item col-md-6">
+								<div class="divisions-item col-sm-6">
 									<a href="./" class="divisions-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></a>
 									<h3><a href="./">divisions item title</a></h3>
 									<p>
 										Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor. Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor. Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor. Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor.
 									</p>
 								</div><!-- /.divisions-item -->
-								<div class="divisions-item col-md-6">
+								<div class="divisions-item col-sm-6">
 									<a href="./" class="divisions-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></a>
 									<h3><a href="./">divisions item title</a></h3>
 									<p>
