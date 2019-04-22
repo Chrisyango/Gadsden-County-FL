@@ -255,7 +255,32 @@
 							</ul>
 						</div>
 					</aside>
+
+					<div id="topics" class="inner-menu fillLeft">
+						<span class="subheader">department topics</span>
+						<ul class="dashed clearfix">
+							<li><a href="./">2016 approved paid holidays</a></li>
+							<li><a href="./">bids & rfp notices</a></li>
+							<li><a href="./">county probation</a></li>
+							<li><a href="./">employee service awards</a></li>
+							<li><a href="./">job openings</a></li>
+							<li><a href="./">purchasing office</a></li>
+							<li><a href="./">veteran services</a></li>
+							<li><a href="./">hours of operation</a></li>
+						</ul>
+					</div>
+					<div id="more-info" class="inner-menu fillLeft">
+						<span class="subheader">more information</span>
+						<ul class="dashed clearfix">
+							<li><a href="./">informational stuff</a></li>
+							<li><a href="./">informational stuff</a></li>
+							<li><a href="./">informational stuff</a></li>
+							<li><a href="./">informational stuff</a></li>
+							<li><a href="./">informational stuff</a></li>
+						</ul>
+					</div>
 				</div>
+
 				<div class="col-md-8">
 					<article id="entry">
 						<section id="breadcrumbs">
@@ -285,29 +310,6 @@
 							<ul>
 								<li>Maecenas eleifend, purus at tincidunt faucibus, nulla neque pretium erat, euismod ullamcorper orci lacus vel arcu.</li>
 								<li>Mauris eu dapibus velit.</li>
-							</ul>
-						</div>
-						<div id="topics" class="inner-menu fillRight withPadding">
-							<span class="subheader fillRight withPadding">department topics</span>
-							<ul class="dashed clearfix">
-								<li><a href="./">2016 approved paid holidays</a></li>
-								<li><a href="./">bids & rfp notices</a></li>
-								<li><a href="./">county probation</a></li>
-								<li><a href="./">employee service awards</a></li>
-								<li><a href="./">job openings</a></li>
-								<li><a href="./">purchasing office</a></li>
-								<li><a href="./">veteran services</a></li>
-								<li><a href="./">hours of operation</a></li>
-							</ul>
-						</div>
-						<div id="more-info" class="inner-menu fillRight withPadding">
-							<span class="subheader fillRight withPadding">more information</span>
-							<ul class="dashed clearfix">
-								<li><a href="./">informational stuff</a></li>
-								<li><a href="./">informational stuff</a></li>
-								<li><a href="./">informational stuff</a></li>
-								<li><a href="./">informational stuff</a></li>
-								<li><a href="./">informational stuff</a></li>
 							</ul>
 						</div>
 					</article>

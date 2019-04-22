@@ -220,7 +220,8 @@
 						<div id="contact" class="fillLeft withPadding">
 								<span class="header">contact us</span>
 								<div id="contact-name">
-									herbert chancey
+									<img src="./_assets_/images/news1.jpg" alt="Testing">									
+									<span>herbert chancey</span>
 									<span>director of parks & recreation</span>
 								</div>
 								<div id="location">
@@ -235,7 +236,32 @@
 								</div>
 						</div>
 					</aside>
+
+					<div id="topics" class="inner-menu fillLeft">
+						<span class="subheader">department topics</span>
+						<ul class="dashed clearfix">
+							<li><a href="./">2016 approved paid holidays</a></li>
+							<li><a href="./">bids & rfp notices</a></li>
+							<li><a href="./">county probation</a></li>
+							<li><a href="./">employee service awards</a></li>
+							<li><a href="./">job openings</a></li>
+							<li><a href="./">purchasing office</a></li>
+							<li><a href="./">veteran services</a></li>
+							<li><a href="./">hours of operation</a></li>
+						</ul>
+					</div>
+					<div id="more-info" class="inner-menu fillLeft">
+						<span class="subheader">more information</span>
+						<ul class="dashed clearfix">
+							<li><a href="./">informational stuff</a></li>
+							<li><a href="./">informational stuff</a></li>
+							<li><a href="./">informational stuff</a></li>
+							<li><a href="./">informational stuff</a></li>
+							<li><a href="./">informational stuff</a></li>
+						</ul>
+					</div>
 				</div>
+
 				<div class="col-md-8">
 					<article id="entry">
 						<section id="breadcrumbs">
@@ -257,26 +283,6 @@
 							<p>
 								For information on how to make reservations at Pat Thomas Park at Hopkins Landing, call (850) 875- 4544 or click here.
 							</p>
-						</div>
-						<div id="topics" class="inner-menu fillRight withPadding">
-							<span class="subheader fillRight withPadding">department topics</span>
-							<ul class="dashed clearfix">
-								<li><a href="./">chattahoochee area parks</a></li>
-								<li><a href="./">midway area parks</a></li>
-								<li><a href="./">map of county parks & recreations areas</a></li>
-								<li><a href="./">havana area parks</a></li>
-								<li><a href="./">quincy area parks</a></li>
-							</ul>
-						</div>
-						<div id="more-info" class="inner-menu fillRight withPadding">
-							<span class="subheader fillRight withPadding">more information</span>
-							<ul class="dashed clearfix">
-								<li><a href="./">informational stuff</a></li>
-								<li><a href="./">informational stuff</a></li>
-								<li><a href="./">informational stuff</a></li>
-								<li><a href="./">informational stuff</a></li>
-								<li><a href="./">informational stuff</a></li>
-							</ul>
 						</div>
 					</article>
 					<section id="slider2">
