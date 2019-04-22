@@ -331,16 +331,11 @@
 	<section id="interests">
 		<div class="container">
 			<div class="interests-overlay"></div>
-			<div class="interests-banner col-md-5" style="background: url('./_assets_/images/interest.jpg') center no-repeat; background-size: cover; z-index: 1">
+			<div class="interests-banner col-md-5 equal" style="background: url('./_assets_/images/interest.jpg') center no-repeat; background-size: cover; z-index: 1">
 				<h2><span>explore gadsden county</span> areas of interest</h2>
 			</div><!-- /.interest-banner.pull-left -->
-			<ul class="interests-links col-md-7">
-				<li class="interests-link"><a href="./">economic development</a></li>
-				<li class="interests-link"><a href="./">colleges + universities</a></li>
-				<li class="interests-link"><a href="./">history of gadsden co.</a></li>
-				<li class="interests-link"><a href="./">gadsden co. public library</a></li>
-				<li class="interests-link"><a href="./">gadsden public works</a></li>
-				<li class="interests-link"><a href="./">mosquito + pest control</a></li>
+			<ul class="interests-links col-md-7 equal">
+				<li class="interests-link"><a href="./">Our mission is to build a better community by offering efficient, sustainable services, encouraging economic development and providing safety to improve the quality of life.</a></li>
 			</ul><!-- /.interests-links -->
 		</div><!-- /.container -->
 	</section>
@@ -456,6 +451,59 @@
 </main>
 
 <footer>
+	<div id="footer-nav" class="clearfix">
+		<div class="container">
+			<div class="footer-nav-item">
+				<h2>this is a nav header</h2>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+			</div><!-- /.footer-nav-item -->
+			<div class="footer-nav-item">
+				<h2>this is a nav header</h2>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+			</div><!-- /.footer-nav-item -->
+			<div class="footer-nav-item">
+				<h2>this is a nav header</h2>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+			</div><!-- /.footer-nav-item -->
+			<div class="footer-nav-item">
+				<h2>this is a nav header</h2>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+				<a href="./">this is a link</a>
+			</div><!-- /.footer-nav-item -->
+		</div><!-- /.container -->
+	</div><!-- /#footer-nav -->
+
 	<div class="text-center">
 		<span>&copy; 2018 Gadsden County</span> <a href="./">login</a> <span>Powered by <a href="https://www.revize.com/">revize.</a>, The Government Website Experts</span>
 	</div>
@@ -535,6 +583,7 @@
 <script src="_assets_/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
 <script src="_assets_/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="_assets_/plugins/revizeWeather/js/revizeWeather.min.js"></script>
+<script src="_assets_/plugins/matchHeight/dist/jquery.matchHeight-min.js"></script>
 <script src="_assets_/js/jquery.countTo.js"></script>
 <script src="_assets_/js/scripts.js"></script>
 </body>

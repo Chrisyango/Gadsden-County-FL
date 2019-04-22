@@ -358,7 +358,7 @@
 		});
 
 		$('.translation-links ul').on('mouseleave',function(){
-			$(this).fadeOut();
+			$('.translation-links ul').fadeOut();
 		});
 
 		var translateURL = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";

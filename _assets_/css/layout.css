@@ -381,9 +381,10 @@ body{overflow-x:hidden}
 #interests h2{position:absolute;left:37px;bottom:-3px;font-family:'Objectivity-Bold';font-size:38px;color:#fdb537;text-transform:capitalize;text-shadow:3px 3px 10px rgba(0,0,0,1)}
 #interests h2 span{display:block;font-family:'Objectivity-Med';font-size:20px;color:#fff;margin-bottom:8px}
 .interests-overlay{content:'';position:absolute;top:0;left:15px;bottom:0;width:calc(100% - 30px);height:100%;background-color:#07436a;border-radius:4px;opacity:0.85;z-index:0}
-.interests-links{position:relative;list-style-type:none;padding:62px 68px 0;z-index:1;margin:0}
-.interests-link{display:inline-block;margin-bottom:38px;float:left;width:50%}
-.interests-link a{display:inline-block;font-family:'Objectivity-Med';font-size:18px;color:#fff;text-transform:capitalize;text-decoration:none;padding-bottom:8px;border-bottom:1px solid #fdb537}
+.interests-links{position:relative;list-style-type:none;padding:118.5px 68px;z-index:1;margin:0}
+.interests-link{display:inline-block;margin-bottom:38px}
+.interests-link:last-of-type{margin:0}
+.interests-link a{display:inline-block;font-family:'Objectivity-Reg';font-size:14px;color:#fff;text-transform:capitalize;text-decoration:none;padding-bottom:8px;border-bottom:1px solid #fdb537}
 
 
 /* ---------------- #footer-links ---------------- */
@@ -406,8 +407,13 @@ body{overflow-x:hidden}
 
 /* ---------------- #footer-links ---------------- */
 footer{font-size:16px;color:#fff;background-color:#052c46;padding:20.5px 0}
-footer a{text-transform:uppercase;color:#fdb537!important;border-left:2px solid #fff;border-right:2px solid #fff;padding:0px 15px}
-footer span a{font-family:'Roboto',sans-serif;font-size:18px;font-weight:700;text-transform:lowercase;text-decoration:none;color:#fff!important;border:none;padding:0}
+#footer-nav {margin: 30px 0;}
+.footer-nav-item {width: 20%; float: left; font-size: 0; margin-right: 6.667%;}
+.footer-nav-item:last-of-type {margin-right: 0;}
+.footer-nav-item h2 {font-size: 28px; text-transform: uppercase; margin: 0 0 15px; color: #fdb537;}
+.footer-nav-item a {display: block; font-size: 16px; text-transform: capitalize; margin-bottom: 7px; color: #fff; text-decoration: none;}
+footer .text-center a{text-transform:uppercase;color:#fdb537!important;border-left:2px solid #fff;border-right:2px solid #fff;padding:0px 15px}
+footer .text-center span a{font-family:'Roboto',sans-serif;font-size:18px;font-weight:700;text-transform:lowercase;text-decoration:none;color:#fff!important;border:none;padding:0}
 footer span{padding:0 15px}
 
 
@@ -433,7 +439,7 @@ footer span{padding:0 15px}
 
 
 /* ---------------- .content ---------------- */
-#page-title,
+#page-title{display:block;margin:0;padding:17px 0 32px;font-size:36px;font-family:'Objectivity-Bold';color:#095642;text-transform:uppercase}
 /* #freeform .header{/*! display:block;*//*! margin:0;*//*! padding:17px 0 32px;*//*! font-size:36px;*//*! font-family:'Objectivity-Bold';*//*! color:#095642;*//*! text-transform:uppercase} */
 
 #entry{padding:69px 0px 116px 38px;color:#6f7c7c}
