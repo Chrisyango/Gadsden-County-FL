@@ -445,10 +445,21 @@ footer span{padding:0 15px}
 #entry{padding:69px 0px 116px 38px;color:#6f7c7c}
 .fullwidth #entry{padding:69px 0 116px}
 #entry p{line-height:32px}
-#post{margin-bottom:50px}
+#post{margin-bottom:50px;border-bottom:1px solid #000}
 #post>.subheader{font-size:28px;color:#07436b;text-transform:uppercase;display:block;margin:30px 0}
 #post>ul{padding:0 15px;margin:-5px 0 0}
 #post>ul li{font-family:'Objectivity-Med';font-size:16px;color:#095642;text-decoration:none;padding:0 0 30px;margin:0}
+
+
+/* ---------------- .divisions ---------------- */
+#divisions h2 {font-size:34px; text-transform: capitalize; margin-bottom: 0;}
+.divisions-item {transition: all 0.3s;}
+.divisions-item:hover {box-shadow:0px 2px 20px 2px rgba(0,0,0,0.2);}
+.divisions-img {display: block; width: 100%; height: 200px; margin: 15px 0;}
+.divisions-item h3 {margin: 0 0 5px;}
+.divisions-item h3 a {font-size: 24px; text-transform: capitalize; color: #07436b; text-decoration: none;}
+.divisions-item h3 a:hover {text-decoration: underline;}
+.divisions-item p {color:#6f7c7c}
 
 
 /* ---------------- .inner-menu ---------------- */
@@ -478,6 +489,7 @@ footer span{padding:0 15px}
 /* ---------------- #contact ---------------- */
 #contact{padding:74px 100px 79px 0;background:#07436b}
 #contact-name{font-family:'Objectivity-Bold';font-size:24px;color:#ffb718;text-transform:capitalize;margin-top:42px}
+#contact-name img {margin-bottom: 10px;}
 #contact-name span:last-of-type{font-family:'Objectivity-Reg';font-size:20px;color:#fff;margin-top:-2px}
 .dept_img{height:225px;width:200px;padding-bottom:15px}
 #location{color:#6f7c7c;font-size:20px;text-transform:capitalize;margin-top:33px}
