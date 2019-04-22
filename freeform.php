@@ -220,7 +220,8 @@
 						<div id="contact" class="fillLeft withPadding">
 								<span class="header">contact us</span>
 								<div id="contact-name">
-									lonyell black
+									<img src="./_assets_/images/news1.jpg" alt="Testing">
+									<span>lonyell black</span>
 									<span>human resources analyst</span>
 								</div>
 								<div id="location">

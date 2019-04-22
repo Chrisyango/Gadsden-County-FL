@@ -477,7 +477,7 @@ footer span{padding:0 15px}
 /* ---------------- #contact ---------------- */
 #contact{padding:74px 100px 79px 0;background:#07436b}
 #contact-name{font-family:'Objectivity-Bold';font-size:24px;color:#ffb718;text-transform:capitalize;margin-top:42px}
-#contact-name span{font-family:'Objectivity-Reg';font-size:20px;color:#fff;margin-top:-2px}
+#contact-name span:last-of-type{font-family:'Objectivity-Reg';font-size:20px;color:#fff;margin-top:-2px}
 .dept_img{height:225px;width:200px;padding-bottom:15px}
 #location{color:#6f7c7c;font-size:20px;text-transform:capitalize;margin-top:33px}
 #location #building{font-family:'Objectivity-Med';font-size:22px;color:#ffb718;text-decoration:underline;text-decoration-color:#837d41;line-height:1.5}
