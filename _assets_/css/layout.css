@@ -443,7 +443,7 @@ footer span{padding:0 15px}
 /* #freeform .header{/*! display:block;*//*! margin:0;*//*! padding:17px 0 32px;*//*! font-size:36px;*//*! font-family:'Objectivity-Bold';*//*! color:#095642;*//*! text-transform:uppercase} */
 
 #entry{padding:69px 0px 116px 38px;color:#6f7c7c}
-.fullwidth #entry{padding:69px 0 116px}
+.fullwidth #entry{padding:0 0 116px}
 #entry p{line-height:32px}
 #post{margin-bottom:50px;border-bottom:1px solid #000}
 #post>.subheader{font-size:28px;color:#07436b;text-transform:uppercase;display:block;margin:30px 0}

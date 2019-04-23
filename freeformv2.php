@@ -12,6 +12,7 @@
 
 			<link rel="stylesheet" href="_assets_/plugins/bootstrap/css/bootstrap.min.css">	
 			<link rel="stylesheet" href="_assets_/fonts/font-awesome/css/font-awesome.min.css">
+			<link rel="stylesheet" href="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.css">
 			<link rel="stylesheet" href="_assets_/fonts/Icon-font/pe-icon-7-stroke/css/pe-icon-7-stroke.css">	
 			<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 			<link rel="stylesheet" href="_assets_/css/layout.css">
@@ -280,6 +281,90 @@
 								For information on how to make reservations at Pat Thomas Park at Hopkins Landing, call (850) 875- 4544 or click here.
 							</p>
 						</div>
+
+						<section id="inner-quick-links">
+							<div class="container">
+								<div id="inner-quick-links-wrapper" class="owl-carousel">
+									<a href="./" class="inner-quick-link">
+										<div class="inner-quick-link-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
+										resident services
+									</a><!-- /.inner-quick-link -->
+									<a href="./" class="inner-quick-link">
+										<div class="inner-quick-link-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
+										permits & planning
+									</a><!-- /.inner-quick-link -->
+									<a href="./" class="inner-quick-link">
+										<div class="inner-quick-link-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
+										leisure services
+									</a><!-- /.inner-quick-link -->
+									<a href="./" class="inner-quick-link">
+										<div class="inner-quick-link-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
+										redevelopment services
+									</a><!-- /.inner-quick-link -->
+									<a href="./" class="inner-quick-link">
+										<div class="inner-quick-link-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
+										projects & development
+									</a><!-- /.inner-quick-link -->
+									<a href="./" class="inner-quick-link">
+										<div class="inner-quick-link-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></div>
+										annexing into gadsden
+									</a><!-- /.inner-quick-link -->
+								</div><!-- /#inner-quick-links-wrapper -->
+							</div><!-- /.container -->
+						</section><!-- /#inner-quick-links -->
+
+						<section id="divisions">
+							<h2>divisions title</h2>
+							<div class="row">
+								<div class="divisions-item col-sm-6">
+									<a href="./" class="divisions-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></a>
+									<h3><a href="./">divisions item title</a></h3>
+									<p>
+										Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor. Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor. Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor. Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor.
+									</p>
+								</div><!-- /.divisions-item -->
+								<div class="divisions-item col-sm-6">
+									<a href="./" class="divisions-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></a>
+									<h3><a href="./">divisions item title</a></h3>
+									<p>
+										Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor. Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor. Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor. Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor.
+									</p>
+								</div><!-- /.divisions-item -->
+								<div class="divisions-item col-sm-6">
+									<a href="./" class="divisions-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></a>
+									<h3><a href="./">divisions item title</a></h3>
+									<p>
+										Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor. Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor. Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor. Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor.
+									</p>
+								</div><!-- /.divisions-item -->
+								<div class="divisions-item col-sm-6">
+									<a href="./" class="divisions-img" style="background:url('./_assets_/images/news1.jpg') center no-repeat;background-size:cover;"></a>
+									<h3><a href="./">divisions item title</a></h3>
+									<p>
+										Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor. Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor. Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor. Divisions description should go here. Random text and stuff. Lorem Ipsum Dolor.
+									</p>
+								</div><!-- /.divisions-item -->
+							</div><!-- /.row -->
+						</section><!-- /#divisions -->
+
+						<section id="bottom-quick-links" class="clearfix">
+							<a href="./" class="bottom-quick-link">
+								<div class="bottom-quick-link-icon fa fa-file"></div>
+								<span>city history</span>
+							</a><!-- /.bottom-quick-link -->
+							<a href="./" class="bottom-quick-link">
+								<div class="bottom-quick-link-icon fa fa-users"></div>
+								<span>demographics</span>
+							</a><!-- /.bottom-quick-link -->
+							<a href="./" class="bottom-quick-link">
+								<div class="bottom-quick-link-icon fa fa-envelope"></div>
+								<span>sign up for enews</span>
+							</a><!-- /.bottom-quick-link -->
+							<a href="./" class="bottom-quick-link">
+								<div class="bottom-quick-link-icon fa fa-bullhorn"></div>
+								<span>service request</span>
+							</a><!-- /.bottom-quick-link -->
+						</section><!-- /#bottom-quick-links -->
 					</article>
 					<section id="slider2">
 					<ul class="bxslider">
@@ -515,6 +600,7 @@
 
 <script src="_assets_/js/jquery.min.js"></script>
 <script src="_assets_/plugins/modernizr/modernizr.custom.js"></script>
+<script src="_assets_/plugins/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
 <script src="_assets_/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
 <script src="_assets_/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="_assets_/plugins/revizeWeather/js/revizeWeather.min.js"></script>
