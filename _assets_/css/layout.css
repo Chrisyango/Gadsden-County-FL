@@ -456,8 +456,9 @@ footer span{padding:0 15px}
 #inner-quick-links-wrapper .owl-prev,
 #inner-quick-links-wrapper .owl-next {position: absolute; top: 50%; left: 0; transform: translateY(-50%);}
 #inner-quick-links-wrapper .owl-next {left: unset; right: 0;}
-a.inner-quick-link {display: block; font-size: 18px; color: #07436b; text-decoration: none; text-align: center; text-transform: capitalize;}
-.inner-quick-link-img {width: 150px; height: 150px; margin: 0 auto; border-radius: 5px; margin-bottom: 10px;}
+a.inner-quick-link {display: block; font-size: 18px; color: #07436b; text-decoration: none; text-align: center; text-transform: capitalize; margin: 30px 0;}
+a.inner-quick-link:hover .inner-quick-link-img {transform: scale(1.1)}
+.inner-quick-link-img {width: 150px; height: 150px; margin: 0 auto; border-radius: 5px; margin-bottom: 10px; transition: all 0.3s;}
 
 
 /* ---------------- #divisions ---------------- */
@@ -484,6 +485,7 @@ a.bottom-quick-link span {display: block; position: absolute; top: 100%; left: 5
 #bottom-quick-links a.bottom-quick-link:nth-of-type(4n) .bottom-quick-link-icon:after {border-top: 20px solid #ffb718; border-right: 20px solid #ffb718;}
 a.bottom-quick-link:hover .bottom-quick-link-icon:after {transform: rotate(135deg)}
 #bottom-quick-links a.bottom-quick-link:nth-of-type(2n):hover .bottom-quick-link-icon:after {transform: rotate(-45deg)}
+
 
 /* ---------------- .inner-menu ---------------- */
 .inner-menu{position:relative;background-color:#d4dfdc;padding-left:15px}
