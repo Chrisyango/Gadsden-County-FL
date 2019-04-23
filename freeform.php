@@ -375,22 +375,22 @@
 							</div><!-- /.row -->
 						</section><!-- /#divisions -->
 
-						<section id="bottom-quick-links">
+						<section id="bottom-quick-links" class="clearfix">
 							<a href="./" class="bottom-quick-link">
 								<div class="bottom-quick-link-icon fa fa-file"></div>
-								city history
+								<span>city history</span>
 							</a><!-- /.bottom-quick-link -->
 							<a href="./" class="bottom-quick-link">
 								<div class="bottom-quick-link-icon fa fa-users"></div>
-								demographics
+								<span>demographics</span>
 							</a><!-- /.bottom-quick-link -->
 							<a href="./" class="bottom-quick-link">
 								<div class="bottom-quick-link-icon fa fa-envelope"></div>
-								sign up for enews
+								<span>sign up for enews</span>
 							</a><!-- /.bottom-quick-link -->
 							<a href="./" class="bottom-quick-link">
 								<div class="bottom-quick-link-icon fa fa-bullhorn"></div>
-								service request
+								<span>service request</span>
 							</a><!-- /.bottom-quick-link -->
 						</section><!-- /#bottom-quick-links -->
 					</article>

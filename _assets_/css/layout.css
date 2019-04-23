@@ -458,7 +458,7 @@ footer span{padding:0 15px}
 #inner-quick-links-wrapper .owl-next {left: unset; right: 0;}
 a.inner-quick-link {display: block; font-size: 18px; color: #07436b; text-decoration: none; text-align: center; text-transform: capitalize;}
 .inner-quick-link-img {width: 150px; height: 150px; margin: 0 auto; border-radius: 5px; margin-bottom: 10px;}
-a.inner-quick-link:hover {}
+
 
 /* ---------------- #divisions ---------------- */
 #divisions h2 {font-size:34px; text-transform: capitalize; margin-bottom: 0;}
@@ -473,9 +473,16 @@ a.inner-quick-link:hover {}
 
 /* ---------------- #inner-quick-links ---------------- */
 #bottom-quick-links {text-align: center; font-size: 0;}
-a.bottom-quick-link {display: inline-block; text-align: center; text-decoration: none; color: #07436b; text-transform: uppercase; font-size: 14px;}
-.bottom-quick-link-icon {display: block; font-size: 60px; margin-bottom: 15px; background-color: #07436b; color: #fff; padding: 50px; border-radius: 50%; border: 20px solid black;}
-
+a.bottom-quick-link {position: relative; display: inline-block; text-align: center; text-decoration: none; color: #6f7c7c; text-transform: uppercase; font-size: 14px;}
+a.bottom-quick-link:not(:last-of-type) {margin-right: -20px;}
+a.bottom-quick-link span {display: block; position: absolute; top: 100%; left: 50%; transform: translateX(-50%);}
+.bottom-quick-link-icon {position: relative; display: block; font-size: 60px; margin-bottom: 15px; width: 200px; height: 200px; color: #6f7c7c; padding: 50px; border-radius: 50%; border: 20px solid #80a1b5;}
+.bottom-quick-link-icon:after {content: ''; position: absolute; top: -20px; left: -20px; right: -20px; bottom: -20px; border-top: 20px solid #022c47; border-right: 20px solid #022c47; border-bottom: 20px solid transparent; border-left: 20px solid transparent; border-radius: 50%; transform: rotate(-45deg); z-index: 1; transition: 1s all;}
+#bottom-quick-links a.bottom-quick-link:nth-of-type(2n) .bottom-quick-link-icon:after {border-top: 20px solid #07436b; border-right: 20px solid #07436b; transform: rotate(135deg)}
+#bottom-quick-links a.bottom-quick-link:nth-of-type(3n) .bottom-quick-link-icon:after {border-top: 20px solid #837d41; border-right: 20px solid #837d41;}
+#bottom-quick-links a.bottom-quick-link:nth-of-type(4n) .bottom-quick-link-icon:after {border-top: 20px solid #ffb718; border-right: 20px solid #ffb718;}
+a.bottom-quick-link:hover .bottom-quick-link-icon:after {transform: rotate(135deg)}
+#bottom-quick-links a.bottom-quick-link:nth-of-type(2n):hover .bottom-quick-link-icon:after {transform: rotate(-45deg)}
 
 /* ---------------- .inner-menu ---------------- */
 .inner-menu{position:relative;background-color:#d4dfdc;padding-left:15px}
