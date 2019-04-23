@@ -284,10 +284,10 @@
 				0: {
 					items: innerQuickLinkItem(1)
 				},
-				767: {
+				479: {
 					items: innerQuickLinkItem(2)
 				},
-				991: {
+				768: {
 					items: innerQuickLinkItem(3)
 				}
 			}
